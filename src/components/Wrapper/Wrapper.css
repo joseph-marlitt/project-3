@@ -1,0 +1,15 @@
+.wrapper {
+    padding-top: 50px;
+    background-image: url("./background3.jpg");
+    height: stretch;
+    height: -moz-available;
+    display: flex;
+    flex-flow: flex;
+    padding: 20px;
+    justify-content: space-around;
+    align-content: flex-start;
+    overflow: auto;
+    width: 100%;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+  }
