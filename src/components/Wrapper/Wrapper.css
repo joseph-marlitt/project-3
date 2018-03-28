@@ -9,7 +9,7 @@
     justify-content: space-around;
     align-content: flex-start;
     overflow: auto;
-    width: 100%;
+    width: stretch;
     background-size: 100% auto;
     background-repeat: no-repeat;
   }
