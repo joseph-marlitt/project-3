@@ -19,6 +19,34 @@ const WizardFormFirstPage = props => {
         component={renderField}
         label="Last Name"
       />
+    <label htmlFor="smoking">Smoking</label>
+      <Field
+        name="smoking"
+        id="employed"
+        component="input"
+        type="checkbox"
+      />
+      <label htmlFor="gym">Gym</label>
+      <Field
+        name="gym"
+        id="employed"
+        component="input"
+        type="checkbox"
+      />
+      <label htmlFor="dishwasher">Dishwasher</label>
+      <Field
+        name="dishwasher"
+        id="employed"
+        component="input"
+        type="checkbox"
+      />
+      <label htmlFor="laundry">Laudry in Unit</label>
+      <Field
+        name="laundry"
+        id="employed"
+        component="input"
+        type="checkbox"
+      />
       <div>
         <button type="submit" className="next">Next</button>
       </div>

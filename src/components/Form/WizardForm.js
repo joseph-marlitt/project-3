@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import WizardFormFirstPage from './WizardFormFirstPage';
 import WizardFormSecondPage from './WizardFormSecondPage';
 import WizardFormThirdPage from './WizardFormThirdPage';
+import "./Form.css"
 
 class WizardForm extends Component {
   constructor(props) {
@@ -25,7 +26,7 @@ class WizardForm extends Component {
     const { onSubmit } = this.props;
     const { page } = this.state;
     return (
-      <div>
+      <div className="form-style">
         {page === 1 && <WizardFormFirstPage onSubmit={this.nextPage} />}
         {page === 2 &&
           <WizardFormSecondPage
