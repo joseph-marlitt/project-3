@@ -1,25 +1,27 @@
-import React, { Component } from 'react';
+import React from 'react';
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import './App.css';
 import Wrapper from "./components/Wrapper"
 import Navbar from "./components/Navbar"
-import WizardForm from "./components/Form/WizardForm"
-import { Provider } from "react-redux";
-import store from "./components/Form/store";
+import UserForm from "./pages/UserForm/UserForm.js"
+import ManagerForm from "./pages/ManagerForm/ManagerForm.js"
+import AboutUs from "./pages/AboutUs/AboutUs.js"
+import Home from "./pages/Home/Home.js"
 
 
-
-
-class App extends Component {
-  render() {
-    return (
+const App = () => (
+  <Router>
+    <div>
+      
       <Wrapper>
         <Navbar />
-        <Provider store={store}>
-          <WizardForm OnSubmit= {this.OnSubmit} />
-        </Provider>
+        <Route exact path="/" component={Home} />
+        <Route exact path="/userform" component={UserForm} />
+        <Route exact path="/managerform" component={ManagerForm} />
+        <Route exact path="/about" component={AboutUs} />
       </Wrapper>
-    );
-  }
-}
+    </div>
+  </Router>
+);
 
 export default App;
