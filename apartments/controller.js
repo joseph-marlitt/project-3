@@ -15,17 +15,10 @@ module.exports = {
       .catch(err => res.status(422).json(err));
   },
   create: function(req, res) {
-        console.log(req.body)
-    db.Apartment
-      .create(req.body, function(err, apartment) {
-        console.log('created');
-        console.log(apartment);
-        if(err) {
-          console.log(err);
-        }
-        return res.status(200);
-      });
-
+  db.Apartment
+    .create(req.body)
+    .then(dbModel => res.json(dbModel))
+    .catch(err => res.status(422).json(err));
   },
   update: function(req, res) {
     db.Apartment

@@ -10,8 +10,8 @@ const apartmentSchema = new Schema({
   yearBuilt: {type: Number, trim: true},
   desiredCR: {type: String, max: 10},
   pets: {type: Boolean, required: false },
-  // contactInfo: {type: Array, "default": [] },
-  // beds: {type: Array, "default": [] },
+  contactInfo: {type: Array, "default": [] },
+  beds: {type: Array, "default": [] },
   // [{
     // // 1 bed
     //   number: {type: Number},

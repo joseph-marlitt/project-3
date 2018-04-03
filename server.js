@@ -4,14 +4,14 @@ const mongoose = require("mongoose");
 // const routes = require("./routes");
 const app = express();
 const PORT = process.env.PORT || 3001;
-const dbName = 'Roost';
+// const dbName = 'Roost';
 
 // Configure body parser for AJAX requests
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 // Init MongoDb
-const mongoHelper = require('./helpers/mongoHelpers');
+// const mongoHelper = require('./helpers/mongoHelpers');
 
 // Serve up static assets
 app.use(express.static("client/public"));
@@ -21,10 +21,17 @@ app.use(express.static("client/public"));
 app.use('/api', require('./routes')());
 
 // Set up promises with mongoose
-mongoose.Promise = global.Promise;
-// Connect to the Mongo DB
-mongoose.connect(
-  process.env.MONGODB_URI || "mongodb://localhost/Roost"
+// mongoose.Promise = global.Promise;
+// // Connect to the Mongo DB
+// mongoose.connect(
+//   process.env.MONGODB_URI || "mongodb://localhost/Roost"
+// );
+
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/Roost").then(
+  () => { console.log('connected')
+/** ready to use. The `mongoose.connect()` promise resolves to undefined. */
+},
+  err => { console.log(err) }
 );
 
 // Start the API server
