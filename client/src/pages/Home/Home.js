@@ -1,24 +1,27 @@
 import React from "react";
-import { BrowserRouter as  Route } from "react-router-dom";
+import { Link } from "react-router-dom";
+import "./Home.css"
 
 const Home = () => (
-    <Route render={({ history}) => (
+  <div className="homeContainer">
     <div className="buttonContainer">
-      <button
+      <a
+        className="homeButton"
         type='button'
-        onClick={() => { history.push('/UserForm') }}
+        href= {"/userform"}
       >
         Renters
-      </button>
-      <button
-      type='button'
-      onClick={() => { history.push('/ManagerForm') }}
-        >
+      </a>
+      <a
+        className="homeButton"
+        type='button'
+        href={"/managerform"}
+      >
         Managers
-        </button>   
+        </a>
+      </div>
+      <p className= "logInHome">Already filled out a form? Log in <Link to="/"> Here</Link></p>
     </div>
-      
-    )} />
   )
 
 export default Home
