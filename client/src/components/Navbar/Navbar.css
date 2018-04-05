@@ -17,20 +17,21 @@ ul {
 li:first-child {
     margin-left: auto;
 }
-button {
+.navButton {
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.3s;
     border-style: none;
     background-color:transparent;
-    color: black;
+    color: #181818;
     border-radius: 4px;
     font-size: 15px;
 }
 
 
-button:hover {
+.navButton:hover {
     background-color: rgb(120, 121, 120); /* Green */
     color: white;
+    cursor: pointer;
 }
 li {
     margin-right: 5px;
