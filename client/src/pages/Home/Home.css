@@ -9,12 +9,14 @@
     padding: 15px 25px;
     margin: 10px 10px;
     border:solid;
-    border-color: white;
+    border-width: thin;
+    text-decoration: none;
 }
 
 .homeButton:hover {
     background-color: rgb(120, 121, 120); /* Green */
     color: white;
+    cursor: pointer;
 }
 .buttonContainer{
     display: flex;

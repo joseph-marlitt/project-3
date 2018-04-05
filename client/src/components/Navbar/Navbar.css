@@ -31,6 +31,7 @@ li:first-child {
 .navButton:hover {
     background-color: rgb(120, 121, 120); /* Green */
     color: white;
+    cursor: pointer;
 }
 li {
     margin-right: 5px;

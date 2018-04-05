@@ -5,6 +5,7 @@ import Wrapper from "./components/Wrapper"
 import Navbar from "./components/Navbar"
 import UserForm from "./pages/UserForm/UserForm.js"
 import Home from "./pages/Home/Home.js"
+import ManagerForm from "./pages/ManagerForm/ManagerForm.js"
 
 
 const App = () => (
@@ -15,6 +16,7 @@ const App = () => (
         <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/userform" component={UserForm} />
+        <Route exact path="/managerform" component={ManagerForm} />
         </Switch>
       </Wrapper>
     </div>
