@@ -5,6 +5,7 @@ const rooms = [1, 2, 3, 4, 5];
 const baths = [1, 2, 3, 4, 5];
 const rent = [500, 600, 700, 800, 900, 1000, 1500, 2000, 2500, 3000, 3500]
 
+
 const renderRentSelector = ({ input, meta: { touched, error } }) => (
   <div>
     <select {...input}>

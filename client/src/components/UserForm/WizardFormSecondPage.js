@@ -2,7 +2,9 @@ import React from 'react';
 import { Field, reduxForm } from 'redux-form';
 import validate from './validate';
 import renderField from './renderField';
-const creditScore = ["0-400", "400-500", "500-600", "600-700", "700-850"]
+const creditScore = ["0-400", "400-500", "500-600", "600-700", "700-850"];
+const minor = ["Yes", "No"];
+
 
 const renderError = ({ meta: { touched, error } }) =>
   touched && error ? <span>{error}</span> : false;
@@ -12,6 +14,16 @@ const renderCreditSelector = ({ input, meta: { touched, error } }) => (
     <select {...input}>
       <option value="">Credit Score</option>
       {creditScore.map(val => <option value={val} key={val}>{val}</option>)}
+    </select>
+    {touched && error && <span>{error}</span>}
+  </div>
+);
+
+const renderMinorSelector = ({ input, meta: { touched, error } }) => (
+  <div>
+    <select {...input}>
+      <option value="">Are you over 18?</option>
+      {minor.map(val => <option value={val} key={val}>{val}</option>)}
     </select>
     {touched && error && <span>{error}</span>}
   </div>
@@ -50,16 +62,20 @@ const WizardFormSecondPage = props => {
           <Field name="contact" component={renderError} />
         </div>
         <div>
+        <label>Over 18?</label>
+        <Field name="minor" component={renderMinorSelector} />
+        </div>
+        <div>
         <label>Credit Score</label>
         <Field name="credit" component={renderCreditSelector} />
-      </div>
+        </div>
       </div>
       <div>
-        <button type="button" className="previous" onClick={previousPage}>
-          Previous
-        </button>
-        <button type="submit" className="next">Next</button>
-      </div>
+      <button type="button" className="previous" onClick={previousPage}>
+        Previous
+      </button>
+      <button type="submit">Submit</button>
+    </div>
     </form>
   );
 };
