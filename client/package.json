@@ -9,18 +9,8 @@
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-redux": "^5.0.7",
-<<<<<<< HEAD
-<<<<<<< HEAD
     "react-router": "^4.2.0",
     "react-router-dom": "^4.2.2",
-=======
-    "react-router-dom": "^4.3.0-rc.2",
->>>>>>> 925a8d226bbf41ea6fbfca201215a043e1cd1c58
-=======
-    "react-router": "^4.2.0",
-    "react-router-dom": "^4.2.2",
-
->>>>>>> 3fb467b1ed6c43106e379992560e6bbf4c62522c
     "react-scripts": "1.1.1",
     "redux": "^3.7.2",
     "redux-form": "^7.3.0"
