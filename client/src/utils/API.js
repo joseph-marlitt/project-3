@@ -3,7 +3,7 @@ import axios from "axios";
 export default {
   // Gets all apartments
   getApartments: function() {
-    return axios.get("http:localhost:3001/api/apartments");
+    return axios.get("/api/apartments");
   },
   // Gets the aparment with the given id
   getApartment: function(id) {
