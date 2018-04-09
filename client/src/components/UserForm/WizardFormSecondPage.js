@@ -46,6 +46,7 @@ const WizardFormSecondPage = props => {
         label="Last Name"
       />
       <Field name="email" type="email" component={renderField} label="Email" />
+      <Field name="phone" type="phone" component={renderField} label="Phone" />
       <div>
         <label>Preferred Contact</label>
         <div>

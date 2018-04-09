@@ -3,7 +3,8 @@ import { Field, reduxForm } from 'redux-form';
 import validate from './validate';
 const rooms = [1, 2, 3, 4, 5];
 const baths = [1, 2, 3, 4, 5];
-const rent = [500, 600, 700, 800, 900, 1000, 1500, 2000, 2500, 3000, 3500]
+const rent = [500, 600, 700, 800, 900, 1000, 1500, 2000, 2500, 3000, 3500];
+const pets = ["Yes", "No"]
 
 
 const renderRentSelector = ({ input, meta: { touched, error } }) => (
@@ -36,57 +37,80 @@ const renderRoomSelector = ({ input, meta: { touched, error } }) => (
   </div>
 );
 
+const renderPetSelector = ({ input, meta: { touched, error } }) => (
+  <div>
+    <select {...input}>
+      <option value="">Number of Rooms</option>
+      {pets.map(val => <option value={val} key={val}>{val}</option>)}
+    </select>
+    {touched && error && <span>{error}</span>}
+  </div>
+);
+
 const WizardFormFirstPage = props => {
   const { handleSubmit } = props;
   return (
     <form onSubmit={handleSubmit}>
       <div>
-        <label>Minumum Rooms</label>
+        <label>How many Bedrooms do you need?</label>
         <Field name="rooms" component={renderRoomSelector} />
       </div>
       <div>
-        <label>Minumum Baths</label>
+        <label>How many bathrooms do you need?</label>
         <Field name="baths" component={renderBathsSelector} />
       </div>
       <div>
-        <label>Maximum Rent</label>
+        <label>What is your maximum Rent</label>
         <Field name="rent" component={renderRentSelector} />
       </div>
+      <div>
+        <label>Do you have Pets?</label>
+        <Field name="pets" component={renderPetSelector} />
+      </div>
+  <div className="ammenitiesContainer">
     <label htmlFor="smoking">Smoking</label>
       <Field
         name="smoking"
-        id="employed"
+        className="ammenities"
         component="input"
         type="checkbox"
       />
       <label htmlFor="gym">Gym</label>
       <Field
         name="gym"
-        id="employed"
+        className="ammenities"
         component="input"
         type="checkbox"
       />
       <label htmlFor="dishwasher">Dishwasher</label>
       <Field
         name="dishwasher"
-        id="employed"
+        className="ammenities"
         component="input"
         type="checkbox"
       />
       <label htmlFor="laundry">Laudry in Unit</label>
       <Field
         name="laundry"
-        id="employed"
+        className="ammenities"
         component="input"
         type="checkbox"
       />
       <label htmlFor="Parking">Parking</label>
       <Field
         name="Parking"
-        id="employed"
+        className="ammenities"
         component="input"
         type="checkbox"
       />
+      <label htmlFor="Pool">Pool</label>
+      <Field
+        name="Pool"
+        className="ammenities"
+        component="input"
+        type="checkbox"
+      />
+    </div>
       <div>
         <button type="submit" className="next">Next</button>
       </div>
