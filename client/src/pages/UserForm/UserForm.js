@@ -18,7 +18,7 @@ class UserForm extends Component {
   }
 
   callApi = async () => {
-    const response = await fetch('http://localhost:3001/api/renters');
+    const response = await fetch('/api/renters');
     const body = await response.json();
     if (response.status !== 200) throw Error(body.message);
     return body;
@@ -27,7 +27,7 @@ class UserForm extends Component {
   handleFormSubmit = values => {
     console.log(values);
     API.saveRenter({
-
+      firstName: values.firstName
     })
   }
 

@@ -8,6 +8,8 @@ module.exports = function() {
   // Make sure this is after all of
   // the registered routes!
   router.use(function (req, res) {
+    // res.sendFile(path.join(__dirname, "../client/build/index.html"));
+
     res.status(404).end();
   });
 
