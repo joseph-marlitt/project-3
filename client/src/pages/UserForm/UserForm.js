@@ -7,28 +7,44 @@ import API from "../../utils/API";
 
 
 class UserForm extends Component {
-  state = {
-    response: ''
-  };
+  // state = {
+  //   response: ''
+  // };
 
-  componentDidMount() {
-    this.callApi()
-      .then(res => this.setState({ response: res.express }))
-      .catch(err => console.log(err));
-  }
-
-  callApi = async () => {
-    const response = await fetch('/api/renters');
-    const body = await response.json();
-    if (response.status !== 200) throw Error(body.message);
-    return body;
-  };
+  // componentDidMount() {
+  //   this.callApi()
+  //     .then(res => this.setState({ response: res.express }))
+  //     .catch(err => console.log(err));
+  // }
+  //
+  // callApi = async () => {
+  //   const response = await fetch('/api/renters');
+  //   const body = await response.json();
+  //   if (response.status !== 200) throw Error(body.message);
+  //   return body;
+  // };
 
   handleFormSubmit = values => {
-    this.callApi()
+    // this.callApi()
     console.log(values);
     API.saveRenter({
-
+      // test renter - actual form object will need to match this format:
+    "fullName":"Shauna Licciardi",
+    "title":"Mrs",
+    "address":{
+      "street1":"06 Duke Avenue",
+      "zip":"78465",
+      "city":"Corpus Christi",
+      "state":"TX"},
+    "contactInfo":{
+      "phone1":"361-677-1416",
+      "phone2":"432-201-6741",
+      "email":"slicciardi0@friendfeed.com"},
+    "minBeds":2,
+    "minBath":5,
+    "maxRent":2651,
+    "creditrating":842,
+    "pets":false
     })
   }
 
