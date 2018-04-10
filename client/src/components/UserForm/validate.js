@@ -25,9 +25,6 @@ const validate = values => {
     if (!values.baths) {
       errors.baths = 'Required';
     }
-    if (!values.favoriteColor) {
-      errors.favoriteColor = 'Required';
-    }
     return errors;
   };
 

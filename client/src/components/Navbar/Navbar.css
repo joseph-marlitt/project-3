@@ -8,14 +8,16 @@ ul {
     align-items: center;
     padding: 0 10px;
     border-radius: 5px;
-    color: rgba(117,117,117 ,1);
     position: fixed;
     top: 0;
     right: 0;
     width: 100%;
 }
-li:first-child {
+li:nth-child(2) {
     margin-left: auto;
+}
+li:first-child{
+    margin-left: 10px;
 }
 .navButton {
     -webkit-transition-duration: 0.4s; /* Safari */
@@ -26,8 +28,18 @@ li:first-child {
     border-radius: 4px;
     font-size: 15px;
 }
-
-
+.roostIcon{
+    margin-left: auto;
+    margin-right: auto;
+}
+.roostImage{
+    height: 45px;
+    width: 45px;
+}
+.title{
+    margin-right: 18%;
+    margin-left: 3%;
+}
 .navButton:hover {
     background-color: rgb(120, 121, 120); /* Green */
     color: white;

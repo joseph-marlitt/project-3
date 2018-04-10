@@ -46,6 +46,7 @@ const WizardFormSecondPage = props => {
         label="Last Name"
       />
       <Field name="email" type="email" component={renderField} label="Email" />
+      <Field name="phone" type="phone" component={renderField} label="Phone" />
       <div>
         <label>Preferred Contact</label>
         <div>
@@ -74,7 +75,7 @@ const WizardFormSecondPage = props => {
       <button type="button" className="previous" onClick={previousPage}>
         Previous
       </button>
-       <button type="submit" disabled={pristine || submitting}>Submit</button>
+      <button className="submit" type="submit">Submit</button>
     </div>
     </form>
   );

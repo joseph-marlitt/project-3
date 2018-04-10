@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import WizardFormFirstPage from './WizardFormFirstPage';
 import WizardFormSecondPage from './WizardFormSecondPage';
-import WizardFormThirdPage from './WizardFormThirdPage';
 import "./Form.css"
 
 class WizardForm extends Component {
@@ -30,11 +29,6 @@ class WizardForm extends Component {
         {page === 1 && <WizardFormFirstPage onSubmit={this.nextPage} />}
         {page === 2 &&
           <WizardFormSecondPage
-            previousPage={this.previousPage}
-            onSubmit={this.nextPage}
-          />}
-        {page === 3 &&
-          <WizardFormThirdPage
             previousPage={this.previousPage}
             onSubmit={onSubmit}
           />}
