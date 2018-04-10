@@ -25,9 +25,10 @@ class UserForm extends Component {
   };
 
   handleFormSubmit = values => {
+    this.callApi()
     console.log(values);
     API.saveRenter({
-      firstName: values.firstName
+
     })
   }
 
