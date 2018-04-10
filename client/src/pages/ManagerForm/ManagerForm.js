@@ -8,7 +8,7 @@ class ManagerForm extends Component {
   render() {
     return (
         <Provider store={store}>
-          <WizardForm OnSubmit= {this.OnSubmit} />
+          <WizardForm onSubmit= {this.OnSubmit} />
         </Provider>
     );
   }

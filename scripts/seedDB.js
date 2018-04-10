@@ -5,7 +5,7 @@ mongoose.Promise = global.Promise;
 // This file empties the Apartments collection and inserts the aparments below
 
 mongoose.connect(
-  process.env.MONGODB_URI || "mongodb://localhost/reactreadinglist",
+  process.env.MONGODB_URI || "mongodb://localhost/Roost",
   {
     useMongoClient: true
   }

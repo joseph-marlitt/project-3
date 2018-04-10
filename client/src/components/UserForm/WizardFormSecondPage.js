@@ -30,7 +30,7 @@ const renderMinorSelector = ({ input, meta: { touched, error } }) => (
 );
 
 const WizardFormSecondPage = props => {
-  const { handleSubmit, previousPage } = props;
+  const { handleSubmit, pristine, previousPage, submitting } = props;
   return (
     <form onSubmit={handleSubmit}>
       <Field
