@@ -44,7 +44,7 @@ const renderStateSelector = ({ input, meta: { touched, error } }) => (
 const renderDistanceSelector = ({ input, meta: { touched, error } }) => (
   <div>
     <select {...input}>
-      <option value="">State</option>
+      <option value="">In miles..</option>
       {distances.map(val => <option value={val} key={val}>{val}</option>)}
     </select>
     {touched && error && <span>{error}</span>}
@@ -67,11 +67,9 @@ const WizardFormSecondPage = props => {
       <Field name="street1" type="address" component={renderField} label="Where do you want to live near?"
       />
       <div>
-        <label>State</label>
-        <Field name="state" component={renderStateSelector} />
+        <label>Distance from Location</label>
+        <Field name="distance" component={renderDistanceSelector} />
       </div>
-      <Field name="zipCode" type="zipCode" component={renderField} label="Zip Code" />
-      <Field name="distance" type="distance" component={renderDistanceSelector} label="What is the farthest distance you want to commute?" />
       <Field name="email" type="email" component={renderField} label="Email (also Login when returning)" />
       <Field name="phone" type="phone" component={renderField} label="Phone" />
 
