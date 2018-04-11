@@ -46,6 +46,7 @@ span {
 .form-style input[type="date"],
 .form-style input[type="datetime"],
 .form-style input[type="email"],
+.form-style input[type="phone"],
 .form-style input[type="number"],
 .form-style input[type="search"],
 .form-style input[type="time"],
