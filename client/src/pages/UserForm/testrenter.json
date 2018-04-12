@@ -1,0 +1,19 @@
+{
+  "firstName":"Shauna",
+  "lastName":"Licciardi",
+  "title":"Mrs",
+  "address":{
+    "street1":"06 Duke Avenue",
+    "zip":"78465",
+    "city":"Corpus Christi",
+    "state":"TX"},
+  "contactInfo":{
+    "phone1":"361-677-1416",
+    "phone2":"432-201-6741",
+    "email":"slicciardi0@friendfeed.com"},
+  "minBeds":2,
+  "minBath":5,
+  "maxRent":2651,
+  "creditrating":842,
+  "pets":false
+}

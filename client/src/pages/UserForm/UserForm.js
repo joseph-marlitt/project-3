@@ -4,49 +4,24 @@ import WizardForm from "../../components/UserForm/WizardForm"
 import { Provider } from "react-redux";
 import store from "../../components/UserForm/store";
 import API from "../../utils/API";
-
+import testrenter from './testrenter.json';
 
 class UserForm extends Component {
-  // state = {
-  //   response: ''
-  // };
-
-  // componentDidMount() {
-  //   this.callApi()
-  //     .then(res => this.setState({ response: res.express }))
-  //     .catch(err => console.log(err));
-  // }
-  //
-  // callApi = async () => {
-  //   const response = await fetch('/api/renters');
-  //   const body = await response.json();
-  //   if (response.status !== 200) throw Error(body.message);
-  //   return body;
-  // };
-
+// values will be true renter object
   handleFormSubmit = values => {
-    // this.callApi()
+    const address = testrenter.address.street1 + " " + testrenter.address.city + " " + testrenter.address.state
+    this.geocodeAddress(address)
     console.log(values);
-    API.saveRenter({
-      // test renter - actual form object will need to match this format:
-    "fullName":"Shauna Licciardi",
-    "title":"Mrs",
-    "address":{
-      "street1":"06 Duke Avenue",
-      "zip":"78465",
-      "city":"Corpus Christi",
-      "state":"TX"},
-    "contactInfo":{
-      "phone1":"361-677-1416",
-      "phone2":"432-201-6741",
-      "email":"slicciardi0@friendfeed.com"},
-    "minBeds":2,
-    "minBath":5,
-    "maxRent":2651,
-    "creditrating":842,
-    "pets":false
-    })
+    API.saveRenter(
+      // test renter - actual form object will need to match format:
+      testrenter
+    )
   }
+
+  geocodeAddress = address => {
+    console.log(address);
+  }
+
 
   render() {
     return (
@@ -56,5 +31,6 @@ class UserForm extends Component {
     );
   }
 }
+
 
 export default UserForm;

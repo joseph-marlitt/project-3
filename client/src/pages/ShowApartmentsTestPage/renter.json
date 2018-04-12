@@ -1,0 +1,23 @@
+[{
+  "firstName": "Rosetta",
+  "lastName": "Liptrod",
+  "title": "Rev",
+  "address": {
+    "street1": "2 Kedzie Terrace",
+    "zip": "79118",
+    "city": "Amarillo",
+    "state": "TX",
+    "lat": "35.164993",
+    "lon": "-101.880328"
+  },
+  "contactInfo": {
+    "phone1": "806-694-5576",
+    "phone2": "214-311-9240",
+    "email": "rliptrod0@sohu.com"
+  },
+  "minBeds": 5,
+  "minBaths": 1,
+  "maxRent": 1240,
+  "creditrating": 486,
+  "pets": false
+}]
