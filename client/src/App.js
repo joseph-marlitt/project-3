@@ -6,6 +6,7 @@ import Navbar from "./components/Navbar"
 import UserForm from "./pages/UserForm/UserForm.js"
 import Home from "./pages/Home/Home.js"
 import ManagerForm from "./pages/ManagerForm/ManagerForm.js"
+import ShowApartmentsTest from "./pages/ShowApartmentsTestPage/ShowApartmentsTest.js"
 
 
 const App = () => (
@@ -17,6 +18,7 @@ const App = () => (
         <Route exact path="/" component={Home} />
         <Route exact path="/userform" component={UserForm} />
         <Route exact path="/managerform" component={ManagerForm} />
+        <Route exact path="/apartmenttest" component={ShowApartmentsTest} />
         </Switch>
       </Wrapper>
     </div>

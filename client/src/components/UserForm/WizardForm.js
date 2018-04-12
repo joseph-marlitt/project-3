@@ -26,7 +26,10 @@ class WizardForm extends Component {
     const { page } = this.state;
     return (
       <div className="form-style">
-        {page === 1 && <WizardFormFirstPage onSubmit={this.nextPage} />}
+        {page === 1 && <WizardFormFirstPage onSubmit={
+          onSubmit
+          // this.nextPage
+        }/>}
         {page === 2 &&
           <WizardFormSecondPage
             previousPage={this.previousPage}

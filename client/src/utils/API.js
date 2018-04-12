@@ -15,7 +15,7 @@ export default {
   },
   // Saves a apartment to the database
   saveApartment: function(apartmentInfo) {
-    return axios.post("/api/aparments", apartmentInfo);
+    return axios.post("/api/apartments", apartmentInfo);
   },
   // Gets all apartments
   getRenters: function() {
