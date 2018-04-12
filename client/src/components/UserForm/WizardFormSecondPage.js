@@ -4,6 +4,8 @@ import validate from './validate';
 import renderField from './renderField';
 const creditScore = ["0-400", "400-500", "500-600", "600-700", "700-850"];
 const minor = ["Yes", "No"];
+const states = [ 'AL', 'AK', 'AS', 'AZ', 'AR', 'CA', 'CO', 'CT', 'DE', 'DC', 'FM', 'FL', 'GA', 'GU', 'HI', 'ID', 'IL', 'IN', 'IA', 'KS', 'KY', 'LA', 'ME', 'MH', 'MD', 'MA', 'MI', 'MN', 'MS', 'MO', 'MT', 'NE', 'NV', 'NH', 'NJ', 'NM', 'NY', 'NC', 'ND', 'MP', 'OH', 'OK', 'OR', 'PW', 'PA', 'PR', 'RI', 'SC', 'SD', 'TN', 'TX', 'UT', 'VT', 'VI', 'VA', 'WA', 'WV', 'WI', 'WY' ];
+const distances = [1, 2, 3, 4, 5, 10, 15, 20, 25, 30]
 
 
 const renderError = ({ meta: { touched, error } }) =>
@@ -29,6 +31,26 @@ const renderMinorSelector = ({ input, meta: { touched, error } }) => (
   </div>
 );
 
+const renderStateSelector = ({ input, meta: { touched, error } }) => (
+  <div>
+    <select {...input}>
+      <option value="">State</option>
+      {states.map(val => <option value={val} key={val}>{val}</option>)}
+    </select>
+    {touched && error && <span>{error}</span>}
+  </div>
+);
+
+const renderDistanceSelector = ({ input, meta: { touched, error } }) => (
+  <div>
+    <select {...input}>
+      <option value="">In miles..</option>
+      {distances.map(val => <option value={val} key={val}>{val}</option>)}
+    </select>
+    {touched && error && <span>{error}</span>}
+  </div>
+);
+
 const WizardFormSecondPage = props => {
   const { handleSubmit, pristine, previousPage, submitting } = props;
   return (
@@ -40,13 +62,17 @@ const WizardFormSecondPage = props => {
         label="First Name"
       />
       <Field
-        name="lastName"
-        type="text"
-        component={renderField}
-        label="Last Name"
+        name="lastName" type="text" component={renderField} label="Last Name"
       />
-      <Field name="email" type="email" component={renderField} label="Email" />
+      <Field name="street1" type="address" component={renderField} label="Where do you want to live near?"
+      />
+      <div>
+        <label>Distance from Location</label>
+        <Field name="distance" component={renderDistanceSelector} />
+      </div>
+      <Field name="email" type="email" component={renderField} label="Email (also Login when returning)" />
       <Field name="phone" type="phone" component={renderField} label="Phone" />
+
       <div>
         <label>Preferred Contact</label>
         <div>
