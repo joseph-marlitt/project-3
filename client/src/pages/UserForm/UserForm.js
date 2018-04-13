@@ -20,6 +20,8 @@ class UserForm extends Component {
 
   geocodeAddress = address => {
     console.log(address);
+    // address.lat = response
+    // address.lon = response
   }
 
 

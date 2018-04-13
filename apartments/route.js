@@ -1,7 +1,7 @@
 const router = require('express').Router();
 const controller = require('./controller');
 
-router.route('/')
+router.route('/:conditions?')
   .get(controller.findAll)
   .post(controller.create);
 
