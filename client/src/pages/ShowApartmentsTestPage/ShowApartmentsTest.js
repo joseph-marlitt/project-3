@@ -36,8 +36,9 @@ showApartments = () => {
     pets: this.state.renter[0].pets,
     beds: this.state.renter[0].minBeds,
     baths: this.state.renter[0].minBaths,
-    price: this.state.renter[0].maxRent
-  }
+    price: this.state.renter[0].maxRent,
+    credit: this.state.renter[0].creditrating
+  };
 
   console.log(this.state.renter[0].firstName)
   console.log(this.calcDist(testAptLat, testRentLat, testAptLon, testRentLon))
@@ -47,7 +48,7 @@ showApartments = () => {
       // console.log(res.data))
       this.setState({ apartments: res.data }))
     .catch(err => console.log(err));
-  console.log('test')
+    console.log('test')
 };
 
 render() {
@@ -73,7 +74,7 @@ render() {
                         console.log(j)
                         return(
                           // console.log(info)
-                          <div>
+                          <div key={j}>
 
                             <UnitList
                               beds={info.beds}

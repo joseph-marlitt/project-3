@@ -10,8 +10,6 @@ export const Apartment = props => {
           <li>Apartment Name: {props.name}</li>
           <li>Address: {props.address} City: {props.city} State: {props.state}</li>
           <li>Phone: {props.contact}</li>
-          <li>Number of Beds: {props.beds}</li>
-          <li>Price: ${props.price}</li>
         </ul>
       </div>
     </div>

@@ -3,7 +3,16 @@ import axios from "axios";
 export default {
   // Gets all apartments
   getApartments: function(conditions) {
-    return axios.get("/api/apartments/:conditions?", conditions);
+    console.log(conditions)
+    return axios.get("/api/apartments/", {
+      params: {
+        pets: conditions.pets,
+        beds: conditions.beds,
+        baths: conditions.baths,
+        price: conditions.price,
+        credit: conditions.credit
+      }
+    });
   },
   // Gets the aparment with the given id
   getApartment: function(id) {
