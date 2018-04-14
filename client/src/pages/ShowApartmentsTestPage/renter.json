@@ -15,9 +15,9 @@
     "phone2": "214-311-9240",
     "email": "rliptrod0@sohu.com"
   },
-  "minBeds": 5,
-  "minBaths": 1,
-  "maxRent": 1240,
-  "creditrating": 486,
-  "pets": false
+  "minBeds": 2,
+  "minBaths": 2,
+  "maxRent": 2240,
+  "creditrating": 786,
+  "pets": true
 }]

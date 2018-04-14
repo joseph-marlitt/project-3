@@ -5,6 +5,7 @@ import API from "../../utils/API";
 import Apartment from "../../components/ApartmentList/Apartment.js";
 import Wrapper from "../../components/ApartmentList/Apartment.js";
 import UnitList from "../../components/UnitList/UnitList.js";
+
 // using renter as default test object, value will be replaced with current logged in user, or the "renter" who just submitted the form.
 import renter from './renter.json'
 
@@ -14,6 +15,7 @@ class ShowApartmentsTest extends Component {
     apartments: [],
     renter
   };
+
   calcDist = (lat1, lat2, lon1, lon2) => {
     var R = 6371; // Radius of the earth in km
     var dLat = (lat2 - lat1) * Math.PI / 180;  // deg2rad below
@@ -22,9 +24,7 @@ class ShowApartmentsTest extends Component {
        0.5 - Math.cos(dLat)/2 +
        Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) *
        (1 - Math.cos(dLon))/2;
-
     return R * 2 * Math.asin(Math.sqrt(a));
-
   };
 
 showApartments = () => {
@@ -48,7 +48,6 @@ showApartments = () => {
       // console.log(res.data))
       this.setState({ apartments: res.data }))
     .catch(err => console.log(err));
-    console.log('test')
 };
 
 render() {
@@ -65,17 +64,11 @@ render() {
                         city={apartment.address.city}
                         state={apartment.address.state}
                         contact={apartment.contactInfo.phone1}
-                        // beds={apartment.beds[0].number}
-                        // price={apartment.beds[0].maxRent}
                       />
                       <h1>Current Available Units:</h1>
                       {apartment.units.map(function(info, j) {
-                        console.log(info)
-                        console.log(j)
                         return(
-                          // console.log(info)
                           <div key={j}>
-
                             <UnitList
                               beds={info.beds}
                               baths={info.baths}
@@ -83,58 +76,20 @@ render() {
                               $to={info.maxRent}
                             />
                           </div>
-
-                          // <div>
-                          //   {info.}
-                          // </div>
                         )
                       }, this) }
                     </div>
-        )
-      }, this )}
-
-            <div>
-              <h1>Test Display
-                <button type='submit' onClick={this.showApartments}>Test</button>
-              </h1>
-            </div>
-    </div>
-
-
-  )
-}
-  //
-  // render() {
-  //   return (
-  //     <Provider store={store}>
-  //       <div>List of Apartments
-  //           {this.state.apartments.map(apartment => (
-  //             <Apartment
-  //               key={apartment._id}
-  //               name={apartment.name}
-  //               address={apartment.address.street1}
-  //               city={apartment.address.city}
-  //               state={apartment.address.state}
-  //               contact={apartment.contactInfo.phone1}
-  //               beds={apartment.beds[0].number}
-  //               price={apartment.beds[0].maxRent}
-  //             />
-  //           ))}
-  //         <div>
-  //           <h1>List
-  //             <button type='submit' onClick={this.showApartments}>Test</button>
-  //           </h1>
-  //         </div>
-  //       </div>
-  //     </Provider>
-  //   );
-  // }
-
-
-
-
-
-
-}
+                  )
+                }, this )}
+                <div>
+                  <h1>Test Display
+                    <button type='submit' onClick={this.showApartments}>Test</button>
+                  </h1>
+                </div>
+              </div>
+              // Above div is temporarily here to push Test button below header, can't click otherwise
+            )
+          }
+        }
 
 export default ShowApartmentsTest;

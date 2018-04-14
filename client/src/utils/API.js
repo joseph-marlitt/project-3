@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export default {
-  // Gets all apartments
+  // Gets all apartments matching conditions
   getApartments: function(conditions) {
     console.log(conditions)
     return axios.get("/api/apartments/", {

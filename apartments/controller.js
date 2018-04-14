@@ -6,15 +6,22 @@ module.exports = {
   findAll: function(req, res) {
     console.log(req.query)
     Apartment
-      .find( { minimumCR: { $gte: req.query.credit}})
+      .find( { minimumCR: { $lte: req.query.credit}, pets: req.query.pets })
       .populate({
         path: 'units',
-        match: { beds: { $gte: req.query.beds }}
+        match: { baths: { $gte: req.query.baths }, beds: { $gte: req.query.beds }, maxRent: { $lte: req.query.price }}
       })
       .sort({ date: -1 })
-      .then(dbModel => res.json(dbModel))
-      .catch(err => res.status(422).json(err));
-  },
+      .exec((err, apartments) => {
+        const apartmentList = [];
+        apartments = apartments.filter(function(apartment) {
+            if (apartment.units.length > 0) {
+              apartmentList.push(apartment);
+            }
+        })
+        res.json(apartmentList);
+      })
+    },
   findById: function(req, res) {
     Apartment
       .findById(req.params.id)
