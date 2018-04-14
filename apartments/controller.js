@@ -22,39 +22,21 @@ module.exports = {
         res.json(apartmentList);
       })
     },
+  //find single apartment by Id - will be used by Managers to view their Apartment
   findById: function(req, res) {
     Apartment
       .findById(req.params.id)
       .then(dbModel => res.json(dbModel))
       .catch(err => res.status(422).json(err));
   },
-  // create should have beds.
-  // create: function(req, res) {
-  //   console.log(req.body)
-  // Apartment
-  //   .create(req.body)
-  //     .then(dbModel => res.json(dbModel))
-  //     .catch(err => res.status(422).json(err));
-  // //   .create(req.body)
-  // //   .then(dbModel => res.json(dbModel))
-  // //   .catch(err => res.status(422).json(err));
-  // },
-
-
-// 2 separate requests come in, one for apartment data, and another for unit data for that apartment
-  create: function( req, res) {
-    // console.log(req.body)
+  // 2 separate requests come in, one for apartment data, and another for unit data for that apartment - both are parsed and saved to Apartments/Units DB's
+  create: function(req, res) {
     const apartment = new Apartment(req.body.apartmentData);
-    // console.log(apartment)
     apartment.save(err => {
       if (err) return res.status(500).send(err);
-      // return res.status(200).send(apartment);
-      // console.log(req.body.unitData)
+
       Unit.insertMany(req.body.unitData)
       .then(function(result) {
-        // console.log(apartment._id)
-        console.log(result)
-        // res.json(result)
         return Apartment.findOneAndUpdate({ _id: apartment._id }, {$push: { units: {$each: result}}}, {new: true});
       })
       .then(function(apartment) {
@@ -63,24 +45,16 @@ module.exports = {
       .catch(function(err) {
         res.json(err)
       });
-      // const unit = new Unit(req.body.unitData.units);
-      // console.log(unit)
-      // unit.save(err => {
-      //   if (err) return res.status(500).send(err)
-      //   return res.status(200).send(unit);
-      // })
-
     });
-    // const unit = new Unit(req.body.units);
-    // unit.save();
   },
-
+  // update Apartment data - will be used by managers to edit apartment details
   update: function(req, res) {
     Apartment
       .findOneAndUpdate({ _id: req.params.id }, req.body)
       .then(dbModel => res.json(dbModel))
       .catch(err => res.status(422).json(err));
   },
+  // delete Apartment
   remove: function(req, res) {
     Apartment
       .findById({ _id: req.params.id })
