@@ -1,6 +1,7 @@
 import React from 'react';
 import { Field, reduxForm } from 'redux-form';
 import validate from './validate';
+import renderField from './renderField';
 const rooms = [1, 2, 3, 4, 5];
 const baths = [1, 2, 3, 4, 5];
 const rent = [500, 600, 700, 800, 900, 1000, 1500, 2000, 2500, 3000, 3500];
@@ -48,12 +49,33 @@ const renderPetSelector = ({ input, meta: { touched, error } }) => (
 );
 
 const WizardFormFirstPage = props => {
-  const { handleSubmit } = props;
+  const { handleSubmit, pristine, submitting } = props;
+  var roomsArray = [];
+  for (var i = props.rooms; i > 0; i--) { 
+    roomsArray.push(
+      <div className="roomContainer">
+        <Field type="text" name={"room[" + i + "][beds]"} key={"room[" + i + "][beds]"} component={renderField} label= "Beds" />
+        <Field type="text" name={"room[" + i + "][bath]"} key={"room[" + i + "][baths]"} component={renderField} label= "Baths" />
+        <Field type="text" name={"room[" + i + "][min]"} key={"room[" + i + "][min]"} component={renderField} label= "Minimum Rent" />
+        <Field type="text" name={"room[" + i + "][max]"} key={"room[" + i + "][max]"} component={renderField} label= "Maximum Rent"/>
+        <button onClick= {() => {props.addRoom}} className="addRoom">Add Room</button>
+      </div>
+      
+      );
+  }
+
+
   return (
     <form onSubmit={handleSubmit}>
       <div>
         <label>How many Bedrooms do you need?</label>
         <Field name="rooms" component={renderRoomSelector} />
+      </div>
+      <div>
+       {roomsArray.map((room) => {
+        return room;
+       })}
+       
       </div>
       <div>
         <label>How many bathrooms do you need?</label>
@@ -112,7 +134,7 @@ const WizardFormFirstPage = props => {
       />
     </div>
       <div>
-        <button type="submit" className="next">Next</button>
+        <button type="submit"  className="next">Next</button>
       </div>
     </form>
   );

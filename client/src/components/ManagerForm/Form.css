@@ -4,7 +4,13 @@
 .ammenitiesContainer input{
     margin-right: 12px;
 }
-
+.roomContainer{
+    border: solid;
+    border-radius: 8px;
+    border-width: thin;
+    padding: 5px;
+    margin-bottom: 10px;
+}
 select {
     border: 0;
     font: 14px;
