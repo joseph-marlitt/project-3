@@ -15,5 +15,5 @@
   "minBath":5,
   "maxRent":2651,
   "creditrating":842,
-  "pets":false
+  "pets":true
 }

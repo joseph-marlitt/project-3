@@ -1,0 +1,704 @@
+{"model": "Unit",
+  "documents": [{
+  "_id": "5ad2dd95fc13ae52150001bd",
+  "beds": 1,
+  "baths": 3,
+  "minRent": 710,
+  "maxRent": 1247,
+  "available": "true"
+}, {
+  "_id": "5ad2dd95fc13ae52150001be",
+  "beds": 3,
+  "baths": 5,
+  "minRent": 722,
+  "maxRent": 1713,
+  "available": "true"
+}, {
+  "_id": "5ad2dd95fc13ae52150001bf",
+  "beds": 5,
+  "baths": 2,
+  "minRent": 1082,
+  "maxRent": 2602,
+  "available": "true"
+}, {
+  "_id": "5ad2dd95fc13ae52150001c0",
+  "beds": 4,
+  "baths": 1,
+  "minRent": 1341,
+  "maxRent": 1482,
+  "available": "true"
+}, {
+  "_id": "5ad2dd95fc13ae52150001c1",
+  "beds": 1,
+  "baths": 5,
+  "minRent": 1346,
+  "maxRent": 2981,
+  "available": "true"
+}, {
+  "_id": "5ad2dd95fc13ae52150001c2",
+  "beds": 5,
+  "baths": 2,
+  "minRent": 661,
+  "maxRent": 2368,
+  "available": "true"
+}, {
+  "_id": "5ad2dd95fc13ae52150001c3",
+  "beds": 3,
+  "baths": 2,
+  "minRent": 822,
+  "maxRent": 2184,
+  "available": "true"
+}, {
+  "_id": "5ad2dd95fc13ae52150001c4",
+  "beds": 2,
+  "baths": 5,
+  "minRent": 860,
+  "maxRent": 2443,
+  "available": "true"
+}, {
+  "_id": "5ad2dd95fc13ae52150001c5",
+  "beds": 1,
+  "baths": 1,
+  "minRent": 753,
+  "maxRent": 1738,
+  "available": "false"
+}, {
+  "_id": "5ad2dd95fc13ae52150001c6",
+  "beds": 2,
+  "baths": 4,
+  "minRent": 692,
+  "maxRent": 2501,
+  "available": "true"
+}, {
+  "_id": "5ad2dd95fc13ae52150001c7",
+  "beds": 4,
+  "baths": 1,
+  "minRent": 1096,
+  "maxRent": 1857,
+  "available": "true"
+}, {
+  "_id": "5ad2dd95fc13ae52150001c8",
+  "beds": 5,
+  "baths": 2,
+  "minRent": 745,
+  "maxRent": 2348,
+  "available": "true"
+}, {
+  "_id": "5ad2dd95fc13ae52150001c9",
+  "beds": 2,
+  "baths": 3,
+  "minRent": 698,
+  "maxRent": 1517,
+  "available": "true"
+}, {
+  "_id": "5ad2dd95fc13ae52150001ca",
+  "beds": 1,
+  "baths": 1,
+  "minRent": 1208,
+  "maxRent": 1253,
+  "available": "true"
+}, {
+  "_id": "5ad2dd95fc13ae52150001cb",
+  "beds": 5,
+  "baths": 1,
+  "minRent": 1334,
+  "maxRent": 2541,
+  "available": "true"
+}, {
+  "_id": "5ad2dd95fc13ae52150001cc",
+  "beds": 4,
+  "baths": 2,
+  "minRent": 1305,
+  "maxRent": 1844,
+  "available": "true"
+}, {
+  "_id": "5ad2dd95fc13ae52150001cd",
+  "beds": 2,
+  "baths": 2,
+  "minRent": 1130,
+  "maxRent": 2052,
+  "available": "true"
+}, {
+  "_id": "5ad2dd95fc13ae52150001ce",
+  "beds": 5,
+  "baths": 5,
+  "minRent": 1369,
+  "maxRent": 1685,
+  "available": "true"
+}, {
+  "_id": "5ad2dd95fc13ae52150001cf",
+  "beds": 3,
+  "baths": 5,
+  "minRent": 643,
+  "maxRent": 2928,
+  "available": "true"
+}, {
+  "_id": "5ad2dd95fc13ae52150001d0",
+  "beds": 5,
+  "baths": 3,
+  "minRent": 1275,
+  "maxRent": 1346,
+  "available": "true"
+}, {
+  "_id": "5ad2dd95fc13ae52150001d1",
+  "beds": 1,
+  "baths": 2,
+  "minRent": 761,
+  "maxRent": 1713,
+  "available": "true"
+}, {
+  "_id": "5ad2dd95fc13ae52150001d2",
+  "beds": 2,
+  "baths": 1,
+  "minRent": 1341,
+  "maxRent": 2354,
+  "available": "true"
+}, {
+  "_id": "5ad2dd95fc13ae52150001d3",
+  "beds": 2,
+  "baths": 5,
+  "minRent": 892,
+  "maxRent": 1714,
+  "available": "true"
+}, {
+  "_id": "5ad2dd95fc13ae52150001d4",
+  "beds": 1,
+  "baths": 3,
+  "minRent": 620,
+  "maxRent": 2631,
+  "available": "true"
+}, {
+  "_id": "5ad2dd95fc13ae52150001d5",
+  "beds": 4,
+  "baths": 1,
+  "minRent": 1475,
+  "maxRent": 2909,
+  "available": "true"
+}, {
+  "_id": "5ad2dd95fc13ae52150001d6",
+  "beds": 5,
+  "baths": 2,
+  "minRent": 1150,
+  "maxRent": 1690,
+  "available": "true"
+}, {
+  "_id": "5ad2dd95fc13ae52150001d7",
+  "beds": 2,
+  "baths": 1,
+  "minRent": 1092,
+  "maxRent": 2369,
+  "available": "true"
+}, {
+  "_id": "5ad2dd95fc13ae52150001d8",
+  "beds": 1,
+  "baths": 3,
+  "minRent": 757,
+  "maxRent": 2512,
+  "available": "true"
+}, {
+  "_id": "5ad2dd95fc13ae52150001d9",
+  "beds": 5,
+  "baths": 4,
+  "minRent": 1451,
+  "maxRent": 1897,
+  "available": "true"
+}, {
+  "_id": "5ad2dd95fc13ae52150001da",
+  "beds": 1,
+  "baths": 4,
+  "minRent": 1203,
+  "maxRent": 2011,
+  "available": "true"
+}, {
+  "_id": "5ad2dd95fc13ae52150001db",
+  "beds": 5,
+  "baths": 3,
+  "minRent": 1244,
+  "maxRent": 2960,
+  "available": "true"
+}, {
+  "_id": "5ad2dd95fc13ae52150001dc",
+  "beds": 4,
+  "baths": 4,
+  "minRent": 646,
+  "maxRent": 1497,
+  "available": "true"
+}, {
+  "_id": "5ad2dd95fc13ae52150001dd",
+  "beds": 3,
+  "baths": 1,
+  "minRent": 1245,
+  "maxRent": 1773,
+  "available": "true"
+}, {
+  "_id": "5ad2dd95fc13ae52150001de",
+  "beds": 1,
+  "baths": 1,
+  "minRent": 632,
+  "maxRent": 1061,
+  "available": "true"
+}, {
+  "_id": "5ad2dd95fc13ae52150001df",
+  "beds": 5,
+  "baths": 5,
+  "minRent": 1170,
+  "maxRent": 2216,
+  "available": "true"
+}, {
+  "_id": "5ad2dd95fc13ae52150001e0",
+  "beds": 3,
+  "baths": 1,
+  "minRent": 1403,
+  "maxRent": 2728,
+  "available": "true"
+}, {
+  "_id": "5ad2dd95fc13ae52150001e1",
+  "beds": 5,
+  "baths": 3,
+  "minRent": 1340,
+  "maxRent": 1456,
+  "available": "true"
+}, {
+  "_id": "5ad2dd95fc13ae52150001e2",
+  "beds": 5,
+  "baths": 5,
+  "minRent": 1319,
+  "maxRent": 2246,
+  "available": "true"
+}, {
+  "_id": "5ad2dd95fc13ae52150001e3",
+  "beds": 1,
+  "baths": 4,
+  "minRent": 622,
+  "maxRent": 1318,
+  "available": "true"
+}, {
+  "_id": "5ad2dd95fc13ae52150001e4",
+  "beds": 1,
+  "baths": 2,
+  "minRent": 1134,
+  "maxRent": 2257,
+  "available": "true"
+}, {
+  "_id": "5ad2dd95fc13ae52150001e5",
+  "beds": 2,
+  "baths": 3,
+  "minRent": 982,
+  "maxRent": 1851,
+  "available": "true"
+}, {
+  "_id": "5ad2dd95fc13ae52150001e6",
+  "beds": 2,
+  "baths": 3,
+  "minRent": 674,
+  "maxRent": 2935,
+  "available": "true"
+}, {
+  "_id": "5ad2dd95fc13ae52150001e7",
+  "beds": 4,
+  "baths": 3,
+  "minRent": 1192,
+  "maxRent": 1275,
+  "available": "true"
+}, {
+  "_id": "5ad2dd95fc13ae52150001e8",
+  "beds": 5,
+  "baths": 5,
+  "minRent": 1395,
+  "maxRent": 2227,
+  "available": "true"
+}, {
+  "_id": "5ad2dd95fc13ae52150001e9",
+  "beds": 4,
+  "baths": 1,
+  "minRent": 829,
+  "maxRent": 1993,
+  "available": "true"
+}, {
+  "_id": "5ad2dd95fc13ae52150001ea",
+  "beds": 5,
+  "baths": 1,
+  "minRent": 1156,
+  "maxRent": 1672,
+  "available": "true"
+}, {
+  "_id": "5ad2dd95fc13ae52150001eb",
+  "beds": 3,
+  "baths": 4,
+  "minRent": 1285,
+  "maxRent": 2648,
+  "available": "true"
+}, {
+  "_id": "5ad2dd95fc13ae52150001ec",
+  "beds": 4,
+  "baths": 5,
+  "minRent": 986,
+  "maxRent": 2088,
+  "available": "true"
+}, {
+  "_id": "5ad2dd95fc13ae52150001ed",
+  "beds": 3,
+  "baths": 5,
+  "minRent": 800,
+  "maxRent": 1192,
+  "available": "true"
+}, {
+  "_id": "5ad2dd95fc13ae52150001ee",
+  "beds": 5,
+  "baths": 4,
+  "minRent": 844,
+  "maxRent": 2491,
+  "available": "true"
+}, {
+  "_id": "5ad2dd95fc13ae52150001ef",
+  "beds": 4,
+  "baths": 1,
+  "minRent": 1042,
+  "maxRent": 1480,
+  "available": "true"
+}, {
+  "_id": "5ad2dd95fc13ae52150001f0",
+  "beds": 3,
+  "baths": 5,
+  "minRent": 1473,
+  "maxRent": 1126,
+  "available": "false"
+}, {
+  "_id": "5ad2dd95fc13ae52150001f1",
+  "beds": 1,
+  "baths": 4,
+  "minRent": 1359,
+  "maxRent": 2195,
+  "available": "true"
+}, {
+  "_id": "5ad2dd95fc13ae52150001f2",
+  "beds": 4,
+  "baths": 3,
+  "minRent": 884,
+  "maxRent": 1685,
+  "available": "true"
+}, {
+  "_id": "5ad2dd95fc13ae52150001f3",
+  "beds": 1,
+  "baths": 1,
+  "minRent": 1084,
+  "maxRent": 2739,
+  "available": "true"
+}, {
+  "_id": "5ad2dd95fc13ae52150001f4",
+  "beds": 1,
+  "baths": 5,
+  "minRent": 686,
+  "maxRent": 1258,
+  "available": "true"
+}, {
+  "_id": "5ad2dd95fc13ae52150001f5",
+  "beds": 5,
+  "baths": 3,
+  "minRent": 1214,
+  "maxRent": 1427,
+  "available": "true"
+}, {
+  "_id": "5ad2dd95fc13ae52150001f6",
+  "beds": 3,
+  "baths": 3,
+  "minRent": 684,
+  "maxRent": 2600,
+  "available": "true"
+}, {
+  "_id": "5ad2dd95fc13ae52150001f7",
+  "beds": 3,
+  "baths": 3,
+  "minRent": 1343,
+  "maxRent": 1218,
+  "available": "true"
+}, {
+  "_id": "5ad2dd95fc13ae52150001f8",
+  "beds": 4,
+  "baths": 5,
+  "minRent": 1371,
+  "maxRent": 1730,
+  "available": "true"
+}, {
+  "_id": "5ad2dd95fc13ae52150001f9",
+  "beds": 1,
+  "baths": 1,
+  "minRent": 1339,
+  "maxRent": 2858,
+  "available": "true"
+}, {
+  "_id": "5ad2dd95fc13ae52150001fa",
+  "beds": 1,
+  "baths": 3,
+  "minRent": 688,
+  "maxRent": 1107,
+  "available": "true"
+}, {
+  "_id": "5ad2dd95fc13ae52150001fb",
+  "beds": 4,
+  "baths": 2,
+  "minRent": 698,
+  "maxRent": 2031,
+  "available": "true"
+}, {
+  "_id": "5ad2dd95fc13ae52150001fc",
+  "beds": 3,
+  "baths": 1,
+  "minRent": 654,
+  "maxRent": 1447,
+  "available": "true"
+}, {
+  "_id": "5ad2dd95fc13ae52150001fd",
+  "beds": 5,
+  "baths": 1,
+  "minRent": 1325,
+  "maxRent": 2382,
+  "available": "true"
+}, {
+  "_id": "5ad2dd95fc13ae52150001fe",
+  "beds": 3,
+  "baths": 1,
+  "minRent": 1078,
+  "maxRent": 1340,
+  "available": "true"
+}, {
+  "_id": "5ad2dd95fc13ae52150001ff",
+  "beds": 1,
+  "baths": 3,
+  "minRent": 1096,
+  "maxRent": 2404,
+  "available": "true"
+}, {
+  "_id": "5ad2dd95fc13ae5215000200",
+  "beds": 1,
+  "baths": 3,
+  "minRent": 1242,
+  "maxRent": 1292,
+  "available": "true"
+}, {
+  "_id": "5ad2dd95fc13ae5215000201",
+  "beds": 2,
+  "baths": 5,
+  "minRent": 1098,
+  "maxRent": 1623,
+  "available": "true"
+}, {
+  "_id": "5ad2dd95fc13ae5215000202",
+  "beds": 2,
+  "baths": 1,
+  "minRent": 1088,
+  "maxRent": 2646,
+  "available": "true"
+}, {
+  "_id": "5ad2dd95fc13ae5215000203",
+  "beds": 5,
+  "baths": 2,
+  "minRent": 761,
+  "maxRent": 1056,
+  "available": "true"
+}, {
+  "_id": "5ad2dd95fc13ae5215000204",
+  "beds": 2,
+  "baths": 4,
+  "minRent": 933,
+  "maxRent": 2041,
+  "available": "true"
+}, {
+  "_id": "5ad2dd95fc13ae5215000205",
+  "beds": 1,
+  "baths": 5,
+  "minRent": 1081,
+  "maxRent": 1140,
+  "available": "true"
+}, {
+  "_id": "5ad2dd95fc13ae5215000206",
+  "beds": 4,
+  "baths": 4,
+  "minRent": 1166,
+  "maxRent": 2407,
+  "available": "false"
+}, {
+  "_id": "5ad2dd95fc13ae5215000207",
+  "beds": 4,
+  "baths": 2,
+  "minRent": 895,
+  "maxRent": 2286,
+  "available": "true"
+}, {
+  "_id": "5ad2dd95fc13ae5215000208",
+  "beds": 1,
+  "baths": 3,
+  "minRent": 901,
+  "maxRent": 2098,
+  "available": "true"
+}, {
+  "_id": "5ad2dd95fc13ae5215000209",
+  "beds": 4,
+  "baths": 4,
+  "minRent": 1244,
+  "maxRent": 2200,
+  "available": "true"
+}, {
+  "_id": "5ad2dd95fc13ae521500020a",
+  "beds": 2,
+  "baths": 4,
+  "minRent": 1060,
+  "maxRent": 2586,
+  "available": "true"
+}, {
+  "_id": "5ad2dd95fc13ae521500020b",
+  "beds": 5,
+  "baths": 2,
+  "minRent": 1442,
+  "maxRent": 1341,
+  "available": "true"
+}, {
+  "_id": "5ad2dd95fc13ae521500020c",
+  "beds": 1,
+  "baths": 4,
+  "minRent": 957,
+  "maxRent": 2844,
+  "available": "true"
+}, {
+  "_id": "5ad2dd95fc13ae521500020d",
+  "beds": 2,
+  "baths": 2,
+  "minRent": 1281,
+  "maxRent": 1082,
+  "available": "true"
+}, {
+  "_id": "5ad2dd95fc13ae521500020e",
+  "beds": 2,
+  "baths": 2,
+  "minRent": 859,
+  "maxRent": 1996,
+  "available": "true"
+}, {
+  "_id": "5ad2dd95fc13ae521500020f",
+  "beds": 2,
+  "baths": 1,
+  "minRent": 1180,
+  "maxRent": 1868,
+  "available": "true"
+}, {
+  "_id": "5ad2dd95fc13ae5215000210",
+  "beds": 4,
+  "baths": 1,
+  "minRent": 869,
+  "maxRent": 2404,
+  "available": "true"
+}, {
+  "_id": "5ad2dd95fc13ae5215000211",
+  "beds": 3,
+  "baths": 4,
+  "minRent": 882,
+  "maxRent": 1987,
+  "available": "true"
+}, {
+  "_id": "5ad2dd95fc13ae5215000212",
+  "beds": 3,
+  "baths": 1,
+  "minRent": 1451,
+  "maxRent": 2957,
+  "available": "true"
+}, {
+  "_id": "5ad2dd95fc13ae5215000213",
+  "beds": 2,
+  "baths": 1,
+  "minRent": 1480,
+  "maxRent": 1813,
+  "available": "true"
+}, {
+  "_id": "5ad2dd95fc13ae5215000214",
+  "beds": 3,
+  "baths": 5,
+  "minRent": 763,
+  "maxRent": 2976,
+  "available": "true"
+}, {
+  "_id": "5ad2dd95fc13ae5215000215",
+  "beds": 3,
+  "baths": 2,
+  "minRent": 862,
+  "maxRent": 2210,
+  "available": "false"
+}, {
+  "_id": "5ad2dd95fc13ae5215000216",
+  "beds": 4,
+  "baths": 3,
+  "minRent": 683,
+  "maxRent": 1070,
+  "available": "true"
+}, {
+  "_id": "5ad2dd95fc13ae5215000217",
+  "beds": 1,
+  "baths": 1,
+  "minRent": 764,
+  "maxRent": 1958,
+  "available": "true"
+}, {
+  "_id": "5ad2dd95fc13ae5215000218",
+  "beds": 3,
+  "baths": 1,
+  "minRent": 1034,
+  "maxRent": 2081,
+  "available": "false"
+}, {
+  "_id": "5ad2dd95fc13ae5215000219",
+  "beds": 3,
+  "baths": 3,
+  "minRent": 603,
+  "maxRent": 2283,
+  "available": "true"
+}, {
+  "_id": "5ad2dd95fc13ae521500021a",
+  "beds": 5,
+  "baths": 1,
+  "minRent": 1175,
+  "maxRent": 2041,
+  "available": "true"
+}, {
+  "_id": "5ad2dd95fc13ae521500021b",
+  "beds": 5,
+  "baths": 2,
+  "minRent": 827,
+  "maxRent": 2093,
+  "available": "true"
+}, {
+  "_id": "5ad2dd95fc13ae521500021c",
+  "beds": 1,
+  "baths": 3,
+  "minRent": 1329,
+  "maxRent": 1109,
+  "available": "true"
+}, {
+  "_id": "5ad2dd95fc13ae521500021d",
+  "beds": 2,
+  "baths": 1,
+  "minRent": 816,
+  "maxRent": 2272,
+  "available": "true"
+}, {
+  "_id": "5ad2dd95fc13ae521500021e",
+  "beds": 4,
+  "baths": 3,
+  "minRent": 1338,
+  "maxRent": 1228,
+  "available": "true"
+}, {
+  "_id": "5ad2dd96fc13ae521500021f",
+  "beds": 1,
+  "baths": 2,
+  "minRent": 994,
+  "maxRent": 2569,
+  "available": "true"
+}, {
+  "_id": "5ad2dd96fc13ae5215000220",
+  "beds": 3,
+  "baths": 5,
+  "minRent": 1428,
+  "maxRent": 2297,
+  "available": "true"
+}]
+
+}

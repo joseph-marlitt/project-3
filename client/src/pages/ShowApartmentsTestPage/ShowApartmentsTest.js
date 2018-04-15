@@ -44,7 +44,7 @@ showApartments = () => {
   console.log(this.calcDist(testAptLat, testRentLat, testAptLon, testRentLon))
   API.getApartments(conditions)
     .then(res =>
-      // console.log(conditions)
+      // console.log(res.data);
       // console.log(res.data))
       this.setState({ apartments: res.data }))
     .catch(err => console.log(err));

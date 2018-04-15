@@ -1,56 +1,608 @@
 {
-   "apartmentData":{
-      "name":"Streich LLC",
-      "address":{
-         "street1":"627 Schurz Center",
-         "zip":"78759",
-         "state":"TX",
-         "city":"Austin"
-      },
-      "contactInfo":{
-         "phone1":"512-524-8068",
-         "phone2":"713-432-4313",
-         "fax":"915-612-1977",
-         "email":"oadshad0@opensource.org"
-      },
-      "desiredCr":697,
-      "pets":false
-   },
-   "unitData":[
-      {
-         "beds":5,
-         "baths":4,
-         "minRent":1396,
-         "maxRent":1820,
-         "available":true
-      },
-      {
-         "beds":5,
-         "baths":4,
-         "minRent":1291,
-         "maxRent":1364,
-         "available":false
-      },
-      {
-         "beds":5,
-         "baths":1,
-         "minRent":706,
-         "maxRent":2820,
-         "available":false
-      },
-      {
-         "beds":1,
-         "baths":5,
-         "minRent":1108,
-         "maxRent":1253,
-         "available":false
-      },
-      {
-         "beds":2,
-         "baths":1,
-         "minRent":1269,
-         "maxRent":1562,
-         "available":false
-      }
-   ]
+    "model": "Apartment",
+    "documents": [{
+  "name": "Kuphal-Weber",
+  "address": {
+    "street1": "46 Everett Street",
+    "zip": "77388",
+    "state": "TX",
+    "city": "Spring"
+  },
+  "contactInfo": {
+    "phone1": "281-258-4096",
+    "phone2": "512-141-8168",
+    "fax": "210-281-8156",
+    "email": "bbaraclough0@zimbio.com"
+  },
+  "minimumCR": 625,
+  "pets": false,
+  "units": [
+    "5ad2dd95fc13ae52150001bd",
+    "5ad2dd95fc13ae52150001be",
+    "5ad2dd95fc13ae52150001bf",
+    "5ad2dd95fc13ae52150001c0",
+    "5ad2dd95fc13ae52150001c1"
+  ]
+}, {
+  "name": "Brekke and Sons",
+  "address": {
+    "street1": "52 Thierer Avenue",
+    "zip": "78703",
+    "state": "TX",
+    "city": "Austin"
+  },
+  "contactInfo": {
+    "phone1": "512-613-5204",
+    "phone2": "281-799-8070",
+    "fax": "469-699-2418",
+    "email": "aloveless1@businessweek.com"
+  },
+  "minimumCR": 659,
+  "pets": false,
+  "units": [
+    "5ad2dd95fc13ae52150001c2",
+    "5ad2dd95fc13ae52150001c3",
+    "5ad2dd95fc13ae52150001c4"
+  ]
+}, {
+  "name": "Stiedemann-Grant",
+  "address": {
+    "street1": "4 Cascade Junction",
+    "zip": "75397",
+    "state": "TX",
+    "city": "Dallas"
+  },
+  "contactInfo": {
+    "phone1": "214-785-9700",
+    "phone2": "713-282-2842",
+    "fax": "832-880-5011",
+    "email": "chrishanok2@ocn.ne.jp"
+  },
+  "minimumCR": 694,
+  "pets": true,
+  "units": [
+    "5ad2dd95fc13ae52150001c5",
+    "5ad2dd95fc13ae52150001c6"
+  ]
+}, {
+  "name": "Weissnat-Cormier",
+  "address": {
+    "street1": "3814 Magdeline Way",
+    "zip": "78405",
+    "state": "TX",
+    "city": "Corpus Christi"
+  },
+  "contactInfo": {
+    "phone1": "361-196-5380",
+    "phone2": "682-472-6449",
+    "fax": "214-170-2975",
+    "email": "mpessold3@jiathis.com"
+  },
+  "minimumCR": 553,
+  "pets": true,
+  "units": [
+    "5ad2dd95fc13ae52150001c7",
+    "5ad2dd95fc13ae52150001c8",
+    "5ad2dd95fc13ae52150001c9"
+  ]
+}, {
+  "name": "Carter Group",
+  "address": {
+    "street1": "83325 Farmco Park",
+    "zip": "75287",
+    "state": "TX",
+    "city": "Dallas"
+  },
+  "contactInfo": {
+    "phone1": "972-392-9936",
+    "phone2": "512-366-3938",
+    "fax": "469-980-4720",
+    "email": "rmattam4@google.com"
+  },
+  "minimumCR": 632,
+  "pets": true,
+  "units": [
+    "5ad2dd95fc13ae52150001ca",
+    "5ad2dd95fc13ae52150001cb",
+    "5ad2dd95fc13ae52150001cc",
+    "5ad2dd95fc13ae52150001cd",
+    "5ad2dd95fc13ae52150001ce"
+  ]
+}, {
+  "name": "Morissette-Haag",
+  "address": {
+    "street1": "09 Prairie Rose Terrace",
+    "zip": "77030",
+    "state": "TX",
+    "city": "Houston"
+  },
+  "contactInfo": {
+    "phone1": "713-649-4484",
+    "phone2": "806-666-7605",
+    "fax": "210-898-3292",
+    "email": "csprasen5@istockphoto.com"
+  },
+  "minimumCR": 621,
+  "pets": false,
+  "units": [
+    "5ad2dd95fc13ae52150001cf",
+    "5ad2dd95fc13ae52150001d0",
+    "5ad2dd95fc13ae52150001d1"
+  ]
+}, {
+  "name": "Feeney, Schultz and Runolfsson",
+  "address": {
+    "street1": "88945 Crownhardt Plaza",
+    "zip": "78783",
+    "state": "TX",
+    "city": "Austin"
+  },
+  "contactInfo": {
+    "phone1": "512-636-5127",
+    "phone2": "214-948-2584",
+    "fax": "972-499-2914",
+    "email": "iwarters6@senate.gov"
+  },
+  "minimumCR": 587,
+  "pets": true,
+  "units": [
+    "5ad2dd95fc13ae52150001d2",
+    "5ad2dd95fc13ae52150001d3",
+    "5ad2dd95fc13ae52150001d4",
+    "5ad2dd95fc13ae52150001d5"
+  ]
+}, {
+  "name": "Collins Group",
+  "address": {
+    "street1": "85 Jackson Hill",
+    "zip": "77245",
+    "state": "TX",
+    "city": "Houston"
+  },
+  "contactInfo": {
+    "phone1": "713-769-3962",
+    "phone2": "806-207-3549",
+    "fax": "915-909-1148",
+    "email": "rschimpke7@topsy.com"
+  },
+  "minimumCR": 601,
+  "pets": false,
+  "units": [
+    "5ad2dd95fc13ae52150001d6",
+    "5ad2dd95fc13ae52150001d7",
+    "5ad2dd95fc13ae52150001d8",
+    "5ad2dd95fc13ae52150001d9"
+  ]
+}, {
+  "name": "Howe Inc",
+  "address": {
+    "street1": "787 Annamark Alley",
+    "zip": "79916",
+    "state": "TX",
+    "city": "El Paso"
+  },
+  "contactInfo": {
+    "phone1": "915-436-7904",
+    "phone2": "214-548-6266",
+    "fax": "432-345-2678",
+    "email": "jpedler8@google.it"
+  },
+  "minimumCR": 697,
+  "pets": true,
+  "units": [
+    "5ad2dd95fc13ae52150001da",
+    "5ad2dd95fc13ae52150001db",
+    "5ad2dd95fc13ae52150001dc"
+  ]
+}, {
+  "name": "Tremblay, Batz and Daniel",
+  "address": {
+    "street1": "59 Anthes Center",
+    "zip": "76110",
+    "state": "TX",
+    "city": "Fort Worth"
+  },
+  "contactInfo": {
+    "phone1": "817-438-7299",
+    "phone2": "972-773-2843",
+    "fax": "254-806-9706",
+    "email": "gworham9@rambler.ru"
+  },
+  "minimumCR": 591,
+  "pets": true,
+  "units": [
+    "5ad2dd95fc13ae52150001dd",
+    "5ad2dd95fc13ae52150001de",
+    "5ad2dd95fc13ae52150001df"
+  ]
+}, {
+  "name": "MacGyver, Zulauf and King",
+  "address": {
+    "street1": "97528 Rowland Pass",
+    "zip": "77085",
+    "state": "TX",
+    "city": "Houston"
+  },
+  "contactInfo": {
+    "phone1": "281-946-7475",
+    "phone2": "469-981-8375",
+    "fax": "713-975-6053",
+    "email": "ehaylandsa@privacy.gov.au"
+  },
+  "minimumCR": 592,
+  "pets": true,
+  "units": [
+    "5ad2dd95fc13ae52150001e0",
+    "5ad2dd95fc13ae52150001e1",
+    "5ad2dd95fc13ae52150001e2",
+    "5ad2dd95fc13ae52150001e3",
+    "5ad2dd95fc13ae52150001e4"
+  ]
+}, {
+  "name": "Rutherford Inc",
+  "address": {
+    "street1": "73 Nelson Pass",
+    "zip": "76004",
+    "state": "TX",
+    "city": "Arlington"
+  },
+  "contactInfo": {
+    "phone1": "817-865-3981",
+    "phone2": "915-162-8416",
+    "fax": "214-499-7498",
+    "email": "dsalvageb@elegantthemes.com"
+  },
+  "minimumCR": 602,
+  "pets": true,
+  "units": [
+    "5ad2dd95fc13ae52150001e5",
+    "5ad2dd95fc13ae52150001e6",
+    "5ad2dd95fc13ae52150001e7",
+    "5ad2dd95fc13ae52150001e8",
+    "5ad2dd95fc13ae52150001e9"
+  ]
+}, {
+  "name": "Kutch-Paucek",
+  "address": {
+    "street1": "44588 Linden Way",
+    "zip": "76711",
+    "state": "TX",
+    "city": "Waco"
+  },
+  "contactInfo": {
+    "phone1": "254-493-5998",
+    "phone2": "432-165-1104",
+    "fax": "915-427-0426",
+    "email": "abrunnerc@gizmodo.com"
+  },
+  "minimumCR": 597,
+  "pets": false,
+  "units": [
+    "5ad2dd95fc13ae52150001ea",
+    "5ad2dd95fc13ae52150001eb"
+  ]
+}, {
+  "name": "Sporer LLC",
+  "address": {
+    "street1": "79061 Ludington Way",
+    "zip": "75246",
+    "state": "TX",
+    "city": "Dallas"
+  },
+  "contactInfo": {
+    "phone1": "972-264-5698",
+    "phone2": "832-594-5498",
+    "fax": "903-974-6837",
+    "email": "mcoomberd@npr.org"
+  },
+  "minimumCR": 627,
+  "pets": true,
+  "units": [
+    "5ad2dd95fc13ae52150001ec",
+    "5ad2dd95fc13ae52150001ed",
+    "5ad2dd95fc13ae52150001ee"
+  ]
+}, {
+  "name": "Romaguera-Hauck",
+  "address": {
+    "street1": "6 Maple Plaza",
+    "zip": "76016",
+    "state": "TX",
+    "city": "Arlington"
+  },
+  "contactInfo": {
+    "phone1": "817-474-5420",
+    "phone2": "214-261-9037",
+    "fax": "915-395-6287",
+    "email": "lrawsthorne@biglobe.ne.jp"
+  },
+  "minimumCR": 652,
+  "pets": true,
+  "units": [
+    "5ad2dd95fc13ae52150001ef",
+    "5ad2dd95fc13ae52150001f0"
+  ]
+}, {
+  "name": "Zemlak-Kuvalis",
+  "address": {
+    "street1": "937 Lighthouse Bay Court",
+    "zip": "78210",
+    "state": "TX",
+    "city": "San Antonio"
+  },
+  "contactInfo": {
+    "phone1": "210-893-6586",
+    "phone2": "713-747-3069",
+    "fax": "915-216-3076",
+    "email": "glightbownf@oakley.com"
+  },
+  "minimumCR": 657,
+  "pets": false,
+  "units": [
+    "5ad2dd95fc13ae52150001f1",
+    "5ad2dd95fc13ae52150001f2",
+    "5ad2dd95fc13ae52150001f3",
+    "5ad2dd95fc13ae52150001f4"
+  ]
+}, {
+  "name": "Lubowitz, Grimes and Zemlak",
+  "address": {
+    "street1": "9 Arapahoe Plaza",
+    "zip": "75210",
+    "state": "TX",
+    "city": "Dallas"
+  },
+  "contactInfo": {
+    "phone1": "972-622-8697",
+    "phone2": "915-884-1633",
+    "fax": "806-737-8059",
+    "email": "nludeeg@hexun.com"
+  },
+  "minimumCR": 670,
+  "pets": false,
+  "units": [
+    "5ad2dd95fc13ae52150001f5",
+    "5ad2dd95fc13ae52150001f6",
+    "5ad2dd95fc13ae52150001f7",
+    "5ad2dd95fc13ae52150001f8"
+  ]
+}, {
+  "name": "Pollich, Adams and Swaniawski",
+  "address": {
+    "street1": "185 Dixon Road",
+    "zip": "78205",
+    "state": "TX",
+    "city": "San Antonio"
+  },
+  "contactInfo": {
+    "phone1": "210-934-4872",
+    "phone2": "915-654-7278",
+    "fax": "214-175-8548",
+    "email": "sdandyh@icio.us"
+  },
+  "minimumCR": 697,
+  "pets": false,
+  "units": [
+    "5ad2dd95fc13ae52150001f9",
+    "5ad2dd95fc13ae52150001fa",
+    "5ad2dd95fc13ae52150001fb",
+    "5ad2dd95fc13ae52150001fc",
+    "5ad2dd95fc13ae52150001fd"
+  ]
+}, {
+  "name": "Rosenbaum and Sons",
+  "address": {
+    "street1": "30 Daystar Junction",
+    "zip": "78255",
+    "state": "TX",
+    "city": "San Antonio"
+  },
+  "contactInfo": {
+    "phone1": "210-323-9709",
+    "phone2": "214-347-2885",
+    "fax": "281-594-8437",
+    "email": "cmoorrudi@google.com.br"
+  },
+  "minimumCR": 551,
+  "pets": false,
+  "units": [
+    "5ad2dd95fc13ae52150001fe",
+    "5ad2dd95fc13ae52150001ff",
+    "5ad2dd95fc13ae5215000200"
+  ]
+}, {
+  "name": "Keeling, Heathcote and Ledner",
+  "address": {
+    "street1": "176 Merrick Parkway",
+    "zip": "77554",
+    "state": "TX",
+    "city": "Galveston"
+  },
+  "contactInfo": {
+    "phone1": "409-795-2584",
+    "phone2": "281-341-9537",
+    "fax": "325-529-5438",
+    "email": "akleingrubj@goo.ne.jp"
+  },
+  "minimumCR": 594,
+  "pets": true,
+  "units": [
+    "5ad2dd95fc13ae5215000201",
+    "5ad2dd95fc13ae5215000202"
+  ]
+}, {
+  "name": "Brekke-Barrows",
+  "address": {
+    "street1": "2 Duke Pass",
+    "zip": "79182",
+    "state": "TX",
+    "city": "Amarillo"
+  },
+  "contactInfo": {
+    "phone1": "806-103-4476",
+    "phone2": "713-233-6184",
+    "fax": "713-735-7377",
+    "email": "kgrimsellk@adobe.com"
+  },
+  "minimumCR": 599,
+  "pets": false,
+  "units": [
+    "5ad2dd95fc13ae5215000203",
+    "5ad2dd95fc13ae5215000204"
+  ]
+}, {
+  "name": "Walter and Sons",
+  "address": {
+    "street1": "1435 Redwing Plaza",
+    "zip": "77015",
+    "state": "TX",
+    "city": "Houston"
+  },
+  "contactInfo": {
+    "phone1": "832-228-1795",
+    "phone2": "325-195-1571",
+    "fax": "915-428-1571",
+    "email": "awindersl@craigslist.org"
+  },
+  "minimumCR": 557,
+  "pets": false,
+  "units": [
+    "5ad2dd95fc13ae5215000205",
+    "5ad2dd95fc13ae5215000206",
+    "5ad2dd95fc13ae5215000207",
+    "5ad2dd95fc13ae5215000208",
+    "5ad2dd95fc13ae5215000209"
+  ]
+}, {
+  "name": "Huel Inc",
+  "address": {
+    "street1": "0 Nancy Trail",
+    "zip": "88519",
+    "state": "TX",
+    "city": "El Paso"
+  },
+  "contactInfo": {
+    "phone1": "915-274-7758",
+    "phone2": "254-284-4617",
+    "fax": "361-800-1284",
+    "email": "ghaeslierm@spotify.com"
+  },
+  "minimumCR": 632,
+  "pets": false,
+  "units": [
+    "5ad2dd95fc13ae521500020a",
+    "5ad2dd95fc13ae521500020b",
+    "5ad2dd95fc13ae521500020c",
+    "5ad2dd95fc13ae521500020d"
+  ]
+}, {
+  "name": "Reilly, Hilpert and Ledner",
+  "address": {
+    "street1": "30 Dawn Road",
+    "zip": "79405",
+    "state": "TX",
+    "city": "Lubbock"
+  },
+  "contactInfo": {
+    "phone1": "806-589-5602",
+    "phone2": "979-701-1678",
+    "fax": "915-875-3133",
+    "email": "rdissmann@weather.com"
+  },
+  "minimumCR": 644,
+  "pets": true,
+  "units": [
+    "5ad2dd95fc13ae521500020e",
+    "5ad2dd95fc13ae521500020f",
+    "5ad2dd95fc13ae5215000210",
+    "5ad2dd95fc13ae5215000211",
+    "5ad2dd95fc13ae5215000212"
+  ]
+}, {
+  "name": "Weber, Mayert and Considine",
+  "address": {
+    "street1": "42381 Mayer Lane",
+    "zip": "79955",
+    "state": "TX",
+    "city": "El Paso"
+  },
+  "contactInfo": {
+    "phone1": "915-267-2314",
+    "phone2": "325-267-1258",
+    "fax": "214-427-7041",
+    "email": "cgirhardo@1688.com"
+  },
+  "minimumCR": 607,
+  "pets": true,
+  "units": [
+    "5ad2dd95fc13ae5215000213",
+    "5ad2dd95fc13ae5215000214",
+    "5ad2dd95fc13ae5215000215",
+    "5ad2dd95fc13ae5215000216"
+  ]
+}, {
+  "name": "Brown, Orn and Hamill",
+  "address": {
+    "street1": "7 2nd Way",
+    "zip": "77015",
+    "state": "TX",
+    "city": "Houston"
+  },
+  "contactInfo": {
+    "phone1": "713-419-9539",
+    "phone2": "713-135-0988",
+    "fax": "361-271-5837",
+    "email": "emcknishp@weibo.com"
+  },
+  "minimumCR": 614,
+  "pets": false,
+  "units": [
+    "5ad2dd95fc13ae5215000217",
+    "5ad2dd95fc13ae5215000218",
+    "5ad2dd95fc13ae5215000219",
+    "5ad2dd95fc13ae521500021a"
+  ]
+}, {
+  "name": "Olson, Feest and Hauck",
+  "address": {
+    "street1": "94773 Basil Crossing",
+    "zip": "79699",
+    "state": "TX",
+    "city": "Abilene"
+  },
+  "contactInfo": {
+    "phone1": "325-451-5977",
+    "phone2": "512-568-3617",
+    "fax": "915-616-6149",
+    "email": "swesgateq@npr.org"
+  },
+  "minimumCR": 615,
+  "pets": true,
+  "units": [
+    "5ad2dd95fc13ae521500021b",
+    "5ad2dd95fc13ae521500021c"
+  ]
+}, {
+  "name": "Schmidt, Schumm and Lueilwitz",
+  "address": {
+    "street1": "7 Westend Point",
+    "zip": "88584",
+    "state": "TX",
+    "city": "El Paso"
+  },
+  "contactInfo": {
+    "phone1": "915-153-1892",
+    "phone2": "281-471-7860",
+    "fax": "325-830-7251",
+    "email": "kchmielr@facebook.com"
+  },
+  "minimumCR": 623,
+  "pets": true,
+  "units": [
+    "5ad2dd95fc13ae521500021d",
+    "5ad2dd95fc13ae521500021e",
+    "5ad2dd96fc13ae521500021f",
+    "5ad2dd96fc13ae5215000220"
+  ]
+}]
 }

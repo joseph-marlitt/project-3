@@ -9,10 +9,11 @@ module.exports = {
       .find( { minimumCR: { $lte: req.query.credit}, pets: req.query.pets })
       .populate({
         path: 'units',
-        match: { baths: { $gte: req.query.baths }, beds: { $gte: req.query.beds }, maxRent: { $lte: req.query.price }}
+        match: { baths: { $gte: req.query.baths }, beds: { $gte: req.query.beds }, minRent: { $lte: req.query.price }, available: true}
       })
       .sort({ date: -1 })
       .exec((err, apartments) => {
+        console.log(apartments)
         const apartmentList = [];
         apartments = apartments.filter(function(apartment) {
             if (apartment.units.length > 0) {
@@ -20,6 +21,7 @@ module.exports = {
             }
         })
         res.json(apartmentList);
+        console.log(apartmentList);
       })
     },
   //find single apartment by Id - will be used by Managers to view their Apartment

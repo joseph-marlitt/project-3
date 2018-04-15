@@ -10,6 +10,8 @@ const apartmentSchema = new Schema({
   units: [{ type: Schema.Types.ObjectId, ref: 'Unit'}],
   // beds: {type: Array, "default": [] },
   amenities: {type: Array, "default": [] },
+  lat: {type: Number},
+  long: {type: Number},
   date: {type: Date, default: Date.now}
 });
 
