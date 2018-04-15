@@ -8,7 +8,6 @@ const apartmentSchema = new Schema({
   pets: {type: Boolean},
   contactInfo: {type: Object, trim: true, max: 100 },
   units: [{ type: Schema.Types.ObjectId, ref: 'Unit'}],
-  // beds: {type: Array, "default": [] },
   amenities: {type: Array, "default": [] },
   lat: {type: Number},
   long: {type: Number},

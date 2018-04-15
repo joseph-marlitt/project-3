@@ -40,15 +40,13 @@ showApartments = () => {
     credit: this.state.renter[0].creditrating
   };
 
-  console.log(this.state.renter[0].firstName)
-  console.log(this.calcDist(testAptLat, testRentLat, testAptLon, testRentLon))
-  API.getApartments(conditions)
-    .then(res =>
-      // console.log(res.data);
-      // console.log(res.data))
-      this.setState({ apartments: res.data }))
-    .catch(err => console.log(err));
-};
+    console.log(this.state.renter[0].firstName)
+    console.log(this.calcDist(testAptLat, testRentLat, testAptLon, testRentLon))
+    API.getApartments(conditions)
+      .then(res =>
+        this.setState({ apartments: res.data }))
+      .catch(err => console.log(err));
+    };
 
 render() {
   return(

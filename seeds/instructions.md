@@ -1,3 +1,5 @@
+<!-- OLD -->
+
 to seed the database first run mongod and connect, then run:
 
 mongoimport --db Roost --collection apartments --drop --file ./seeds/apartments.json

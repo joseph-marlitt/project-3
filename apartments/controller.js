@@ -4,7 +4,7 @@ const Unit = require("../models/Unit");
 module.exports = {
   // find to include populate for beds, populate with have path of beds and match function to add conditionals to what beds populate
   findAll: function(req, res) {
-    console.log(req.query)
+    // console.log(req.query)
     Apartment
       .find( { minimumCR: { $lte: req.query.credit}, pets: req.query.pets })
       .populate({
@@ -21,7 +21,6 @@ module.exports = {
             }
         })
         res.json(apartmentList);
-        console.log(apartmentList);
       })
     },
   //find single apartment by Id - will be used by Managers to view their Apartment
