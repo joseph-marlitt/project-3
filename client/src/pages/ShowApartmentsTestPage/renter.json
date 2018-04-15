@@ -18,6 +18,6 @@
   "minBeds": 2,
   "minBaths": 2,
   "maxRent": 2240,
-  "creditrating": 786,
-  "pets": true
+  "creditrating": 686,
+  "pets": false
 }]

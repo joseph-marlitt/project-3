@@ -1,9 +1,10 @@
-var seeder = require('mongoose-seed');
+const seeder = require('mongoose-seed');
 const unitSeed = require('./units.json');
 const apartmentSeed = require('./apartments.json');
+const data = [apartmentSeed, unitSeed];
 
 // Connect to MongoDB via Mongoose
-seeder.connect('mongodb://localhost/Roost', function() {
+seeder.connect(process.env.MONGODB_URI || 'mongodb://localhost/Roost', function() {
 
   // Load Mongoose models
   seeder.loadModels([
@@ -20,8 +21,5 @@ seeder.connect('mongodb://localhost/Roost', function() {
     });
   });
 });
-var data = [
-    apartmentSeed,unitSeed
-];
 
 module.exports = seeder;

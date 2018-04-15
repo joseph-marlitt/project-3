@@ -4,7 +4,7 @@ const mongoose = require("mongoose");
 const app = express();
 const PORT = process.env.PORT || 3001;
 // uncomment this line to seed DB, must be commented out to post
-// const seeder = require('./seeds/seeder.js');
+  // const seeder = require('./seeds/seeder.js');
 
 // Configure body parser for AJAX requests
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -27,5 +27,6 @@ mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/Roost")
 
 // Start the API server
 app.listen(PORT, function() {
+
   console.log(`🌎  ==> API Server now listening on PORT ${PORT}!`);
 });

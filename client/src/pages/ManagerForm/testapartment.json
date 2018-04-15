@@ -1,0 +1,49 @@
+{
+  "apartmentData": {
+    "name": "Seton Apartments",
+    "address": {
+      "street1": "1201 W 38th St",
+      "zip": "78705",
+      "state": "TX",
+      "city": "Austin"
+    },
+    "contactInfo": {
+      "phone1": "469-597-4564",
+      "phone2": "817-831-7922",
+      "fax": "915-372-1508",
+      "email": "mfaill0@toplist.cz"
+    },
+    "minimumCR": 566,
+    "pets": false
+  },
+  "unitData": [
+    {
+      "beds": 5,
+      "baths": 3,
+      "minRent": 1321,
+      "maxRent": 2374,
+      "available": "true"
+    },
+    {
+      "beds": 3,
+      "baths": 5,
+      "minRent": 690,
+      "maxRent": 2504,
+      "available": "true"
+    },
+    {
+      "beds": 5,
+      "baths": 3,
+      "minRent": 933,
+      "maxRent": 1555,
+      "available": "true"
+    },
+    {
+      "beds": 1,
+      "baths": 4,
+      "minRent": 922,
+      "maxRent": 2235,
+      "available": "false"
+    }
+  ]
+}
