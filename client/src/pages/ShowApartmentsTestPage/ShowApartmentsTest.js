@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
-import { Provider } from "react-redux";
-import store from "../../components/UserForm/store";
 import API from "../../utils/API";
 import Apartment from "../../components/ApartmentList/Apartment.js";
-import Wrapper from "../../components/ApartmentList/Apartment.js";
 import UnitList from "../../components/UnitList/UnitList.js";
 
 // using renter as default test object, value will be replaced with current logged in user, or the "renter" who just submitted the form.

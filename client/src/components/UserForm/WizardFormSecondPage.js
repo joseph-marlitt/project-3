@@ -52,7 +52,7 @@ const renderDistanceSelector = ({ input, meta: { touched, error } }) => (
 );
 
 const WizardFormSecondPage = props => {
-  const { handleSubmit, pristine, previousPage, submitting } = props;
+  const { handleSubmit, previousPage } = props;
   return (
     <form onSubmit={handleSubmit}>
       <Field
