@@ -1,18 +1,18 @@
 {
-  "firstName":"Shauna",
-  "lastName":"Licciardi",
+  "firstName":"Travis",
+  "lastName":"Tester",
   "title":"Mrs",
   "address":{
-    "street1":"06 Duke Avenue",
-    "zip":"78465",
-    "city":"Corpus Christi",
+    "street1":"1900 Prairie Knoll Ct",
+    "zip":"78758",
+    "city":"Austin",
     "state":"TX"},
   "contactInfo":{
-    "phone1":"361-677-1416",
+    "phone1":"999-677-1416",
     "phone2":"432-201-6741",
     "email":"slicciardi0@friendfeed.com"},
   "minBeds":2,
-  "minBath":5,
+  "minBath":2,
   "maxRent":2651,
   "creditrating":842,
   "pets":true

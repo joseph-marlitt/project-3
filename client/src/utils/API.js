@@ -40,6 +40,7 @@ export default {
   },
   // Saves a apartment to the database
   saveRenter: function(renterInfo) {
+    console.log(renterInfo)
     return axios.post("/api/renters", renterInfo);
   }
 };
