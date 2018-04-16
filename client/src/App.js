@@ -6,15 +6,14 @@ import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import './App.css';
 import Wrapper from "./components/Wrapper";
 // import Navbar from "./components/Navbar";
-
 import LoginPage from './containers/LoginPage.jsx';
 import LogoutFunction from './containers/LogoutFunction.jsx';
 import SignUpPage from './containers/SignUpPage.jsx';
 import UserForm from "./pages/UserForm/UserForm.js";
 import Home from "./pages/Home/Home.js";
 import ManagerForm from "./pages/ManagerForm/ManagerForm.js";
-import RenterDashboard from "./pages/RenterDashboard/RenterDashboard.js";
-import ManagerDashboard from "./pages/ManagerDashboard/ManagerDashboard.js";
+import RenterDashboard from "./containers/RenterDashboard.jsx";
+import ManagerDashboard from "./containers/ManagerDashboard.jsx";
 import Auth from './modules/Auth';
 import logo from "./roost.png"
 
@@ -27,7 +26,7 @@ const PrivateRoute = ({ component: Component, ...rest }) => (
       <Component {...props} {...rest} />
     ) : (
       <Redirect to={{
-        pathname: '/',
+        pathname: '/login',
         state: { from: props.location }
       }}/>
     )
@@ -80,23 +79,24 @@ class App extends Component {
               <div className='top-bar-left'>
                 <Link to='/'>Roost</Link>
               </div>
-              <div className='top-bar-center'>
+              <div className='roostIcon'>
                 <Link to='/'><img className='roostImage' src={logo} alt={'logo'}/></Link>
-              </div>
-              <div className='top-bar-right'>
-                <Link to='/userform'>New Form</Link>
-                <Link to='/about'>About Us</Link>
-                <Link to='/learn'>Learn More</Link>
               </div>
                 {this.state.authenticated ? (
                   <div className='top-bar-right'>
                   <Link to="/dashboard">Dashboard</Link>
+                  <Link to='/userform'>New Form</Link>
+                  <Link to='/about'>About Us</Link>
+                  <Link to='/learn'>Learn More</Link>
                   <Link to='/logout'>Log Out</Link>
                   </div>
                 ) : (
                   <div className='top-bar-right'>
                   <Link to="/login">Log in</Link>
                   <Link to="/signup">Sign up</Link>
+                  <Link to='/userform'>New Form</Link>
+                  <Link to='/about'>About Us</Link>
+                  <Link to='/learn'>Learn More</Link>
                   </div>
                 )}
               </div>

@@ -14,14 +14,14 @@
 }
 
 .homeButton:hover {
-    background-color: rgb(120, 121, 120); /* Green */
+    background-color: rgb(120, 121, 120); /* Grey */
     color: white;
     cursor: pointer;
 }
 .buttonContainer{
+  display:  inline-flex;
+  margin: 30px auto;
   text-align: center;
-    /* display: flex;
-    align-items: center; */
 }
 .homeContainer{
     display: block;
@@ -34,5 +34,6 @@
 }
 
 p {
+  color: white;
   padding-top: 20px;
 }
