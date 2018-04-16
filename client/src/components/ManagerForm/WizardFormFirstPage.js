@@ -51,16 +51,16 @@ const renderPetSelector = ({ input, meta: { touched, error } }) => (
 const WizardFormFirstPage = props => {
   const { handleSubmit, pristine, submitting } = props;
   var roomsArray = [];
-  for (var i = props.rooms; i > 0; i--) { 
+  for (var i = props.rooms; i > 0; i--) {
     roomsArray.push(
-      <div className="roomContainer">
+      <div className="roomContainer" key={i}>
         <Field type="text" name={"room[" + i + "][beds]"} key={"room[" + i + "][beds]"} component={renderField} label= "Beds" />
         <Field type="text" name={"room[" + i + "][bath]"} key={"room[" + i + "][baths]"} component={renderField} label= "Baths" />
         <Field type="text" name={"room[" + i + "][min]"} key={"room[" + i + "][min]"} component={renderField} label= "Minimum Rent" />
         <Field type="text" name={"room[" + i + "][max]"} key={"room[" + i + "][max]"} component={renderField} label= "Maximum Rent"/>
-        <button onClick= {() => {props.addRoom}} className="addRoom">Add Room</button>
+        <button onClick={props.addRoom()} className="addRoom">Add Room</button>
       </div>
-      
+
       );
   }
 
@@ -75,7 +75,7 @@ const WizardFormFirstPage = props => {
        {roomsArray.map((room) => {
         return room;
        })}
-       
+
       </div>
       <div>
         <label>How many bathrooms do you need?</label>

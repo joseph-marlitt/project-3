@@ -14,7 +14,7 @@ class WizardForm extends Component {
       page: 1,
       rooms: 1
     };
-    
+
   }
   nextPage() {
     this.setState({ page: this.state.page + 1 });
@@ -25,6 +25,7 @@ class WizardForm extends Component {
   }
 
   addRoom(){
+      console.log('adding room');
     this.setState({ rooms: this.state.rooms + 1 })
   }
 
@@ -37,13 +38,9 @@ class WizardForm extends Component {
 
     return (
       <div className="form-style">
+        {this.state.page === 1 && <WizardFormFirstPage addRoom={() => this.addRoom} rooms={this.state.rooms} onSubmit={this.nextPage} />}
+        {this.state.page === 2 &&
 
-        {page === 1 && <WizardFormFirstPage onSubmit={
-          onSubmit
-          // will change back to this.nextPage when done testing
-          // this.nextPage
-        } />}
-        {page === 2 &&
           <WizardFormSecondPage
             previousPage={this.previousPage}
             onSubmit={onSubmit}
@@ -54,7 +51,7 @@ class WizardForm extends Component {
 }
 
 WizardForm.propTypes = {
-  onSubmit: PropTypes.func.isRequired,
+  //onSubmit: PropTypes.func.isRequired,
 };
 
 export default WizardForm;
