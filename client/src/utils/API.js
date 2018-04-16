@@ -1,9 +1,18 @@
 import axios from "axios";
 
 export default {
-  // Gets all apartments
-  getApartments: function() {
-    return axios.get("/api/apartments");
+  // Gets all apartments matching conditions
+  getApartments: function(conditions) {
+    console.log(conditions)
+    return axios.get("/api/apartments/", {
+      params: {
+        pets: conditions.pets,
+        beds: conditions.beds,
+        baths: conditions.baths,
+        price: conditions.price,
+        credit: conditions.credit
+      }
+    });
   },
   // Gets the aparment with the given id
   getApartment: function(id) {
@@ -31,6 +40,7 @@ export default {
   },
   // Saves a apartment to the database
   saveRenter: function(renterInfo) {
+    console.log(renterInfo)
     return axios.post("/api/renters", renterInfo);
   }
 };

@@ -12,6 +12,8 @@ const renterSchema = new Schema ({
   maxRent: {type: Number, required: true},
   creditrating: {type: Number, required: true},
   pets: {type: Boolean, required: true },
+  lat: {type: Number},
+  long: {type: Number},
   date: {type: Date, default: Date.now}
 });
 

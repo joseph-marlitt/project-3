@@ -5,6 +5,9 @@ import { Provider } from "react-redux";
 import store from "../../components/UserForm/store";
 import API from "../../utils/API";
 import testrenter from './testrenter.json';
+const googleMapsClient = require('@google/maps').createClient({
+  key: 'AIzaSyBLqqQUio_x0z2rWW6YuuDN2Vx-LaAJYks'
+});
 
 class UserForm extends Component {
 // values will be true renter object
@@ -12,16 +15,23 @@ class UserForm extends Component {
     const address = testrenter.address.street1 + " " + testrenter.address.city + " " + testrenter.address.state
     this.geocodeAddress(address)
     console.log(values);
-    API.saveRenter(
-      // test renter - actual form object will need to match format:
-      testrenter
-    )
   }
 
   geocodeAddress = address => {
-    console.log(address);
+    googleMapsClient.geocode({
+      address: address
+    }, function(err, response) {
+      if (!err) {
+        const coords = response.json.results[0].geometry.location;
+        testrenter["lat"] = coords.lat;
+        testrenter["long"] = coords.lng;
+        testrenter["firstName"] = "Testington";
+        console.log(testrenter);
+        // saves renter with lat/long values added
+        API.saveRenter(testrenter)
+      }
+    })
   }
-
 
   render() {
     return (
