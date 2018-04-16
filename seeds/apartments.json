@@ -1,100 +1,608 @@
-{"name":"Kreiger, Hyatt and Oberbrunner","address":{"street1":"7986 Nelson Circle","zip":"77281","state":"TX","city":"Houston"},"contactInfo":{"phone1":"713-348-9355","phone2":"915-326-8908","fax":"281-127-1088","email":"crenon0@redcross.org"},"beds":[{"number":5,"minRent":631,"maxRent":2556,"available":true},{"number":1,"minRent":1206,"maxRent":2725,"available":true},{"number":1,"minRent":1007,"maxRent":2362,"available":false}],"desiredCr":681,"pets":false}
-{"name":"Crist-Wyman","address":{"street1":"92 Anzinger Avenue","zip":"77035","state":"TX","city":"Houston"},"contactInfo":{"phone1":"281-989-3515","phone2":"979-310-0545","fax":"214-104-1545","email":"ahauxley1@umich.edu"},"beds":[{"number":1,"minRent":816,"maxRent":2305,"available":false}],"desiredCr":625,"pets":false}
-{"name":"Pagac and Sons","address":{"street1":"028 Shopko Place","zip":"79491","state":"TX","city":"Lubbock"},"contactInfo":{"phone1":"806-453-0890","phone2":"469-421-8049","fax":"281-525-3376","email":"ekitlee2@noaa.gov"},"beds":[{"number":5,"minRent":684,"maxRent":2709,"available":false},{"number":4,"minRent":1262,"maxRent":1498,"available":false},{"number":5,"minRent":705,"maxRent":1915,"available":true},{"number":2,"minRent":702,"maxRent":2725,"available":false},{"number":5,"minRent":1438,"maxRent":1255,"available":true}],"desiredCr":641,"pets":true}
-{"name":"Swaniawski-Willms","address":{"street1":"66892 Holmberg Crossing","zip":"76210","state":"TX","city":"Denton"},"contactInfo":{"phone1":"817-263-2824","phone2":"713-882-1609","fax":"979-324-7034","email":"gamor3@histats.com"},"beds":[{"number":4,"minRent":830,"maxRent":1665,"available":true}],"desiredCr":629,"pets":true}
-{"name":"Connelly LLC","address":{"street1":"58372 Continental Court","zip":"76134","state":"TX","city":"Fort Worth"},"contactInfo":{"phone1":"817-717-6667","phone2":"806-101-7124","fax":"713-688-4664","email":"gmcgettigan4@archive.org"},"beds":[{"number":4,"minRent":1280,"maxRent":1296,"available":true}],"desiredCr":594,"pets":false}
-{"name":"Marks Group","address":{"street1":"45 Esker Plaza","zip":"76705","state":"TX","city":"Waco"},"contactInfo":{"phone1":"254-585-2396","phone2":"956-560-4007","fax":"210-200-4439","email":"bwarsap5@weebly.com"},"beds":[{"number":4,"minRent":910,"maxRent":2689,"available":true}],"desiredCr":592,"pets":false}
-{"name":"Bogan, Pacocha and Parker","address":{"street1":"91113 Merchant Junction","zip":"76096","state":"TX","city":"Arlington"},"contactInfo":{"phone1":"214-951-4335","phone2":"806-578-4584","fax":"972-489-8753","email":"mchidler6@yahoo.co.jp"},"beds":[{"number":5,"minRent":1362,"maxRent":1599,"available":true},{"number":2,"minRent":790,"maxRent":1503,"available":true},{"number":2,"minRent":1357,"maxRent":2019,"available":false},{"number":2,"minRent":1102,"maxRent":2297,"available":false}],"desiredCr":586,"pets":false}
-{"name":"Bechtelar-Gulgowski","address":{"street1":"2341 Marcy Hill","zip":"77234","state":"TX","city":"Houston"},"contactInfo":{"phone1":"713-801-2907","phone2":"817-913-7454","fax":"210-899-1207","email":"cklicher7@jimdo.com"},"beds":[{"number":2,"minRent":1255,"maxRent":2841,"available":true},{"number":1,"minRent":1323,"maxRent":1879,"available":false},{"number":5,"minRent":628,"maxRent":1330,"available":true}],"desiredCr":686,"pets":true}
-{"name":"Heller-Dicki","address":{"street1":"9287 Riverside Lane","zip":"75705","state":"TX","city":"Tyler"},"contactInfo":{"phone1":"903-483-0668","phone2":"512-624-0560","fax":"972-284-9077","email":"abartels8@fastcompany.com"},"beds":[{"number":1,"minRent":998,"maxRent":1007,"available":false}],"desiredCr":550,"pets":true}
-{"name":"Gibson, Howe and Shanahan","address":{"street1":"40 Lukken Junction","zip":"78769","state":"TX","city":"Austin"},"contactInfo":{"phone1":"512-526-0855","phone2":"512-838-0776","fax":"915-468-0520","email":"asowersby9@tinypic.com"},"beds":[{"number":4,"minRent":1483,"maxRent":2637,"available":false},{"number":1,"minRent":1202,"maxRent":2403,"available":false},{"number":4,"minRent":1225,"maxRent":1774,"available":true},{"number":3,"minRent":836,"maxRent":1621,"available":true},{"number":2,"minRent":1024,"maxRent":1832,"available":false}],"desiredCr":597,"pets":false}
-{"name":"Kassulke Group","address":{"street1":"655 Jay Center","zip":"76205","state":"TX","city":"Denton"},"contactInfo":{"phone1":"940-478-1194","phone2":"214-467-4780","fax":"915-229-7122","email":"tantonchika@sphinn.com"},"beds":[{"number":5,"minRent":1006,"maxRent":1602,"available":true},{"number":1,"minRent":1146,"maxRent":2381,"available":true},{"number":1,"minRent":1157,"maxRent":1776,"available":true}],"desiredCr":584,"pets":false}
-{"name":"Hahn-Leuschke","address":{"street1":"30410 Namekagon Street","zip":"78759","state":"TX","city":"Austin"},"contactInfo":{"phone1":"512-977-1145","phone2":"806-368-3172","fax":"832-398-7115","email":"nmeirb@deliciousdays.com"},"beds":[{"number":2,"minRent":753,"maxRent":2783,"available":true},{"number":4,"minRent":704,"maxRent":1540,"available":true}],"desiredCr":682,"pets":true}
-{"name":"Walsh-Hettinger","address":{"street1":"5086 Brickson Park Avenue","zip":"79605","state":"TX","city":"Abilene"},"contactInfo":{"phone1":"325-988-5267","phone2":"512-995-6974","fax":"512-342-0887","email":"bmcquakerc@desdev.cn"},"beds":[{"number":4,"minRent":661,"maxRent":1181,"available":false},{"number":4,"minRent":612,"maxRent":1852,"available":false},{"number":5,"minRent":1224,"maxRent":2530,"available":false},{"number":3,"minRent":997,"maxRent":2152,"available":false},{"number":3,"minRent":760,"maxRent":2735,"available":true}],"desiredCr":556,"pets":false}
-{"name":"Spencer Group","address":{"street1":"0536 Heath Way","zip":"78465","state":"TX","city":"Corpus Christi"},"contactInfo":{"phone1":"361-605-5036","phone2":"281-894-4244","fax":"361-249-8163","email":"bbernadotd@nsw.gov.au"},"beds":[{"number":2,"minRent":1478,"maxRent":2346,"available":true},{"number":2,"minRent":1167,"maxRent":1498,"available":true},{"number":3,"minRent":1425,"maxRent":2579,"available":true}],"desiredCr":618,"pets":true}
-{"name":"Predovic-Bosco","address":{"street1":"322 Oak Parkway","zip":"77255","state":"TX","city":"Houston"},"contactInfo":{"phone1":"713-146-4759","phone2":"210-956-8584","fax":"469-877-1414","email":"arobacke@surveymonkey.com"},"beds":[{"number":1,"minRent":908,"maxRent":1000,"available":true},{"number":3,"minRent":909,"maxRent":1387,"available":true},{"number":5,"minRent":1233,"maxRent":2811,"available":true},{"number":1,"minRent":730,"maxRent":2286,"available":false}],"desiredCr":648,"pets":false}
-{"name":"Zieme LLC","address":{"street1":"1 Hooker Center","zip":"78789","state":"TX","city":"Austin"},"contactInfo":{"phone1":"512-548-5599","phone2":"254-265-8308","fax":"713-203-3663","email":"rblencowef@cyberchimps.com"},"beds":[{"number":1,"minRent":1253,"maxRent":1194,"available":true},{"number":2,"minRent":972,"maxRent":1439,"available":true},{"number":1,"minRent":1062,"maxRent":2111,"available":false},{"number":3,"minRent":922,"maxRent":2332,"available":true},{"number":4,"minRent":753,"maxRent":2139,"available":true}],"desiredCr":604,"pets":true}
-{"name":"Zemlak-Becker","address":{"street1":"10440 Namekagon Alley","zip":"78405","state":"TX","city":"Corpus Christi"},"contactInfo":{"phone1":"361-244-2223","phone2":"817-489-1848","fax":"940-659-0661","email":"lgimertg@canalblog.com"},"beds":[{"number":4,"minRent":936,"maxRent":2171,"available":true},{"number":5,"minRent":732,"maxRent":2438,"available":false},{"number":1,"minRent":950,"maxRent":2401,"available":false},{"number":2,"minRent":1079,"maxRent":2567,"available":false},{"number":2,"minRent":1267,"maxRent":1296,"available":false}],"desiredCr":689,"pets":true}
-{"name":"Waelchi-Goyette","address":{"street1":"46 Dexter Avenue","zip":"77228","state":"TX","city":"Houston"},"contactInfo":{"phone1":"713-919-6630","phone2":"830-966-6169","fax":"903-899-7871","email":"ghymorh@liveinternet.ru"},"beds":[{"number":5,"minRent":1148,"maxRent":1635,"available":false},{"number":1,"minRent":1125,"maxRent":2384,"available":true},{"number":4,"minRent":1113,"maxRent":1894,"available":true}],"desiredCr":622,"pets":false}
-{"name":"Orn, Kertzmann and Fahey","address":{"street1":"8 Susan Place","zip":"76096","state":"TX","city":"Arlington"},"contactInfo":{"phone1":"214-375-2366","phone2":"713-143-9060","fax":"361-415-8397","email":"schildesi@devhub.com"},"beds":[{"number":5,"minRent":1123,"maxRent":1906,"available":false},{"number":4,"minRent":852,"maxRent":1808,"available":true},{"number":4,"minRent":1485,"maxRent":1264,"available":false}],"desiredCr":592,"pets":true}
-{"name":"Price, Bins and Nicolas","address":{"street1":"9 Washington Road","zip":"76205","state":"TX","city":"Denton"},"contactInfo":{"phone1":"817-785-2417","phone2":"210-519-3276","fax":"210-207-0903","email":"cgorgenj@163.com"},"beds":[{"number":4,"minRent":1248,"maxRent":2790,"available":true},{"number":4,"minRent":1172,"maxRent":1393,"available":true},{"number":4,"minRent":805,"maxRent":2340,"available":true},{"number":5,"minRent":942,"maxRent":2399,"available":false},{"number":2,"minRent":673,"maxRent":2439,"available":false}],"desiredCr":653,"pets":true}
-{"name":"Price, Pollich and Rath","address":{"street1":"403 West Circle","zip":"76147","state":"TX","city":"Fort Worth"},"contactInfo":{"phone1":"817-726-3783","phone2":"281-368-5615","fax":"512-995-1970","email":"vsamettk@slashdot.org"},"beds":[{"number":1,"minRent":1447,"maxRent":1558,"available":false},{"number":2,"minRent":1288,"maxRent":1913,"available":true}],"desiredCr":561,"pets":false}
-{"name":"Schulist Inc","address":{"street1":"97509 Sugar Terrace","zip":"79994","state":"TX","city":"El Paso"},"contactInfo":{"phone1":"915-414-3460","phone2":"281-345-3439","fax":"713-304-2169","email":"ganniwelll@nsw.gov.au"},"beds":[{"number":5,"minRent":807,"maxRent":1549,"available":false}],"desiredCr":601,"pets":false}
-{"name":"Kuhn, Hirthe and Hackett","address":{"street1":"392 Stephen Park","zip":"76544","state":"TX","city":"Killeen"},"contactInfo":{"phone1":"254-846-7248","phone2":"832-878-9649","fax":"512-739-5157","email":"kcollingdonm@sphinn.com"},"beds":[{"number":1,"minRent":961,"maxRent":1509,"available":true}],"desiredCr":641,"pets":true}
-{"name":"Hessel-Baumbach","address":{"street1":"88226 Schmedeman Lane","zip":"79159","state":"TX","city":"Amarillo"},"contactInfo":{"phone1":"806-121-1729","phone2":"817-327-5441","fax":"915-672-8340","email":"dleprovestn@aboutads.info"},"beds":[{"number":3,"minRent":1369,"maxRent":1533,"available":true},{"number":5,"minRent":1480,"maxRent":1100,"available":true}],"desiredCr":686,"pets":true}
-{"name":"O'Conner Inc","address":{"street1":"604 Express Parkway","zip":"79989","state":"TX","city":"El Paso"},"contactInfo":{"phone1":"915-271-5780","phone2":"210-757-3972","fax":"512-826-4339","email":"hgreyeso@cargocollective.com"},"beds":[{"number":5,"minRent":1406,"maxRent":2309,"available":true},{"number":3,"minRent":1489,"maxRent":2531,"available":true},{"number":4,"minRent":932,"maxRent":2628,"available":false},{"number":2,"minRent":1042,"maxRent":2048,"available":true}],"desiredCr":638,"pets":false}
-{"name":"Nikolaus, Considine and Maggio","address":{"street1":"802 Acker Point","zip":"77212","state":"TX","city":"Houston"},"contactInfo":{"phone1":"713-123-1001","phone2":"832-395-2234","fax":"281-955-6962","email":"btaysbilp@springer.com"},"beds":[{"number":1,"minRent":781,"maxRent":1995,"available":true},{"number":1,"minRent":629,"maxRent":2032,"available":false},{"number":4,"minRent":836,"maxRent":2031,"available":true},{"number":4,"minRent":1050,"maxRent":2629,"available":true},{"number":5,"minRent":767,"maxRent":2156,"available":true}],"desiredCr":659,"pets":true}
-{"name":"Cormier-Nikolaus","address":{"street1":"11 Colorado Parkway","zip":"75062","state":"TX","city":"Irving"},"contactInfo":{"phone1":"214-541-4831","phone2":"915-518-8899","fax":"512-586-8044","email":"hmcbradyq@live.com"},"beds":[{"number":5,"minRent":1461,"maxRent":2573,"available":true},{"number":2,"minRent":1157,"maxRent":2847,"available":true},{"number":2,"minRent":1137,"maxRent":1332,"available":false},{"number":2,"minRent":1121,"maxRent":2147,"available":true}],"desiredCr":674,"pets":false}
-{"name":"Lemke-Wiegand","address":{"street1":"75469 Tomscot Avenue","zip":"75236","state":"TX","city":"Dallas"},"contactInfo":{"phone1":"972-981-8580","phone2":"512-927-2629","fax":"210-363-3669","email":"pmacmeekanr@issuu.com"},"beds":[{"number":5,"minRent":1159,"maxRent":1057,"available":true}],"desiredCr":682,"pets":false}
-{"name":"Moen Inc","address":{"street1":"41 5th Circle","zip":"79410","state":"TX","city":"Lubbock"},"contactInfo":{"phone1":"806-316-5518","phone2":"281-640-4397","fax":"713-432-7820","email":"gbonseys@webmd.com"},"beds":[{"number":3,"minRent":1200,"maxRent":2625,"available":true},{"number":4,"minRent":1150,"maxRent":1399,"available":false},{"number":3,"minRent":929,"maxRent":1023,"available":false},{"number":1,"minRent":992,"maxRent":1441,"available":false},{"number":5,"minRent":684,"maxRent":2801,"available":false}],"desiredCr":596,"pets":false}
-{"name":"McDermott-Smith","address":{"street1":"430 Pepper Wood Street","zip":"76121","state":"TX","city":"Fort Worth"},"contactInfo":{"phone1":"817-300-2313","phone2":"915-992-4978","fax":"903-853-2272","email":"rnialst@elegantthemes.com"},"beds":[{"number":1,"minRent":938,"maxRent":2746,"available":true}],"desiredCr":634,"pets":true}
-{"name":"Steuber, Bauch and Mann","address":{"street1":"16 Dryden Road","zip":"78278","state":"TX","city":"San Antonio"},"contactInfo":{"phone1":"210-895-3259","phone2":"469-555-7294","fax":"817-658-6213","email":"ceydelu@topsy.com"},"beds":[{"number":1,"minRent":1210,"maxRent":2001,"available":true},{"number":4,"minRent":1302,"maxRent":1045,"available":true},{"number":2,"minRent":997,"maxRent":1855,"available":true}],"desiredCr":690,"pets":false}
-{"name":"Lemke-Prohaska","address":{"street1":"89445 Clove Park","zip":"88530","state":"TX","city":"El Paso"},"contactInfo":{"phone1":"915-620-1161","phone2":"432-573-4363","fax":"281-254-0051","email":"ivliesv@ed.gov"},"beds":[{"number":3,"minRent":656,"maxRent":1485,"available":true}],"desiredCr":678,"pets":false}
-{"name":"Jacobi, Collins and Ortiz","address":{"street1":"0 Green Avenue","zip":"75799","state":"TX","city":"Tyler"},"contactInfo":{"phone1":"903-263-0752","phone2":"806-841-0851","fax":"214-623-5874","email":"eeilerw@vkontakte.ru"},"beds":[{"number":2,"minRent":1352,"maxRent":2983,"available":true}],"desiredCr":564,"pets":true}
-{"name":"Stehr and Sons","address":{"street1":"77825 Sunnyside Terrace","zip":"77065","state":"TX","city":"Houston"},"contactInfo":{"phone1":"713-286-5798","phone2":"254-989-9992","fax":"972-464-6798","email":"wfoatx@google.nl"},"beds":[{"number":1,"minRent":1478,"maxRent":1376,"available":true}],"desiredCr":664,"pets":true}
-{"name":"Krajcik Inc","address":{"street1":"05760 Lakewood Junction","zip":"76121","state":"TX","city":"Fort Worth"},"contactInfo":{"phone1":"817-419-4591","phone2":"713-231-0555","fax":"806-659-1849","email":"hcarleyy@umich.edu"},"beds":[{"number":2,"minRent":714,"maxRent":2005,"available":true},{"number":4,"minRent":1253,"maxRent":2516,"available":false},{"number":1,"minRent":950,"maxRent":2112,"available":false},{"number":3,"minRent":690,"maxRent":2777,"available":false},{"number":1,"minRent":1073,"maxRent":2978,"available":true}],"desiredCr":686,"pets":false}
-{"name":"VonRueden and Sons","address":{"street1":"0947 Quincy Lane","zip":"79491","state":"TX","city":"Lubbock"},"contactInfo":{"phone1":"806-847-9481","phone2":"713-844-1368","fax":"214-830-8558","email":"ckalaherz@wikipedia.org"},"beds":[{"number":2,"minRent":1372,"maxRent":1897,"available":false},{"number":5,"minRent":628,"maxRent":2150,"available":false},{"number":3,"minRent":1188,"maxRent":1698,"available":false},{"number":4,"minRent":1363,"maxRent":1002,"available":false}],"desiredCr":692,"pets":true}
-{"name":"Williamson-Labadie","address":{"street1":"29456 Milwaukee Circle","zip":"75062","state":"TX","city":"Irving"},"contactInfo":{"phone1":"817-390-2021","phone2":"210-692-3030","fax":"915-275-5912","email":"mnovotna10@cargocollective.com"},"beds":[{"number":4,"minRent":1371,"maxRent":2827,"available":true},{"number":2,"minRent":1217,"maxRent":1534,"available":false},{"number":2,"minRent":1424,"maxRent":1559,"available":true},{"number":5,"minRent":1259,"maxRent":2406,"available":true}],"desiredCr":605,"pets":true}
-{"name":"Leuschke and Sons","address":{"street1":"404 Hudson Drive","zip":"88553","state":"TX","city":"El Paso"},"contactInfo":{"phone1":"915-520-0983","phone2":"281-500-0776","fax":"713-816-7769","email":"chandrik11@flavors.me"},"beds":[{"number":5,"minRent":1445,"maxRent":1662,"available":true}],"desiredCr":565,"pets":false}
-{"name":"Connelly LLC","address":{"street1":"4206 Crest Line Parkway","zip":"88579","state":"TX","city":"El Paso"},"contactInfo":{"phone1":"915-570-6059","phone2":"214-798-2973","fax":"903-972-9095","email":"dduckit12@mozilla.org"},"beds":[{"number":1,"minRent":1106,"maxRent":1492,"available":false},{"number":1,"minRent":663,"maxRent":2980,"available":false},{"number":2,"minRent":1247,"maxRent":1230,"available":true},{"number":2,"minRent":1189,"maxRent":1929,"available":false},{"number":1,"minRent":1395,"maxRent":2641,"available":false}],"desiredCr":566,"pets":true}
-{"name":"Purdy, Nader and Pollich","address":{"street1":"158 Anderson Terrace","zip":"75323","state":"TX","city":"Dallas"},"contactInfo":{"phone1":"214-199-1685","phone2":"361-252-4215","fax":"817-249-3037","email":"jdiego13@sciencedirect.com"},"beds":[{"number":3,"minRent":1343,"maxRent":2375,"available":false}],"desiredCr":684,"pets":false}
-{"name":"Lueilwitz Group","address":{"street1":"51661 Hazelcrest Alley","zip":"77346","state":"TX","city":"Humble"},"contactInfo":{"phone1":"713-248-4514","phone2":"214-415-4180","fax":"214-340-2508","email":"kgettins14@usatoday.com"},"beds":[{"number":4,"minRent":1082,"maxRent":1972,"available":false},{"number":5,"minRent":1339,"maxRent":2036,"available":false},{"number":2,"minRent":693,"maxRent":1828,"available":false}],"desiredCr":611,"pets":false}
-{"name":"Becker LLC","address":{"street1":"92095 Debra Parkway","zip":"77493","state":"TX","city":"Katy"},"contactInfo":{"phone1":"281-369-7853","phone2":"915-732-9758","fax":"915-823-3852","email":"erowesby15@hud.gov"},"beds":[{"number":4,"minRent":631,"maxRent":2821,"available":false}],"desiredCr":695,"pets":true}
-{"name":"Ortiz-Deckow","address":{"street1":"07 Corscot Place","zip":"77271","state":"TX","city":"Houston"},"contactInfo":{"phone1":"713-510-3288","phone2":"817-533-9405","fax":"830-155-5410","email":"jgopsall16@xrea.com"},"beds":[{"number":3,"minRent":852,"maxRent":1004,"available":true}],"desiredCr":638,"pets":true}
-{"name":"Gerlach LLC","address":{"street1":"5074 Vera Alley","zip":"75379","state":"TX","city":"Dallas"},"contactInfo":{"phone1":"214-998-3972","phone2":"214-644-3709","fax":"915-507-1203","email":"eexon17@unblog.fr"},"beds":[{"number":1,"minRent":652,"maxRent":2870,"available":true},{"number":5,"minRent":1030,"maxRent":2685,"available":false},{"number":2,"minRent":1283,"maxRent":2917,"available":true},{"number":4,"minRent":973,"maxRent":1110,"available":true},{"number":3,"minRent":659,"maxRent":2576,"available":false}],"desiredCr":683,"pets":false}
-{"name":"Gutkowski-King","address":{"street1":"1 Village Avenue","zip":"77271","state":"TX","city":"Houston"},"contactInfo":{"phone1":"713-197-0801","phone2":"713-537-8221","fax":"806-412-5209","email":"ngrain18@cocolog-nifty.com"},"beds":[{"number":1,"minRent":848,"maxRent":2767,"available":true},{"number":4,"minRent":736,"maxRent":1575,"available":false},{"number":4,"minRent":662,"maxRent":2502,"available":false}],"desiredCr":623,"pets":false}
-{"name":"Moore-Anderson","address":{"street1":"600 Montana Center","zip":"77040","state":"TX","city":"Houston"},"contactInfo":{"phone1":"281-209-5724","phone2":"214-831-9296","fax":"512-399-7162","email":"bclausewitz19@woothemes.com"},"beds":[{"number":5,"minRent":1207,"maxRent":2999,"available":true},{"number":3,"minRent":800,"maxRent":2385,"available":true},{"number":2,"minRent":1008,"maxRent":2837,"available":true},{"number":1,"minRent":846,"maxRent":1748,"available":true}],"desiredCr":632,"pets":false}
-{"name":"Schroeder LLC","address":{"street1":"9552 Bowman Plaza","zip":"78475","state":"TX","city":"Corpus Christi"},"contactInfo":{"phone1":"361-992-2634","phone2":"915-104-2271","fax":"806-491-0761","email":"nscrowston1a@addtoany.com"},"beds":[{"number":2,"minRent":1469,"maxRent":2108,"available":true},{"number":3,"minRent":1237,"maxRent":2010,"available":true},{"number":2,"minRent":1446,"maxRent":2952,"available":false},{"number":2,"minRent":920,"maxRent":2242,"available":false}],"desiredCr":597,"pets":false}
-{"name":"Emmerich and Sons","address":{"street1":"83 Corscot Plaza","zip":"78465","state":"TX","city":"Corpus Christi"},"contactInfo":{"phone1":"361-656-4872","phone2":"806-974-4429","fax":"713-786-4920","email":"rollerton1b@oracle.com"},"beds":[{"number":2,"minRent":1495,"maxRent":2679,"available":false}],"desiredCr":613,"pets":true}
-{"name":"McClure, MacGyver and Wolf","address":{"street1":"2 Logan Center","zip":"76310","state":"TX","city":"Wichita Falls"},"contactInfo":{"phone1":"940-296-7416","phone2":"214-765-9704","fax":"915-626-5060","email":"islater1c@storify.com"},"beds":[{"number":3,"minRent":1004,"maxRent":1416,"available":false},{"number":4,"minRent":630,"maxRent":2243,"available":true},{"number":2,"minRent":1270,"maxRent":2601,"available":false},{"number":2,"minRent":1418,"maxRent":1054,"available":false},{"number":1,"minRent":891,"maxRent":1637,"available":true}],"desiredCr":626,"pets":false}
-{"name":"Schiller LLC","address":{"street1":"7 Derek Circle","zip":"77844","state":"TX","city":"College Station"},"contactInfo":{"phone1":"979-678-1535","phone2":"713-373-4148","fax":"915-987-4008","email":"htolomio1d@ucoz.com"},"beds":[{"number":3,"minRent":1310,"maxRent":2417,"available":true},{"number":3,"minRent":603,"maxRent":1740,"available":false},{"number":3,"minRent":630,"maxRent":2621,"available":false},{"number":2,"minRent":658,"maxRent":1850,"available":true},{"number":2,"minRent":797,"maxRent":2581,"available":false}],"desiredCr":660,"pets":false}
-{"name":"Nader LLC","address":{"street1":"275 Del Mar Avenue","zip":"78225","state":"TX","city":"San Antonio"},"contactInfo":{"phone1":"210-595-9119","phone2":"281-426-8383","fax":"915-300-1704","email":"cmacenzy1e@gmpg.org"},"beds":[{"number":2,"minRent":1365,"maxRent":2652,"available":true},{"number":4,"minRent":886,"maxRent":2429,"available":true}],"desiredCr":587,"pets":false}
-{"name":"Simonis Inc","address":{"street1":"32 Eagle Crest Terrace","zip":"77386","state":"TX","city":"Spring"},"contactInfo":{"phone1":"713-408-9224","phone2":"972-114-1139","fax":"210-647-6569","email":"twiersma1f@hostgator.com"},"beds":[{"number":2,"minRent":1300,"maxRent":2424,"available":false},{"number":5,"minRent":920,"maxRent":2940,"available":false}],"desiredCr":683,"pets":true}
-{"name":"Lebsack, Steuber and Effertz","address":{"street1":"7 Oak Plaza","zip":"88574","state":"TX","city":"El Paso"},"contactInfo":{"phone1":"915-436-9584","phone2":"210-746-1791","fax":"682-808-9101","email":"tfairholme1g@netvibes.com"},"beds":[{"number":1,"minRent":1299,"maxRent":1926,"available":true},{"number":1,"minRent":726,"maxRent":2448,"available":true},{"number":2,"minRent":934,"maxRent":2295,"available":false}],"desiredCr":691,"pets":true}
-{"name":"Robel Inc","address":{"street1":"9138 Prairieview Point","zip":"78410","state":"TX","city":"Corpus Christi"},"contactInfo":{"phone1":"361-966-2332","phone2":"915-865-7541","fax":"361-825-4583","email":"rclappson1h@live.com"},"beds":[{"number":4,"minRent":1017,"maxRent":2648,"available":true},{"number":5,"minRent":1216,"maxRent":2003,"available":true},{"number":1,"minRent":1489,"maxRent":1623,"available":false},{"number":5,"minRent":1137,"maxRent":2714,"available":false},{"number":5,"minRent":1130,"maxRent":1469,"available":false}],"desiredCr":582,"pets":false}
-{"name":"Cummerata Group","address":{"street1":"05 Manitowish Alley","zip":"76115","state":"TX","city":"Fort Worth"},"contactInfo":{"phone1":"817-542-0919","phone2":"432-734-9314","fax":"214-661-8822","email":"debbin1i@wired.com"},"beds":[{"number":3,"minRent":880,"maxRent":2086,"available":false},{"number":3,"minRent":1165,"maxRent":1779,"available":false},{"number":4,"minRent":1359,"maxRent":2279,"available":true}],"desiredCr":604,"pets":false}
-{"name":"Orn, Kihn and Bogan","address":{"street1":"680 Randy Pass","zip":"78260","state":"TX","city":"San Antonio"},"contactInfo":{"phone1":"210-112-6020","phone2":"432-583-0319","fax":"817-531-0555","email":"vtouzey1j@disqus.com"},"beds":[{"number":5,"minRent":1214,"maxRent":2566,"available":false}],"desiredCr":687,"pets":false}
-{"name":"Bartoletti, Romaguera and Kuphal","address":{"street1":"173 Roth Avenue","zip":"77025","state":"TX","city":"Houston"},"contactInfo":{"phone1":"281-339-1469","phone2":"915-863-2735","fax":"972-601-1322","email":"sharborow1k@usgs.gov"},"beds":[{"number":1,"minRent":1244,"maxRent":2481,"available":true},{"number":2,"minRent":1245,"maxRent":1839,"available":true}],"desiredCr":575,"pets":false}
-{"name":"Hammes Group","address":{"street1":"1 Wayridge Way","zip":"79764","state":"TX","city":"Odessa"},"contactInfo":{"phone1":"432-713-7937","phone2":"915-330-0928","fax":"915-889-5784","email":"mfroschauer1l@dot.gov"},"beds":[{"number":3,"minRent":922,"maxRent":2176,"available":true},{"number":1,"minRent":1396,"maxRent":1297,"available":false},{"number":3,"minRent":1448,"maxRent":1512,"available":false},{"number":5,"minRent":1069,"maxRent":2290,"available":true},{"number":3,"minRent":909,"maxRent":1152,"available":false}],"desiredCr":675,"pets":true}
-{"name":"Hagenes LLC","address":{"street1":"0492 Anniversary Court","zip":"77343","state":"TX","city":"Huntsville"},"contactInfo":{"phone1":"936-657-7322","phone2":"512-786-9421","fax":"915-237-0723","email":"fwoolis1m@flickr.com"},"beds":[{"number":2,"minRent":643,"maxRent":2026,"available":true},{"number":4,"minRent":665,"maxRent":1510,"available":false},{"number":4,"minRent":1063,"maxRent":1783,"available":true}],"desiredCr":619,"pets":true}
-{"name":"Hackett Inc","address":{"street1":"22528 Oakridge Way","zip":"76115","state":"TX","city":"Fort Worth"},"contactInfo":{"phone1":"682-341-7918","phone2":"915-736-1154","fax":"325-510-6192","email":"meacott1n@usatoday.com"},"beds":[{"number":4,"minRent":1033,"maxRent":1942,"available":true},{"number":4,"minRent":1335,"maxRent":2598,"available":false}],"desiredCr":554,"pets":true}
-{"name":"Ryan-Treutel","address":{"street1":"8181 Helena Trail","zip":"78715","state":"TX","city":"Austin"},"contactInfo":{"phone1":"512-825-2400","phone2":"210-274-4952","fax":"832-886-7357","email":"gterese1o@moonfruit.com"},"beds":[{"number":5,"minRent":847,"maxRent":2303,"available":true},{"number":4,"minRent":1109,"maxRent":2412,"available":false},{"number":1,"minRent":773,"maxRent":1950,"available":true},{"number":2,"minRent":763,"maxRent":2375,"available":true}],"desiredCr":575,"pets":false}
-{"name":"Mills LLC","address":{"street1":"89 Knutson Pass","zip":"79950","state":"TX","city":"El Paso"},"contactInfo":{"phone1":"915-722-0408","phone2":"915-650-5352","fax":"469-573-0019","email":"cnisbith1p@slashdot.org"},"beds":[{"number":1,"minRent":661,"maxRent":2503,"available":true},{"number":1,"minRent":1057,"maxRent":2379,"available":false},{"number":2,"minRent":741,"maxRent":1452,"available":false},{"number":5,"minRent":1015,"maxRent":2521,"available":false},{"number":3,"minRent":667,"maxRent":1065,"available":false}],"desiredCr":650,"pets":true}
-{"name":"Bauch, Fadel and Mayer","address":{"street1":"2 Tony Place","zip":"77276","state":"TX","city":"Houston"},"contactInfo":{"phone1":"713-162-5108","phone2":"817-594-7697","fax":"915-712-8474","email":"gtootell1q@phpbb.com"},"beds":[{"number":4,"minRent":1203,"maxRent":2149,"available":true},{"number":2,"minRent":1122,"maxRent":1736,"available":false},{"number":3,"minRent":626,"maxRent":1775,"available":true}],"desiredCr":615,"pets":true}
-{"name":"Kshlerin-Robel","address":{"street1":"8 Namekagon Street","zip":"77201","state":"TX","city":"Houston"},"contactInfo":{"phone1":"832-248-5327","phone2":"512-687-5896","fax":"432-771-1225","email":"oiannetti1r@weebly.com"},"beds":[{"number":4,"minRent":621,"maxRent":1462,"available":false},{"number":2,"minRent":684,"maxRent":2413,"available":true},{"number":4,"minRent":1424,"maxRent":2101,"available":true},{"number":2,"minRent":1017,"maxRent":2808,"available":true}],"desiredCr":634,"pets":false}
-{"name":"Krajcik-Halvorson","address":{"street1":"476 Anderson Pass","zip":"88553","state":"TX","city":"El Paso"},"contactInfo":{"phone1":"915-313-4600","phone2":"972-612-9116","fax":"979-656-5075","email":"mbeckett1s@angelfire.com"},"beds":[{"number":2,"minRent":755,"maxRent":2207,"available":true},{"number":2,"minRent":802,"maxRent":2833,"available":true}],"desiredCr":574,"pets":false}
-{"name":"Watsica Inc","address":{"street1":"131 Onsgard Junction","zip":"77055","state":"TX","city":"Houston"},"contactInfo":{"phone1":"832-444-3910","phone2":"806-890-6835","fax":"915-544-5615","email":"chetterich1t@delicious.com"},"beds":[{"number":5,"minRent":1041,"maxRent":2657,"available":false},{"number":5,"minRent":1292,"maxRent":1410,"available":false},{"number":2,"minRent":930,"maxRent":1591,"available":false},{"number":2,"minRent":954,"maxRent":1003,"available":false},{"number":5,"minRent":653,"maxRent":2452,"available":true}],"desiredCr":550,"pets":true}
-{"name":"Cruickshank, Lueilwitz and Koelpin","address":{"street1":"45 Huxley Road","zip":"79410","state":"TX","city":"Lubbock"},"contactInfo":{"phone1":"806-256-4716","phone2":"713-189-0161","fax":"713-449-1864","email":"ceverly1u@techcrunch.com"},"beds":[{"number":4,"minRent":1131,"maxRent":2768,"available":false}],"desiredCr":567,"pets":true}
-{"name":"Sauer, Collins and Veum","address":{"street1":"29 Homewood Alley","zip":"77281","state":"TX","city":"Houston"},"contactInfo":{"phone1":"713-116-4913","phone2":"713-501-7114","fax":"361-425-9231","email":"awilflinger1v@free.fr"},"beds":[{"number":3,"minRent":966,"maxRent":1566,"available":true},{"number":4,"minRent":1180,"maxRent":1121,"available":true},{"number":2,"minRent":725,"maxRent":1784,"available":true},{"number":2,"minRent":656,"maxRent":2289,"available":true},{"number":3,"minRent":1427,"maxRent":2248,"available":false}],"desiredCr":587,"pets":false}
-{"name":"Goldner Group","address":{"street1":"10405 Fairview Avenue","zip":"75342","state":"TX","city":"Dallas"},"contactInfo":{"phone1":"469-341-4096","phone2":"281-156-6333","fax":"713-527-5572","email":"mdowzell1w@ucoz.ru"},"beds":[{"number":3,"minRent":1361,"maxRent":2660,"available":true}],"desiredCr":607,"pets":false}
-{"name":"Johnston LLC","address":{"street1":"8 Anthes Crossing","zip":"78415","state":"TX","city":"Corpus Christi"},"contactInfo":{"phone1":"361-749-1503","phone2":"915-436-5357","fax":"713-878-4633","email":"bsheward1x@cnet.com"},"beds":[{"number":1,"minRent":1085,"maxRent":1878,"available":false},{"number":1,"minRent":1482,"maxRent":1974,"available":true},{"number":3,"minRent":657,"maxRent":2717,"available":false},{"number":3,"minRent":1374,"maxRent":1276,"available":false},{"number":3,"minRent":1031,"maxRent":2384,"available":true}],"desiredCr":597,"pets":false}
-{"name":"Yundt, Hilpert and Marquardt","address":{"street1":"9725 Debra Hill","zip":"88546","state":"TX","city":"El Paso"},"contactInfo":{"phone1":"915-677-7907","phone2":"210-127-5675","fax":"817-294-4579","email":"sbreakwell1y@state.gov"},"beds":[{"number":3,"minRent":1138,"maxRent":2815,"available":true},{"number":1,"minRent":1008,"maxRent":2465,"available":false},{"number":2,"minRent":682,"maxRent":1627,"available":true}],"desiredCr":675,"pets":true}
-{"name":"Bernhard, Vandervort and Ebert","address":{"street1":"1 Red Cloud Plaza","zip":"77045","state":"TX","city":"Houston"},"contactInfo":{"phone1":"713-364-2413","phone2":"254-734-0652","fax":"210-429-4828","email":"jkille1z@ihg.com"},"beds":[{"number":4,"minRent":642,"maxRent":1707,"available":false}],"desiredCr":594,"pets":false}
-{"name":"Hansen Inc","address":{"street1":"3 Basil Alley","zip":"79940","state":"TX","city":"El Paso"},"contactInfo":{"phone1":"915-763-8514","phone2":"254-932-1152","fax":"214-783-3397","email":"molman20@symantec.com"},"beds":[{"number":4,"minRent":1087,"maxRent":1397,"available":false},{"number":2,"minRent":751,"maxRent":1221,"available":false},{"number":4,"minRent":1481,"maxRent":2987,"available":false},{"number":5,"minRent":1200,"maxRent":2629,"available":true}],"desiredCr":551,"pets":true}
-{"name":"Wiza-Kling","address":{"street1":"54916 Amoth Lane","zip":"76162","state":"TX","city":"Fort Worth"},"contactInfo":{"phone1":"682-168-5555","phone2":"713-753-7678","fax":"682-926-2473","email":"jhobbert21@vinaora.com"},"beds":[{"number":3,"minRent":615,"maxRent":2925,"available":false},{"number":1,"minRent":817,"maxRent":2365,"available":true},{"number":3,"minRent":652,"maxRent":2201,"available":false},{"number":3,"minRent":1314,"maxRent":1393,"available":true},{"number":2,"minRent":606,"maxRent":2517,"available":true}],"desiredCr":627,"pets":true}
-{"name":"Kulas, Rohan and Baumbach","address":{"street1":"85 Eastwood Parkway","zip":"78764","state":"TX","city":"Austin"},"contactInfo":{"phone1":"512-244-2597","phone2":"512-673-2601","fax":"214-361-5182","email":"tglave22@cocolog-nifty.com"},"beds":[{"number":3,"minRent":960,"maxRent":1022,"available":true},{"number":4,"minRent":952,"maxRent":2741,"available":true},{"number":2,"minRent":1175,"maxRent":1837,"available":true},{"number":1,"minRent":1239,"maxRent":2758,"available":false},{"number":2,"minRent":927,"maxRent":2404,"available":false}],"desiredCr":563,"pets":true}
-{"name":"Farrell, Crona and Batz","address":{"street1":"79701 Nevada Hill","zip":"77240","state":"TX","city":"Houston"},"contactInfo":{"phone1":"713-173-1394","phone2":"512-800-7169","fax":"214-513-5329","email":"gmcgaugie23@a8.net"},"beds":[{"number":5,"minRent":1297,"maxRent":2759,"available":true},{"number":4,"minRent":1225,"maxRent":2921,"available":true},{"number":5,"minRent":1166,"maxRent":1095,"available":true}],"desiredCr":619,"pets":true}
-{"name":"Bahringer-Auer","address":{"street1":"5 Birchwood Avenue","zip":"78715","state":"TX","city":"Austin"},"contactInfo":{"phone1":"512-803-8160","phone2":"713-219-4223","fax":"281-638-1764","email":"jhiddersley24@boston.com"},"beds":[{"number":2,"minRent":1235,"maxRent":1653,"available":true},{"number":5,"minRent":721,"maxRent":1737,"available":true},{"number":2,"minRent":602,"maxRent":2381,"available":false},{"number":2,"minRent":1162,"maxRent":2411,"available":false}],"desiredCr":604,"pets":false}
-{"name":"Bernhard-Hilpert","address":{"street1":"55 Derek Lane","zip":"78783","state":"TX","city":"Austin"},"contactInfo":{"phone1":"512-773-2621","phone2":"512-434-6523","fax":"972-154-7622","email":"ckloisner25@t-online.de"},"beds":[{"number":5,"minRent":867,"maxRent":1652,"available":false},{"number":3,"minRent":1295,"maxRent":2278,"available":true},{"number":2,"minRent":1254,"maxRent":1932,"available":false}],"desiredCr":552,"pets":true}
-{"name":"Rolfson Inc","address":{"street1":"0442 8th Circle","zip":"76162","state":"TX","city":"Fort Worth"},"contactInfo":{"phone1":"682-673-5219","phone2":"915-221-7360","fax":"830-904-5828","email":"selfes26@fc2.com"},"beds":[{"number":4,"minRent":1246,"maxRent":2738,"available":false},{"number":1,"minRent":1462,"maxRent":1702,"available":true},{"number":3,"minRent":1101,"maxRent":2463,"available":true},{"number":3,"minRent":716,"maxRent":2470,"available":false},{"number":3,"minRent":853,"maxRent":2149,"available":false}],"desiredCr":646,"pets":false}
-{"name":"Lemke-Graham","address":{"street1":"286 5th Avenue","zip":"79182","state":"TX","city":"Amarillo"},"contactInfo":{"phone1":"806-722-3964","phone2":"817-684-6493","fax":"832-776-7711","email":"gredborn27@mapquest.com"},"beds":[{"number":4,"minRent":606,"maxRent":2337,"available":true},{"number":1,"minRent":689,"maxRent":1313,"available":false},{"number":1,"minRent":1182,"maxRent":1617,"available":false},{"number":3,"minRent":906,"maxRent":2401,"available":true}],"desiredCr":573,"pets":false}
-{"name":"Ortiz, Herman and Bode","address":{"street1":"77 Weeping Birch Lane","zip":"79955","state":"TX","city":"El Paso"},"contactInfo":{"phone1":"915-495-2592","phone2":"469-484-6174","fax":"713-587-7929","email":"shardie28@ask.com"},"beds":[{"number":4,"minRent":944,"maxRent":2073,"available":true}],"desiredCr":556,"pets":false}
-{"name":"Jenkins-Goyette","address":{"street1":"1095 Charing Cross Trail","zip":"78220","state":"TX","city":"San Antonio"},"contactInfo":{"phone1":"210-525-3444","phone2":"210-697-5786","fax":"469-728-7417","email":"sswash29@mapquest.com"},"beds":[{"number":3,"minRent":1303,"maxRent":1888,"available":false}],"desiredCr":634,"pets":true}
-{"name":"Hoppe, Quitzon and Turcotte","address":{"street1":"24 Anhalt Drive","zip":"88584","state":"TX","city":"El Paso"},"contactInfo":{"phone1":"915-676-1587","phone2":"936-612-1964","fax":"210-380-5300","email":"msaggers2a@cnbc.com"},"beds":[{"number":3,"minRent":1268,"maxRent":2588,"available":true}],"desiredCr":590,"pets":false}
-{"name":"Frami-Abshire","address":{"street1":"33 Holmberg Point","zip":"88584","state":"TX","city":"El Paso"},"contactInfo":{"phone1":"915-350-9690","phone2":"214-233-9065","fax":"713-194-9382","email":"pmacdiarmond2b@state.gov"},"beds":[{"number":4,"minRent":1339,"maxRent":2432,"available":true},{"number":1,"minRent":762,"maxRent":2754,"available":false}],"desiredCr":594,"pets":false}
-{"name":"Rutherford, Pouros and Kub","address":{"street1":"43 Delaware Avenue","zip":"76305","state":"TX","city":"Wichita Falls"},"contactInfo":{"phone1":"940-203-5775","phone2":"817-402-2913","fax":"915-201-7243","email":"ftollerfield2c@apple.com"},"beds":[{"number":1,"minRent":964,"maxRent":2704,"available":false},{"number":5,"minRent":1187,"maxRent":2773,"available":true}],"desiredCr":563,"pets":true}
-{"name":"Fahey, Ziemann and Stiedemann","address":{"street1":"0357 Sherman Place","zip":"76305","state":"TX","city":"Wichita Falls"},"contactInfo":{"phone1":"940-462-7004","phone2":"713-110-4248","fax":"903-731-7714","email":"fgoodrum2d@wikimedia.org"},"beds":[{"number":5,"minRent":1372,"maxRent":1621,"available":false},{"number":5,"minRent":948,"maxRent":2983,"available":true},{"number":2,"minRent":641,"maxRent":2523,"available":true}],"desiredCr":550,"pets":true}
-{"name":"Bradtke, Shanahan and McLaughlin","address":{"street1":"3 Evergreen Terrace","zip":"78044","state":"TX","city":"Laredo"},"contactInfo":{"phone1":"956-246-2481","phone2":"214-667-6070","fax":"361-556-8014","email":"rramelet2e@ft.com"},"beds":[{"number":3,"minRent":772,"maxRent":1845,"available":true},{"number":3,"minRent":791,"maxRent":2279,"available":true},{"number":3,"minRent":1244,"maxRent":2363,"available":false},{"number":1,"minRent":882,"maxRent":2253,"available":false},{"number":4,"minRent":1215,"maxRent":1114,"available":false}],"desiredCr":652,"pets":false}
-{"name":"Kuhlman, Schmidt and Kertzmann","address":{"street1":"2029 Sage Lane","zip":"78721","state":"TX","city":"Austin"},"contactInfo":{"phone1":"512-752-5411","phone2":"940-209-6521","fax":"210-389-4097","email":"tbuxsey2f@stanford.edu"},"beds":[{"number":5,"minRent":811,"maxRent":2969,"available":true}],"desiredCr":648,"pets":true}
-{"name":"Larkin-Farrell","address":{"street1":"6316 Cottonwood Junction","zip":"75062","state":"TX","city":"Irving"},"contactInfo":{"phone1":"214-792-8241","phone2":"210-298-6912","fax":"832-704-5641","email":"eartiss2g@360.cn"},"beds":[{"number":3,"minRent":974,"maxRent":1901,"available":true},{"number":1,"minRent":1121,"maxRent":1231,"available":true}],"desiredCr":553,"pets":true}
-{"name":"Runolfsdottir-Kunde","address":{"street1":"9 High Crossing Terrace","zip":"77065","state":"TX","city":"Houston"},"contactInfo":{"phone1":"832-356-6631","phone2":"214-192-7718","fax":"817-688-3855","email":"ybau2h@nhs.uk"},"beds":[{"number":4,"minRent":1050,"maxRent":2576,"available":false},{"number":3,"minRent":1252,"maxRent":2636,"available":false},{"number":1,"minRent":1133,"maxRent":1173,"available":true},{"number":2,"minRent":1477,"maxRent":2661,"available":false}],"desiredCr":593,"pets":true}
-{"name":"O'Connell-Dickinson","address":{"street1":"441 Clemons Plaza","zip":"79176","state":"TX","city":"Amarillo"},"contactInfo":{"phone1":"806-817-0819","phone2":"281-467-3452","fax":"325-495-6383","email":"gmeininger2i@so-net.ne.jp"},"beds":[{"number":1,"minRent":632,"maxRent":2041,"available":true}],"desiredCr":578,"pets":false}
-{"name":"Ziemann Group","address":{"street1":"9 Northport Street","zip":"75353","state":"TX","city":"Dallas"},"contactInfo":{"phone1":"214-177-6978","phone2":"915-667-4991","fax":"915-619-6872","email":"cmeco2j@github.com"},"beds":[{"number":2,"minRent":950,"maxRent":1521,"available":true},{"number":4,"minRent":639,"maxRent":2396,"available":false},{"number":4,"minRent":686,"maxRent":1364,"available":false},{"number":5,"minRent":916,"maxRent":2224,"available":true},{"number":3,"minRent":978,"maxRent":2820,"available":false}],"desiredCr":600,"pets":false}
-{"name":"Nikolaus, Rau and Cole","address":{"street1":"257 3rd Terrace","zip":"79984","state":"TX","city":"El Paso"},"contactInfo":{"phone1":"915-933-1655","phone2":"817-529-1053","fax":"210-656-8778","email":"jeggle2k@tinypic.com"},"beds":[{"number":1,"minRent":922,"maxRent":1799,"available":false}],"desiredCr":569,"pets":false}
-{"name":"Quitzon LLC","address":{"street1":"4 Monica Road","zip":"77288","state":"TX","city":"Houston"},"contactInfo":{"phone1":"713-774-5236","phone2":"210-119-9179","fax":"682-799-1891","email":"jsiemon2l@independent.co.uk"},"beds":[{"number":5,"minRent":1468,"maxRent":2753,"available":true}],"desiredCr":649,"pets":true}
-{"name":"Goyette Inc","address":{"street1":"71674 Sachtjen Plaza","zip":"79955","state":"TX","city":"El Paso"},"contactInfo":{"phone1":"915-180-7129","phone2":"915-777-4980","fax":"214-405-8864","email":"mambrozewicz2m@marriott.com"},"beds":[{"number":4,"minRent":799,"maxRent":2465,"available":false},{"number":1,"minRent":678,"maxRent":2361,"available":true},{"number":2,"minRent":800,"maxRent":1014,"available":true},{"number":2,"minRent":988,"maxRent":1861,"available":true},{"number":5,"minRent":1453,"maxRent":1845,"available":true}],"desiredCr":593,"pets":true}
-{"name":"Olson and Sons","address":{"street1":"4913 Brickson Park Park","zip":"76705","state":"TX","city":"Waco"},"contactInfo":{"phone1":"254-407-6793","phone2":"832-148-9462","fax":"214-898-9224","email":"hcrenage2n@earthlink.net"},"beds":[{"number":5,"minRent":1077,"maxRent":2479,"available":true}],"desiredCr":641,"pets":true}
-{"name":"Langosh, Kub and Dare","address":{"street1":"2 Morning Circle","zip":"77705","state":"TX","city":"Beaumont"},"contactInfo":{"phone1":"936-913-8235","phone2":"817-687-9848","fax":"214-140-1871","email":"agatheridge2o@biglobe.ne.jp"},"beds":[{"number":5,"minRent":672,"maxRent":1585,"available":false},{"number":2,"minRent":846,"maxRent":1749,"available":false}],"desiredCr":668,"pets":false}
-{"name":"Cremin, Lubowitz and Gleichner","address":{"street1":"6353 Myrtle Lane","zip":"78240","state":"TX","city":"San Antonio"},"contactInfo":{"phone1":"210-422-8146","phone2":"940-419-6999","fax":"915-404-2667","email":"bdeakins2p@oracle.com"},"beds":[{"number":5,"minRent":828,"maxRent":2532,"available":true},{"number":3,"minRent":1303,"maxRent":2094,"available":true}],"desiredCr":619,"pets":false}
-{"name":"Bosco LLC","address":{"street1":"3109 Kim Plaza","zip":"77343","state":"TX","city":"Huntsville"},"contactInfo":{"phone1":"936-716-0364","phone2":"915-597-0008","fax":"214-301-9695","email":"rcolquete2q@unesco.org"},"beds":[{"number":5,"minRent":1461,"maxRent":1555,"available":true},{"number":3,"minRent":1170,"maxRent":1260,"available":true},{"number":4,"minRent":1349,"maxRent":1374,"available":true}],"desiredCr":675,"pets":true}
-{"name":"VonRueden-Koss","address":{"street1":"0 Buhler Avenue","zip":"77260","state":"TX","city":"Houston"},"contactInfo":{"phone1":"713-942-0123","phone2":"936-627-1200","fax":"915-818-1341","email":"dbydaway2r@linkedin.com"},"beds":[{"number":4,"minRent":1238,"maxRent":2864,"available":false},{"number":1,"minRent":1102,"maxRent":1440,"available":false}],"desiredCr":695,"pets":true}
+{
+    "model": "Apartment",
+    "documents": [{
+  "name": "Kuphal-Weber",
+  "address": {
+    "street1": "46 Everett Street",
+    "zip": "77388",
+    "state": "TX",
+    "city": "Spring"
+  },
+  "contactInfo": {
+    "phone1": "281-258-4096",
+    "phone2": "512-141-8168",
+    "fax": "210-281-8156",
+    "email": "bbaraclough0@zimbio.com"
+  },
+  "minimumCR": 625,
+  "pets": false,
+  "units": [
+    "5ad2dd95fc13ae52150001bd",
+    "5ad2dd95fc13ae52150001be",
+    "5ad2dd95fc13ae52150001bf",
+    "5ad2dd95fc13ae52150001c0",
+    "5ad2dd95fc13ae52150001c1"
+  ]
+}, {
+  "name": "Brekke and Sons",
+  "address": {
+    "street1": "52 Thierer Avenue",
+    "zip": "78703",
+    "state": "TX",
+    "city": "Austin"
+  },
+  "contactInfo": {
+    "phone1": "512-613-5204",
+    "phone2": "281-799-8070",
+    "fax": "469-699-2418",
+    "email": "aloveless1@businessweek.com"
+  },
+  "minimumCR": 659,
+  "pets": false,
+  "units": [
+    "5ad2dd95fc13ae52150001c2",
+    "5ad2dd95fc13ae52150001c3",
+    "5ad2dd95fc13ae52150001c4"
+  ]
+}, {
+  "name": "Stiedemann-Grant",
+  "address": {
+    "street1": "4 Cascade Junction",
+    "zip": "75397",
+    "state": "TX",
+    "city": "Dallas"
+  },
+  "contactInfo": {
+    "phone1": "214-785-9700",
+    "phone2": "713-282-2842",
+    "fax": "832-880-5011",
+    "email": "chrishanok2@ocn.ne.jp"
+  },
+  "minimumCR": 694,
+  "pets": true,
+  "units": [
+    "5ad2dd95fc13ae52150001c5",
+    "5ad2dd95fc13ae52150001c6"
+  ]
+}, {
+  "name": "Weissnat-Cormier",
+  "address": {
+    "street1": "3814 Magdeline Way",
+    "zip": "78405",
+    "state": "TX",
+    "city": "Corpus Christi"
+  },
+  "contactInfo": {
+    "phone1": "361-196-5380",
+    "phone2": "682-472-6449",
+    "fax": "214-170-2975",
+    "email": "mpessold3@jiathis.com"
+  },
+  "minimumCR": 553,
+  "pets": true,
+  "units": [
+    "5ad2dd95fc13ae52150001c7",
+    "5ad2dd95fc13ae52150001c8",
+    "5ad2dd95fc13ae52150001c9"
+  ]
+}, {
+  "name": "Carter Group",
+  "address": {
+    "street1": "83325 Farmco Park",
+    "zip": "75287",
+    "state": "TX",
+    "city": "Dallas"
+  },
+  "contactInfo": {
+    "phone1": "972-392-9936",
+    "phone2": "512-366-3938",
+    "fax": "469-980-4720",
+    "email": "rmattam4@google.com"
+  },
+  "minimumCR": 632,
+  "pets": true,
+  "units": [
+    "5ad2dd95fc13ae52150001ca",
+    "5ad2dd95fc13ae52150001cb",
+    "5ad2dd95fc13ae52150001cc",
+    "5ad2dd95fc13ae52150001cd",
+    "5ad2dd95fc13ae52150001ce"
+  ]
+}, {
+  "name": "Morissette-Haag",
+  "address": {
+    "street1": "09 Prairie Rose Terrace",
+    "zip": "77030",
+    "state": "TX",
+    "city": "Houston"
+  },
+  "contactInfo": {
+    "phone1": "713-649-4484",
+    "phone2": "806-666-7605",
+    "fax": "210-898-3292",
+    "email": "csprasen5@istockphoto.com"
+  },
+  "minimumCR": 621,
+  "pets": false,
+  "units": [
+    "5ad2dd95fc13ae52150001cf",
+    "5ad2dd95fc13ae52150001d0",
+    "5ad2dd95fc13ae52150001d1"
+  ]
+}, {
+  "name": "Feeney, Schultz and Runolfsson",
+  "address": {
+    "street1": "88945 Crownhardt Plaza",
+    "zip": "78783",
+    "state": "TX",
+    "city": "Austin"
+  },
+  "contactInfo": {
+    "phone1": "512-636-5127",
+    "phone2": "214-948-2584",
+    "fax": "972-499-2914",
+    "email": "iwarters6@senate.gov"
+  },
+  "minimumCR": 587,
+  "pets": true,
+  "units": [
+    "5ad2dd95fc13ae52150001d2",
+    "5ad2dd95fc13ae52150001d3",
+    "5ad2dd95fc13ae52150001d4",
+    "5ad2dd95fc13ae52150001d5"
+  ]
+}, {
+  "name": "Collins Group",
+  "address": {
+    "street1": "85 Jackson Hill",
+    "zip": "77245",
+    "state": "TX",
+    "city": "Houston"
+  },
+  "contactInfo": {
+    "phone1": "713-769-3962",
+    "phone2": "806-207-3549",
+    "fax": "915-909-1148",
+    "email": "rschimpke7@topsy.com"
+  },
+  "minimumCR": 601,
+  "pets": false,
+  "units": [
+    "5ad2dd95fc13ae52150001d6",
+    "5ad2dd95fc13ae52150001d7",
+    "5ad2dd95fc13ae52150001d8",
+    "5ad2dd95fc13ae52150001d9"
+  ]
+}, {
+  "name": "Howe Inc",
+  "address": {
+    "street1": "787 Annamark Alley",
+    "zip": "79916",
+    "state": "TX",
+    "city": "El Paso"
+  },
+  "contactInfo": {
+    "phone1": "915-436-7904",
+    "phone2": "214-548-6266",
+    "fax": "432-345-2678",
+    "email": "jpedler8@google.it"
+  },
+  "minimumCR": 697,
+  "pets": true,
+  "units": [
+    "5ad2dd95fc13ae52150001da",
+    "5ad2dd95fc13ae52150001db",
+    "5ad2dd95fc13ae52150001dc"
+  ]
+}, {
+  "name": "Tremblay, Batz and Daniel",
+  "address": {
+    "street1": "59 Anthes Center",
+    "zip": "76110",
+    "state": "TX",
+    "city": "Fort Worth"
+  },
+  "contactInfo": {
+    "phone1": "817-438-7299",
+    "phone2": "972-773-2843",
+    "fax": "254-806-9706",
+    "email": "gworham9@rambler.ru"
+  },
+  "minimumCR": 591,
+  "pets": true,
+  "units": [
+    "5ad2dd95fc13ae52150001dd",
+    "5ad2dd95fc13ae52150001de",
+    "5ad2dd95fc13ae52150001df"
+  ]
+}, {
+  "name": "MacGyver, Zulauf and King",
+  "address": {
+    "street1": "97528 Rowland Pass",
+    "zip": "77085",
+    "state": "TX",
+    "city": "Houston"
+  },
+  "contactInfo": {
+    "phone1": "281-946-7475",
+    "phone2": "469-981-8375",
+    "fax": "713-975-6053",
+    "email": "ehaylandsa@privacy.gov.au"
+  },
+  "minimumCR": 592,
+  "pets": true,
+  "units": [
+    "5ad2dd95fc13ae52150001e0",
+    "5ad2dd95fc13ae52150001e1",
+    "5ad2dd95fc13ae52150001e2",
+    "5ad2dd95fc13ae52150001e3",
+    "5ad2dd95fc13ae52150001e4"
+  ]
+}, {
+  "name": "Rutherford Inc",
+  "address": {
+    "street1": "73 Nelson Pass",
+    "zip": "76004",
+    "state": "TX",
+    "city": "Arlington"
+  },
+  "contactInfo": {
+    "phone1": "817-865-3981",
+    "phone2": "915-162-8416",
+    "fax": "214-499-7498",
+    "email": "dsalvageb@elegantthemes.com"
+  },
+  "minimumCR": 602,
+  "pets": true,
+  "units": [
+    "5ad2dd95fc13ae52150001e5",
+    "5ad2dd95fc13ae52150001e6",
+    "5ad2dd95fc13ae52150001e7",
+    "5ad2dd95fc13ae52150001e8",
+    "5ad2dd95fc13ae52150001e9"
+  ]
+}, {
+  "name": "Kutch-Paucek",
+  "address": {
+    "street1": "44588 Linden Way",
+    "zip": "76711",
+    "state": "TX",
+    "city": "Waco"
+  },
+  "contactInfo": {
+    "phone1": "254-493-5998",
+    "phone2": "432-165-1104",
+    "fax": "915-427-0426",
+    "email": "abrunnerc@gizmodo.com"
+  },
+  "minimumCR": 597,
+  "pets": false,
+  "units": [
+    "5ad2dd95fc13ae52150001ea",
+    "5ad2dd95fc13ae52150001eb"
+  ]
+}, {
+  "name": "Sporer LLC",
+  "address": {
+    "street1": "79061 Ludington Way",
+    "zip": "75246",
+    "state": "TX",
+    "city": "Dallas"
+  },
+  "contactInfo": {
+    "phone1": "972-264-5698",
+    "phone2": "832-594-5498",
+    "fax": "903-974-6837",
+    "email": "mcoomberd@npr.org"
+  },
+  "minimumCR": 627,
+  "pets": true,
+  "units": [
+    "5ad2dd95fc13ae52150001ec",
+    "5ad2dd95fc13ae52150001ed",
+    "5ad2dd95fc13ae52150001ee"
+  ]
+}, {
+  "name": "Romaguera-Hauck",
+  "address": {
+    "street1": "6 Maple Plaza",
+    "zip": "76016",
+    "state": "TX",
+    "city": "Arlington"
+  },
+  "contactInfo": {
+    "phone1": "817-474-5420",
+    "phone2": "214-261-9037",
+    "fax": "915-395-6287",
+    "email": "lrawsthorne@biglobe.ne.jp"
+  },
+  "minimumCR": 652,
+  "pets": true,
+  "units": [
+    "5ad2dd95fc13ae52150001ef",
+    "5ad2dd95fc13ae52150001f0"
+  ]
+}, {
+  "name": "Zemlak-Kuvalis",
+  "address": {
+    "street1": "937 Lighthouse Bay Court",
+    "zip": "78210",
+    "state": "TX",
+    "city": "San Antonio"
+  },
+  "contactInfo": {
+    "phone1": "210-893-6586",
+    "phone2": "713-747-3069",
+    "fax": "915-216-3076",
+    "email": "glightbownf@oakley.com"
+  },
+  "minimumCR": 657,
+  "pets": false,
+  "units": [
+    "5ad2dd95fc13ae52150001f1",
+    "5ad2dd95fc13ae52150001f2",
+    "5ad2dd95fc13ae52150001f3",
+    "5ad2dd95fc13ae52150001f4"
+  ]
+}, {
+  "name": "Lubowitz, Grimes and Zemlak",
+  "address": {
+    "street1": "9 Arapahoe Plaza",
+    "zip": "75210",
+    "state": "TX",
+    "city": "Dallas"
+  },
+  "contactInfo": {
+    "phone1": "972-622-8697",
+    "phone2": "915-884-1633",
+    "fax": "806-737-8059",
+    "email": "nludeeg@hexun.com"
+  },
+  "minimumCR": 670,
+  "pets": false,
+  "units": [
+    "5ad2dd95fc13ae52150001f5",
+    "5ad2dd95fc13ae52150001f6",
+    "5ad2dd95fc13ae52150001f7",
+    "5ad2dd95fc13ae52150001f8"
+  ]
+}, {
+  "name": "Pollich, Adams and Swaniawski",
+  "address": {
+    "street1": "185 Dixon Road",
+    "zip": "78205",
+    "state": "TX",
+    "city": "San Antonio"
+  },
+  "contactInfo": {
+    "phone1": "210-934-4872",
+    "phone2": "915-654-7278",
+    "fax": "214-175-8548",
+    "email": "sdandyh@icio.us"
+  },
+  "minimumCR": 697,
+  "pets": false,
+  "units": [
+    "5ad2dd95fc13ae52150001f9",
+    "5ad2dd95fc13ae52150001fa",
+    "5ad2dd95fc13ae52150001fb",
+    "5ad2dd95fc13ae52150001fc",
+    "5ad2dd95fc13ae52150001fd"
+  ]
+}, {
+  "name": "Rosenbaum and Sons",
+  "address": {
+    "street1": "30 Daystar Junction",
+    "zip": "78255",
+    "state": "TX",
+    "city": "San Antonio"
+  },
+  "contactInfo": {
+    "phone1": "210-323-9709",
+    "phone2": "214-347-2885",
+    "fax": "281-594-8437",
+    "email": "cmoorrudi@google.com.br"
+  },
+  "minimumCR": 551,
+  "pets": false,
+  "units": [
+    "5ad2dd95fc13ae52150001fe",
+    "5ad2dd95fc13ae52150001ff",
+    "5ad2dd95fc13ae5215000200"
+  ]
+}, {
+  "name": "Keeling, Heathcote and Ledner",
+  "address": {
+    "street1": "176 Merrick Parkway",
+    "zip": "77554",
+    "state": "TX",
+    "city": "Galveston"
+  },
+  "contactInfo": {
+    "phone1": "409-795-2584",
+    "phone2": "281-341-9537",
+    "fax": "325-529-5438",
+    "email": "akleingrubj@goo.ne.jp"
+  },
+  "minimumCR": 594,
+  "pets": true,
+  "units": [
+    "5ad2dd95fc13ae5215000201",
+    "5ad2dd95fc13ae5215000202"
+  ]
+}, {
+  "name": "Brekke-Barrows",
+  "address": {
+    "street1": "2 Duke Pass",
+    "zip": "79182",
+    "state": "TX",
+    "city": "Amarillo"
+  },
+  "contactInfo": {
+    "phone1": "806-103-4476",
+    "phone2": "713-233-6184",
+    "fax": "713-735-7377",
+    "email": "kgrimsellk@adobe.com"
+  },
+  "minimumCR": 599,
+  "pets": false,
+  "units": [
+    "5ad2dd95fc13ae5215000203",
+    "5ad2dd95fc13ae5215000204"
+  ]
+}, {
+  "name": "Walter and Sons",
+  "address": {
+    "street1": "1435 Redwing Plaza",
+    "zip": "77015",
+    "state": "TX",
+    "city": "Houston"
+  },
+  "contactInfo": {
+    "phone1": "832-228-1795",
+    "phone2": "325-195-1571",
+    "fax": "915-428-1571",
+    "email": "awindersl@craigslist.org"
+  },
+  "minimumCR": 557,
+  "pets": false,
+  "units": [
+    "5ad2dd95fc13ae5215000205",
+    "5ad2dd95fc13ae5215000206",
+    "5ad2dd95fc13ae5215000207",
+    "5ad2dd95fc13ae5215000208",
+    "5ad2dd95fc13ae5215000209"
+  ]
+}, {
+  "name": "Huel Inc",
+  "address": {
+    "street1": "0 Nancy Trail",
+    "zip": "88519",
+    "state": "TX",
+    "city": "El Paso"
+  },
+  "contactInfo": {
+    "phone1": "915-274-7758",
+    "phone2": "254-284-4617",
+    "fax": "361-800-1284",
+    "email": "ghaeslierm@spotify.com"
+  },
+  "minimumCR": 632,
+  "pets": false,
+  "units": [
+    "5ad2dd95fc13ae521500020a",
+    "5ad2dd95fc13ae521500020b",
+    "5ad2dd95fc13ae521500020c",
+    "5ad2dd95fc13ae521500020d"
+  ]
+}, {
+  "name": "Reilly, Hilpert and Ledner",
+  "address": {
+    "street1": "30 Dawn Road",
+    "zip": "79405",
+    "state": "TX",
+    "city": "Lubbock"
+  },
+  "contactInfo": {
+    "phone1": "806-589-5602",
+    "phone2": "979-701-1678",
+    "fax": "915-875-3133",
+    "email": "rdissmann@weather.com"
+  },
+  "minimumCR": 644,
+  "pets": true,
+  "units": [
+    "5ad2dd95fc13ae521500020e",
+    "5ad2dd95fc13ae521500020f",
+    "5ad2dd95fc13ae5215000210",
+    "5ad2dd95fc13ae5215000211",
+    "5ad2dd95fc13ae5215000212"
+  ]
+}, {
+  "name": "Weber, Mayert and Considine",
+  "address": {
+    "street1": "42381 Mayer Lane",
+    "zip": "79955",
+    "state": "TX",
+    "city": "El Paso"
+  },
+  "contactInfo": {
+    "phone1": "915-267-2314",
+    "phone2": "325-267-1258",
+    "fax": "214-427-7041",
+    "email": "cgirhardo@1688.com"
+  },
+  "minimumCR": 607,
+  "pets": true,
+  "units": [
+    "5ad2dd95fc13ae5215000213",
+    "5ad2dd95fc13ae5215000214",
+    "5ad2dd95fc13ae5215000215",
+    "5ad2dd95fc13ae5215000216"
+  ]
+}, {
+  "name": "Brown, Orn and Hamill",
+  "address": {
+    "street1": "7 2nd Way",
+    "zip": "77015",
+    "state": "TX",
+    "city": "Houston"
+  },
+  "contactInfo": {
+    "phone1": "713-419-9539",
+    "phone2": "713-135-0988",
+    "fax": "361-271-5837",
+    "email": "emcknishp@weibo.com"
+  },
+  "minimumCR": 614,
+  "pets": false,
+  "units": [
+    "5ad2dd95fc13ae5215000217",
+    "5ad2dd95fc13ae5215000218",
+    "5ad2dd95fc13ae5215000219",
+    "5ad2dd95fc13ae521500021a"
+  ]
+}, {
+  "name": "Olson, Feest and Hauck",
+  "address": {
+    "street1": "94773 Basil Crossing",
+    "zip": "79699",
+    "state": "TX",
+    "city": "Abilene"
+  },
+  "contactInfo": {
+    "phone1": "325-451-5977",
+    "phone2": "512-568-3617",
+    "fax": "915-616-6149",
+    "email": "swesgateq@npr.org"
+  },
+  "minimumCR": 615,
+  "pets": true,
+  "units": [
+    "5ad2dd95fc13ae521500021b",
+    "5ad2dd95fc13ae521500021c"
+  ]
+}, {
+  "name": "Schmidt, Schumm and Lueilwitz",
+  "address": {
+    "street1": "7 Westend Point",
+    "zip": "88584",
+    "state": "TX",
+    "city": "El Paso"
+  },
+  "contactInfo": {
+    "phone1": "915-153-1892",
+    "phone2": "281-471-7860",
+    "fax": "325-830-7251",
+    "email": "kchmielr@facebook.com"
+  },
+  "minimumCR": 623,
+  "pets": true,
+  "units": [
+    "5ad2dd95fc13ae521500021d",
+    "5ad2dd95fc13ae521500021e",
+    "5ad2dd96fc13ae521500021f",
+    "5ad2dd96fc13ae5215000220"
+  ]
+}]
+}

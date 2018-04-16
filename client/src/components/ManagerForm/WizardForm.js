@@ -40,6 +40,7 @@ class WizardForm extends Component {
       <div className="form-style">
         {this.state.page === 1 && <WizardFormFirstPage addRoom={() => this.addRoom} rooms={this.state.rooms} onSubmit={this.nextPage} />}
         {this.state.page === 2 &&
+
           <WizardFormSecondPage
             previousPage={this.previousPage}
             onSubmit={onSubmit}
