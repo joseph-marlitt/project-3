@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import "./Home.css"
 
 const Home = () => (
-  <div className="homeContainer">
+  <div className="container">
     <div className="buttonContainer">
       <a
         className="homeButton"

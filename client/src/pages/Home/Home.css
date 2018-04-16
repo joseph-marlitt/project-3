@@ -19,8 +19,9 @@
     cursor: pointer;
 }
 .buttonContainer{
-    display: flex;
-    align-items: center;
+  text-align: center;
+    /* display: flex;
+    align-items: center; */
 }
 .homeContainer{
     display: block;
@@ -30,4 +31,8 @@
 }
 .logInHome{
     font-size: 12px
+}
+
+p {
+  padding-top: 20px;
 }

@@ -1,6 +1,6 @@
 .wrapper {
-  display: flex;
-  flex-flow: flex;
+  /* display: flex;
+  flex-flow: flex; */
   position: absolute;
   padding-top: 50px;
   background-image: url("./background3.jpg");
@@ -8,7 +8,7 @@
   height: 100%;
   height: -moz-available;
   padding: 20px;
-  justify-content: space-around;
+  justify-content: space-between;
   overflow: auto;
   background-size: cover;
   background-repeat: no-repeat;
