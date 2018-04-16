@@ -8,7 +8,8 @@ const PORT = process.env.PORT || 3001;
 // uncomment this line to seed DB, must be commented out to post
   // const seeder = require('./seeds/seeder.js');
 
-
+  // connect to the database and load models
+require('./models').connect(config.dbUri);
 
 // Configure body parser for AJAX requests
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -32,19 +33,12 @@ app.use('/api', authCheckMiddleware);
 
 // Add routes, both API and view
 const authRoutes = require('./routes/auth');
-const apiRoutes = require('./routes/api');
-app.use('/auth', authRoutes);
-app.use('/api', apiRoutes);
+// const apiRoutes = require('./routes/api');
+// app.use('/auth', authRoutes);
+// app.use('/api', apiRoutes);
 app.use('/api', require('./routes')());
 
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/Roost")
-  .then(() => {
-    console.log('connected')
-  },
-  err => {
-    console.log(err)
-  });
 
 // Start the API server
 app.listen(PORT, function() {

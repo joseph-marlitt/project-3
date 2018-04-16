@@ -12,7 +12,6 @@ import renter from './renter.json'
 
 
 class RenterDashboard extends React.Component {
-
   /**
    * Class constructor.
    */
@@ -115,9 +114,12 @@ class RenterDashboard extends React.Component {
                       </div>
                     )
                   }, this )}
-                  <div>
-                  <button type='submit' onClick={this.showApartments}>Show Apartments!</button>
-                  </div>
+
+                </div>
+                <div>
+
+                <button type='submit' onClick={this.showApartments}>Show Apartments!</button>
+            
                 </div>
               </div>
               )
