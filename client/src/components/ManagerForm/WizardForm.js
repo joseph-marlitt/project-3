@@ -51,7 +51,7 @@ class WizardForm extends Component {
 }
 
 WizardForm.propTypes = {
-  //onSubmit: PropTypes.func.isRequired,
+  onSubmit: PropTypes.func.isRequired,
 };
 
 export default WizardForm;

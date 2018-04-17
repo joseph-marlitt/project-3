@@ -27,8 +27,7 @@ class WizardForm extends Component {
     return (
       <div className="form-style">
         {page === 1 && <WizardFormFirstPage onSubmit={
-          onSubmit
-          // this.nextPage
+          this.nextPage
         }/>}
         {page === 2 &&
           <WizardFormSecondPage
