@@ -85,26 +85,47 @@ class App extends Component {
           <div>
             <div className='top-bar'>
               <div className='top-bar-left'>
-                <Link to='/'>Roost</Link>
+                <Link className="navButton" to='/'>Roost</Link>
               </div>
               <div className='roostIcon'>
                 <Link to='/'><img className='roostImage' src={logo} alt={'logo'}/></Link>
               </div>
                 {this.state.authenticated ? (
                   <div className='top-bar-right'>
-                  <Link to="/dashboard">Dashboard</Link>
-                  <Link to='/userform'>New Form</Link>
-                  <Link to='/about'>About Us</Link>
-                  <Link to='/learn'>Learn More</Link>
-                  <Link to='/logout'>Log Out</Link>
+                    <ul className="listNav">
+                      <li><Link className="navButton" to="/dashboard">Dashboard</Link></li>
+                      <li><Link className="navButton" to='/userform'>New Form</Link></li>
+                      <li><Link className="navButton" to='/about'>About Us</Link></li>
+                      <li><Link className="navButton" to='/learn'>Learn More</Link></li>
+                      <li><Link className="navButton" to='/logout'>Log Out</Link></li>
+                    </ul>
+                  <div className="select-style">
+                    <select className="selectNav">
+                      <option><Link className="navButton" to="/dashboard">Dashboard</Link></option>
+                      <option><Link className="navButton" to='/userform'>New Form</Link></option>
+                      <option><Link className="navButton" to='/about'>About Us</Link></option>
+                      <option><Link className="navButton" to='/learn'>Learn More</Link></option>
+                      <option><Link className="navButton" to='/logout'>Log Out</Link></option>
+                    </select>
                   </div>
+                </div>
+
                 ) : (
                   <div className='top-bar-right'>
-                  <Link to="/login">Log in</Link>
-                  <Link to="/signup">Sign up</Link>
-                  <Link to='/userform'>New Form</Link>
-                  <Link to='/about'>About Us</Link>
-                  <Link to='/learn'>Learn More</Link>
+                    <Link className="navButton" to="/login">Log in</Link>
+                    <Link className="navButton" to="/signup">Sign up</Link>
+                    <Link className="navButton" to='/userform'>New Form</Link>
+                    <Link className="navButton" to='/about'>About Us</Link>
+                    <Link className="navButton" to='/learn'>Learn More</Link>
+                    <div className="select-style" >
+                      <select className="selectNav">
+                        <option><Link className="navButton" to="/login">Log in</Link></option>
+                        <option><Link className="navButton" to="/signup">Sign up</Link></option>
+                        <option><Link className="navButton" to='/userform'>New Form</Link></option>
+                        <option><Link className="navButton" to='/about'>About Us</Link></option>
+                        <option><Link className="navButton" to='/learn'>Learn More</Link></option> 
+                      </select>
+                    </div>
                   </div>
                 )}
               </div>
