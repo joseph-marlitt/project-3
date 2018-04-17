@@ -46,6 +46,7 @@ class RenterDashboard extends React.Component {
     xhr.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
     // set the authorization HTTP header
     xhr.setRequestHeader('Authorization', `bearer ${Auth.getToken()}`);
+    console.log(Auth.getToken())
     xhr.responseType = 'json';
     xhr.addEventListener('load', () => {
       if (xhr.status === 200) {
@@ -119,7 +120,7 @@ class RenterDashboard extends React.Component {
                 <div>
 
                 <button type='submit' onClick={this.showApartments}>Show Apartments!</button>
-            
+
                 </div>
               </div>
               )

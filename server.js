@@ -33,12 +33,10 @@ app.use('/api', authCheckMiddleware);
 
 // Add routes, both API and view
 const authRoutes = require('./routes/auth');
-// const apiRoutes = require('./routes/api');
-// app.use('/auth', authRoutes);
-// app.use('/api', apiRoutes);
+const apiRoutes = require('./routes/api');
+app.use('/auth', authRoutes);
+app.use('/api', apiRoutes);
 app.use('/api', require('./routes')());
-
-
 
 // Start the API server
 app.listen(PORT, function() {

@@ -1,10 +1,14 @@
 import axios from "axios";
+import Auth from '../modules/Auth';
 
 export default {
   // Gets all apartments matching conditions
   getApartments: function(conditions) {
     console.log(conditions)
     return axios.get("/api/apartments/", {
+      headers: {
+   Authorization: 'Bearer ' + Auth.getToken() //the token is a variable which holds the token
+    },
       params: {
         pets: conditions.pets,
         beds: conditions.beds,
@@ -42,5 +46,8 @@ export default {
   saveRenter: function(renterInfo) {
     console.log(renterInfo)
     return axios.post("/api/renters", renterInfo);
+  },
+  logOut: function() {
+    return axios.get("/logout")
   }
 };

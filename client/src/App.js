@@ -34,7 +34,7 @@ const PrivateRoute = ({ component: Component, ...rest }) => (
 )
 
 const LoggedOutRoute = ({ component: Component, ...rest }) => (
-  <Route {...rest} render={props => (
+  <Route {...rest} render={props =>  (
     Auth.isUserAuthenticated() ? (
       <Redirect to={{
         pathname: '/',
@@ -65,7 +65,15 @@ class App extends Component {
     this.toggleAuthenticateStatus()
   }
 
+  logOut() {
+    console.log("logging out");
+    Auth.deauthenticateUser();
+
+    this.toggleAuthenticateStatus();
+  }
+
   toggleAuthenticateStatus() {
+    console.log(this.state.authenticated)
     this.setState({ authenticated: Auth.isUserAuthenticated()})
   }
 // current Dashboard path is for Renters only - Managers Dashboard to be added
@@ -102,11 +110,12 @@ class App extends Component {
               </div>
 
             <PropsRoute exact path="/" component={Home} toggleAuthenticateStatus={() => this.toggleAuthenticateStatus()} />
-            <Route path='/dashboard' component={RenterDashboard}/>
+            <PrivateRoute path='/dashboard' component={RenterDashboard}/>
             <LoggedOutRoute path='/login' component={LoginPage}
             toggleAuthenticateStatus={() => this.toggleAuthenticateStatus()} />
             <LoggedOutRoute path='/signup' component={SignUpPage}/>
-            <Route path='logout' component={LogoutFunction}/>
+            <Route path='/logout' component={() =>        <LogoutFunction logOut={this.logOut()}/>
+            }/>
             <Route exact path="/userform" component={UserForm} />
             <Route exact path="/managerform" component={ManagerForm} />
           </div>
