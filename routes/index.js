@@ -3,7 +3,7 @@ var router = require('express').Router();
 module.exports = function() {
   router.use('/renters', require('../renters/route'));
   router.use('/apartments', require('../apartments/route'));
-  router.use('/users', require('../users/route'));
+  // router.use('/users', require('../users/route'));
 
   // Make sure this is after all of
   // the registered routes!
