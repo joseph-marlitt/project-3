@@ -44,6 +44,7 @@ userSchema.pre('save', function saveHook(next) {
       return next();
     });
   });
+
 });
 
 const User = mongoose.model('User', userSchema);
