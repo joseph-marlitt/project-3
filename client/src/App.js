@@ -57,6 +57,7 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
+      isTop: false,
       authenticated: false
     }
   };
@@ -85,10 +86,10 @@ class App extends Component {
           <div>
             <div className='top-bar'>
               <div className='top-bar-left'>
-                <Link className="navButton" to='/'>Roost</Link>
+                <Link className="navButton" id="roostTitle" to='/'>Roost</Link>
               </div>
               <div className='roostIcon'>
-                <Link to='/'><img className='roostImage' src={logo} alt={'logo'}/></Link>
+                <img className='roostImage' src={logo} alt={'logo'}/>
               </div>
                 {this.state.authenticated ? (
                   <div className='top-bar-right'>
@@ -112,11 +113,13 @@ class App extends Component {
 
                 ) : (
                   <div className='top-bar-right'>
-                    <Link className="navButton" to="/login">Log in</Link>
-                    <Link className="navButton" to="/signup">Sign up</Link>
-                    <Link className="navButton" to='/userform'>New Form</Link>
-                    <Link className="navButton" to='/about'>About Us</Link>
-                    <Link className="navButton" to='/learn'>Learn More</Link>
+                    <ul className="listNav">
+                    <li><Link className="navButton" to="/login">Log in</Link></li>
+                    <li><Link className="navButton" to="/signup">Sign up</Link></li>
+                    <li><Link className="navButton" to='/userform'>New Form</Link></li>
+                    <li><Link className="navButton" to='/about'>About Us</Link></li>
+                    <li><Link className="navButton" to='/learn'>Learn More</Link></li>
+                    </ul>
                     <div className="select-style" >
                       <select className="selectNav">
                         <option><Link className="navButton" to="/login">Log in</Link></option>
@@ -130,7 +133,7 @@ class App extends Component {
                 )}
               </div>
 
-            <PropsRoute exact path="/" component={Home} toggleAuthenticateStatus={() => this.toggleAuthenticateStatus()} />
+            <PropsRoute exact path="/" component={LoginPage} toggleAuthenticateStatus={() => this.toggleAuthenticateStatus()} />
             <PrivateRoute path='/dashboard' component={RenterDashboard}/>
             <LoggedOutRoute path='/login' component={LoginPage}
             toggleAuthenticateStatus={() => this.toggleAuthenticateStatus()} />

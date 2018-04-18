@@ -55,9 +55,9 @@ a:hover {
 }
 
 .container {
-  margin: 0 auto;
+  margin: 200px auto;
   text-align: center;
-  width: 700px;
+  width: 400px;
 }
 
 .card-heading {
@@ -79,6 +79,7 @@ a:hover {
 }
 .select-style{
   display: none;
+  font-size: 20px;
 }
 
 @media only screen and (max-width: 980px) {
@@ -90,11 +91,11 @@ a:hover {
     }
 }
 
-@media only screen and (max-width: 575px) {
+@media only screen and (max-width: 668px) {
   .top-bar-right .listNav {
     display: none;
   }
   .top-bar-right .select-style{
-    display: flex
+    display: flex;
   }
 }
