@@ -66,10 +66,10 @@ class App extends Component {
     this.toggleAuthenticateStatus()
   }
 
+
   logOut() {
     console.log("logging out");
     Auth.deauthenticateUser();
-
     this.toggleAuthenticateStatus();
   }
 
@@ -77,6 +77,7 @@ class App extends Component {
     console.log(this.state.authenticated)
     this.setState({ authenticated: Auth.isUserAuthenticated()})
   }
+
 // current Dashboard path is for Renters only - Managers Dashboard to be added
   render() {
     return (
@@ -126,7 +127,7 @@ class App extends Component {
                         <option><Link className="navButton" to="/signup">Sign up</Link></option>
                         <option><Link className="navButton" to='/userform'>New Form</Link></option>
                         <option><Link className="navButton" to='/about'>About Us</Link></option>
-                        <option><Link className="navButton" to='/learn'>Learn More</Link></option> 
+                        <option><Link className="navButton" to='/learn'>Learn More</Link></option>
                       </select>
                     </div>
                   </div>

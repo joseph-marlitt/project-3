@@ -4,13 +4,23 @@ import { Link } from 'react-router-dom';
 import { Card, CardText } from 'material-ui/Card';
 import RaisedButton from 'material-ui/RaisedButton';
 import TextField from 'material-ui/TextField';
+import {RadioButton, RadioButtonGroup} from 'material-ui/RadioButton';
 
+const styles = {
+  block: {
+    maxWidth: 250,
+  },
+  radioButton: {
+    marginBottom: 16,
+  },
+};
 
 const SignUpForm = ({
   onSubmit,
   onChange,
   errors,
   user,
+  radio
 }) => (
   <Card className="container">
     <form action="/" onSubmit={onSubmit}>
@@ -47,6 +57,29 @@ const SignUpForm = ({
           errorText={errors.password}
           value={user.password}
         />
+      </div>
+      <div className="field-line">
+        I am a...
+        <form>
+         <div className="radio">
+           <label>
+             <input
+               type="radio"
+               value="Renter"
+               checked={user.type === 'Renter'}
+               onChange={radio}
+                />
+             Renter
+           </label>
+         </div>
+         <div className="radio">
+           <label>
+             <input type="radio" value="Manager" checked={user.type === 'Manager'} onChange={radio} />
+             Manager
+           </label>
+         </div>
+        </form>
+
       </div>
 
       <div className="button-line">

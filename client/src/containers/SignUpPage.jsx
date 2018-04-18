@@ -17,12 +17,14 @@ class SignUpPage extends React.Component {
       user: {
         email: '',
         name: '',
-        password: ''
+        password: '',
+        type: 'Renter'
       }
     };
 
     this.processForm = this.processForm.bind(this);
     this.changeUser = this.changeUser.bind(this);
+    this.handleOptionChange = this.handleOptionChange.bind(this);
   }
 
   /**
@@ -38,7 +40,8 @@ class SignUpPage extends React.Component {
     const name = encodeURIComponent(this.state.user.name);
     const email = encodeURIComponent(this.state.user.email);
     const password = encodeURIComponent(this.state.user.password);
-    const formData = `name=${name}&email=${email}&password=${password}`;
+    const type = encodeURIComponent(this.state.user.type);
+    const formData = `name=${name}&email=${email}&password=${password}&type=${type}`;
 
     // create an AJAX request
     const xhr = new XMLHttpRequest();
@@ -70,6 +73,7 @@ class SignUpPage extends React.Component {
         });
       }
     });
+    console.log(formData)
     xhr.send(formData);
   }
 
@@ -88,6 +92,14 @@ class SignUpPage extends React.Component {
     });
   }
 
+  handleOptionChange(changeEvent) {
+    console.log('hit')
+    console.log(changeEvent.target.value)
+    console.log(this.state)
+    let user = {...this.state.user};
+    user.type = changeEvent.target.value;
+    this.setState({user})
+  }
   /**
    * Render the component.
    */
@@ -98,6 +110,7 @@ class SignUpPage extends React.Component {
         onChange={this.changeUser}
         errors={this.state.errors}
         user={this.state.user}
+        radio={this.handleOptionChange}
       />
     );
   }
