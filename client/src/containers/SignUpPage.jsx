@@ -18,7 +18,7 @@ class SignUpPage extends React.Component {
         email: '',
         name: '',
         password: '',
-        type: 'Renter'
+        type: ''
       }
     };
 
