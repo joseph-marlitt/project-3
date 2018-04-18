@@ -66,10 +66,10 @@ class App extends Component {
     this.toggleAuthenticateStatus()
   }
 
+
   logOut() {
     console.log("logging out");
     Auth.deauthenticateUser();
-
     this.toggleAuthenticateStatus();
   }
 
@@ -77,6 +77,7 @@ class App extends Component {
     console.log(this.state.authenticated)
     this.setState({ authenticated: Auth.isUserAuthenticated()})
   }
+
 // current Dashboard path is for Renters only - Managers Dashboard to be added
   render() {
     return (

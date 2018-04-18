@@ -8,7 +8,8 @@ const userSchema = new Schema({
     index: { unique: true }
   },
   password: String,
-  name: String
+  name: String,
+  type: String
 });
 
 /**
