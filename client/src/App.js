@@ -123,7 +123,7 @@ class App extends Component {
                         <option><Link className="navButton" to="/signup">Sign up</Link></option>
                         <option><Link className="navButton" to='/userform'>New Form</Link></option>
                         <option><Link className="navButton" to='/about'>About Us</Link></option>
-                        <option><Link className="navButton" to='/learn'>Learn More</Link></option> 
+                        <option><Link className="navButton" to='/learn'>Learn More</Link></option>
                       </select>
                     </div>
                   </div>
