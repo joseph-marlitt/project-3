@@ -64,6 +64,11 @@ function validateLoginForm(payload) {
     errors.password = 'Please provide your password.';
   }
 
+  // if (!payload || typeof payload.type !== 'string' || payload.type.trim().length === 0) {
+  //   isFormValid = false;
+  //   errors.type = 'Please select Account Type.';
+  // }
+
   if (!isFormValid) {
     message = 'Check the form for errors.';
   }
@@ -76,7 +81,6 @@ function validateLoginForm(payload) {
 }
 
 router.post('/signup', (req, res, next) => {
-  console.log(req.body);
   const validationResult = validateSignupForm(req.body);
   if (!validationResult.success) {
     return res.status(400).json({
@@ -107,12 +111,12 @@ router.post('/signup', (req, res, next) => {
         message: 'Could not process the form.'
       });
     }
-
     return res.status(200).json({
       success: true,
       message: 'You have successfully signed up! Now you should be able to log in.'
     });
   })(req, res, next);
+
 });
 
 router.post('/login', (req, res, next) => {

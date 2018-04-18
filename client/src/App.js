@@ -58,14 +58,19 @@ class App extends Component {
     super(props);
     this.state = {
       isTop: false,
-      authenticated: false
+      authenticated: false,
+      userType: ''
     }
   };
 
   componentDidMount() {
-    this.toggleAuthenticateStatus()
+    this.toggleAuthenticateStatus();
+    this.getUserType();
   }
 
+  getUserType() {
+
+  }
 
   logOut() {
     console.log("logging out");
