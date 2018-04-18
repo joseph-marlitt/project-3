@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import "./Home.css"
 
 const Home = () => (
-  <div className="container">
+  <div className="homeContainer">
     <div className="buttonContainer">
       <a
         className="homeButton"
@@ -20,7 +20,6 @@ const Home = () => (
         Managers
         </a>
       </div>
-      <p className= "logInHome">Already filled out a form? Log in <Link to="/"> Here</Link></p>
     </div>
   )
 

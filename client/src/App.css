@@ -1,1 +1,87 @@
+.navButton{
+        -webkit-transition-duration: 0.4s; /* Safari */
+        transition-duration: 0.3s;
+        background-color:transparent;
+        color: #181818;
+        border-radius: 4px;
+        font-size: 15px;
+        padding:10px;
+}
+
+ul {
+    display: flex;
+    padding: 0;
+    list-style: none;
+  }
+
+  .select-style {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.3s;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #ccc;
+    width: 120px;
+    border-radius: 3px;
+    overflow: hidden;
+    background-color: transparent;
+}
+.select-style:hover{
+    background-color: rgb(120, 121, 120); /* Green */
+    color: white;
+    cursor: pointer;
+}
+.select-style select {
+    cursor: pointer;
+    padding: 5px 8px;
+    width: 130%;
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+}
+
+.select-style select:focus {
+    outline: none;
+}
+
+li:nth-child(1) {
+    margin-left: auto;
+}
+a:hover {
+    background-color: rgb(120, 121, 120); /* Green */
+    color: white;
+    cursor: pointer;
+}
+.top-bar {
+    display: flex;
+    height: 46px;
+    align-items: center;
+    padding: 20px 10px;
+    border-radius: 5px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+}
+.top-bar-right {
+    display: flex;
+    margin-left: auto;
+}
+.top-bar-left{
+    display: flex;
+    border: none;
+    margin-left: 10px;
+}
+
+.roostIcon{
+    margin-left: auto;
+    margin-right: auto;
+    border:none;
+}
+.roostImage{
+    height: 45px;
+    width: 45px;
+}
 
