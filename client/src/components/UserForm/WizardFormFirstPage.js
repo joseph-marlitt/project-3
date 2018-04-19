@@ -40,7 +40,7 @@ const renderRoomSelector = ({ input, meta: { touched, error } }) => (
 const renderPetSelector = ({ input, meta: { touched, error } }) => (
   <div>
     <select {...input}>
-      <option value="">Number of Rooms</option>
+      <option value="">Do you have Pets?</option>
       {pets.map(val => <option value={val} key={val}>{val}</option>)}
     </select>
     {touched && error && <span>{error}</span>}
@@ -53,15 +53,15 @@ const WizardFormFirstPage = props => {
     <form onSubmit={handleSubmit}>
       <div>
         <label>How many Bedrooms do you need?</label>
-        <Field name="rooms" component={renderRoomSelector} />
+        <Field name="minBeds" component={renderRoomSelector} />
       </div>
       <div>
         <label>How many bathrooms do you need?</label>
-        <Field name="baths" component={renderBathsSelector} />
+        <Field name="minBaths" component={renderBathsSelector} />
       </div>
       <div>
         <label>What is your maximum Rent</label>
-        <Field name="rent" component={renderRentSelector} />
+        <Field name="maxRent" component={renderRentSelector} />
       </div>
       <div>
         <label>Do you have Pets?</label>

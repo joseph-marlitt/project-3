@@ -1,16 +1,17 @@
 {
   "firstName":"Travis",
   "lastName":"Tester",
-  "title":"Mrs",
   "address":{
     "street1":"1900 Prairie Knoll Ct",
     "zip":"78758",
     "city":"Austin",
-    "state":"TX"},
+    "state":"TX",
+    "distance":"5"
+  },
   "contactInfo":{
     "phone1":"999-677-1416",
-    "phone2":"432-201-6741",
-    "email":"slicciardi0@friendfeed.com"},
+    "email":"slicciardi0@friendfeed.com",
+    "preferred": "email"},
   "minBeds":2,
   "minBath":2,
   "maxRent":2651,

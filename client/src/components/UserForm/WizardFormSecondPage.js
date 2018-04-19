@@ -21,13 +21,13 @@ const renderCreditSelector = ({ input, meta: { touched, error } }) => (
   </div>
 );
 
-const renderMinorSelector = ({ input, meta: { touched, error } }) => (
+const renderZip = ({ input, meta: { touched, error } }) => (
   <div>
-    <select {...input}>
-      <option value="">Are you over 18?</option>
-      {minor.map(val => <option value={val} key={val}>{val}</option>)}
-    </select>
-    {touched && error && <span>{error}</span>}
+    <label>Zip</label>
+    <div>
+      <input {...input} placeholder="Zip" type="text" />
+      {touched && error && <span>{error}</span>}
+    </div>
   </div>
 );
 
@@ -64,37 +64,42 @@ const WizardFormSecondPage = props => {
       <Field
         name="lastName" type="text" component={renderField} label="Last Name"
       />
-      <Field name="street1" type="address" component={renderField} label="Where do you want to live near?"
+      <Field name="street1" type="address" component={renderField} label="Location"
       />
+      <Field name="city" type="text" component={renderField} label="City"
+      />
+      <div className="stateDiv">
+        <label>State</label>
+        <Field name="state" component={renderStateSelector} />
+      </div>
+      <div className="zipCode">
+        <Field name="zip" component={renderZip}/>
+      </div>
       <div>
         <label>Distance from Location</label>
         <Field name="distance" component={renderDistanceSelector} />
       </div>
-      <Field name="email" type="email" component={renderField} label="Email (also Login when returning)" />
-      <Field name="phone" type="phone" component={renderField} label="Phone" />
+
+      <Field name="phone1" type="phone" component={renderField} label="Phone" />
 
       <div>
         <label>Preferred Contact</label>
         <div>
           <label>
-            <Field name="contact" component="input" type="radio" value="Phone" />
+            <Field name="preferred" component="input" type="radio" value="Phone" />
             {' '}
             Phone
           </label>
           <label>
-            <Field name="contact" component="input" type="radio" value="Email" />
+            <Field name="preferred" component="input" type="radio" value="Email" />
             {' '}
             Email
           </label>
-          <Field name="contact" component={renderError} />
-        </div>
-        <div>
-        <label>Over 18?</label>
-        <Field name="minor" component={renderMinorSelector} />
+          <Field name="preferred" component={renderError} />
         </div>
         <div>
         <label>Credit Score</label>
-        <Field name="credit" component={renderCreditSelector} />
+        <Field name="creditrating" component={renderCreditSelector} />
         </div>
       </div>
       <div>

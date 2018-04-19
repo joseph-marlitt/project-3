@@ -1,4 +1,6 @@
-.userlist {
-  color: black;
-  background-color: rgba(25, 205, 215, .5);
+.userlist{
+  display: inline-block;
+}
+.apartmentList{
+  display: inline-block;
 }

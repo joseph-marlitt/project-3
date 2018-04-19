@@ -1,4 +1,15 @@
 .apartment {
-  color: white;
-  background-color: rgba(25, 205, 215, .5);
+  display: flex;
+  justify-content: center;
+    margin-bottom: 10px;
+    border-width: thin;
+    padding: 10px;
+    border-radius: 8px;
+
+}
+.apartmentcont{
+  margin-right: auto;
+}
+.apartmentDetails{
+  display: inline-block;
 }

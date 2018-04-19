@@ -9,6 +9,14 @@ span {
     color: red;
     margin-left: 10px;
 }
+.zipCode{
+    float: right;
+    width: 40%;
+}
+.stateDiv{
+    display: inline-block;
+    width: 55%;
+}
 .submit{
     font-size: 20px;
     background-color: aliceblue;
