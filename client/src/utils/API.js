@@ -28,7 +28,11 @@ export default {
   },
   // Saves a apartment to the database
   saveApartment: function(apartmentInfo) {
-    return axios.post("/api/apartments", apartmentInfo);
+    return axios.post("/api/apartments", apartmentInfo, {
+      headers: {
+   Authorization: 'Bearer ' + Auth.getToken() //the token is a variable which holds the token
+  }
+  });
   },
   // Gets all apartments
   getRenters: function() {
@@ -45,7 +49,11 @@ export default {
   // Saves a apartment to the database
   saveRenter: function(renterInfo) {
     console.log(renterInfo)
-    return axios.post("/api/renters", renterInfo);
+    return axios.post("/api/renters", renterInfo, {
+      headers: {
+   Authorization: 'Bearer ' + Auth.getToken() //the token is a variable which holds the token
+    }
+    });
   },
   logOut: function() {
     return axios.get("/logout")

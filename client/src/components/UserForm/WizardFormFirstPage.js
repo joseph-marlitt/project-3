@@ -7,6 +7,7 @@ const rent = [500, 600, 700, 800, 900, 1000, 1500, 2000, 2500, 3000, 3500];
 const pets = ["Yes", "No"]
 
 
+
 const renderRentSelector = ({ input, meta: { touched, error } }) => (
   <div>
     <select {...input}>
@@ -53,15 +54,15 @@ const WizardFormFirstPage = props => {
     <form onSubmit={handleSubmit}>
       <div>
         <label>How many Bedrooms do you need?</label>
-        <Field name="minBeds" component={renderRoomSelector} />
+        <Field parse={Number} name="minBeds" component={renderRoomSelector} />
       </div>
       <div>
         <label>How many bathrooms do you need?</label>
-        <Field name="minBaths" component={renderBathsSelector} />
+        <Field parse={Number} name="minBaths" component={renderBathsSelector} />
       </div>
       <div>
         <label>What is your maximum Rent</label>
-        <Field name="maxRent" component={renderRentSelector} />
+        <Field parse={Number}  name="maxRent" component={renderRentSelector} />
       </div>
       <div>
         <label>Do you have Pets?</label>

@@ -13,7 +13,7 @@
     "email":"slicciardi0@friendfeed.com",
     "preferred": "email"},
   "minBeds":2,
-  "minBath":2,
+  "minBaths":2,
   "maxRent":2651,
   "creditrating":842,
   "pets": true

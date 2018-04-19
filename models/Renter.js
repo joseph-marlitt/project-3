@@ -7,7 +7,7 @@ const renterSchema = new Schema ({
   address: {type: Object, trim: true, max: 200, required: true},
   contactInfo: {type: Object, max: 100, required: true},
   minBeds: {type: Number, required: true},
-  minBath: {type: Number, required: true},
+  minBaths: {type: Number, required: true},
   maxRent: {type: Number, required: true},
   creditrating: {type: Number, required: true},
   pets: {type: Boolean, required: true },

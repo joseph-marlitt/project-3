@@ -10,25 +10,31 @@ const googleMapsClient = require('@google/maps').createClient({
 });
 
 class UserForm extends Component {
+
 // values will be true renter object
   handleFormSubmit = values => {
-    const address = testrenter.address.street1 + " " + testrenter.address.city + " " + testrenter.address.state
-    this.geocodeAddress(address)
+    const address = values.address.street1 + " " + values.address.city + " " + values.address.state
+    if (values["pets"] === "Yes") {
+      values["pets"] = true;
+    } else {
+      values["pets"] = false;
+    }
+    this.geocodeAddress(values, address)
     console.log(values);
+    // console.log(testrenter)
   }
 
-  geocodeAddress = address => {
+  geocodeAddress = (values, address) => {
     googleMapsClient.geocode({
       address: address
     }, function(err, response) {
       if (!err) {
         const coords = response.json.results[0].geometry.location;
-        testrenter["lat"] = coords.lat;
-        testrenter["long"] = coords.lng;
-        testrenter["firstName"] = "Testington";
-        console.log(testrenter);
+        values["lat"] = coords.lat;
+        values["long"] = coords.lng;
+        console.log(values);
         // saves renter with lat/long values added
-        API.saveRenter(testrenter)
+        API.saveRenter(values)
       }
     })
   }

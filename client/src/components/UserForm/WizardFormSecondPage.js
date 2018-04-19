@@ -2,7 +2,8 @@ import React from 'react';
 import { Field, reduxForm } from 'redux-form';
 import validate from './validate';
 import renderField from './renderField';
-const creditScore = ["0-400", "400-500", "500-600", "600-700", "700-850"];
+// const creditScore = ["0-400", "400-500", "500-600", "600-700", "700-850"];
+const creditScore = [400, 450, 500, 550, 600, 650, 700, 750, 800, 850];
 const minor = ["Yes", "No"];
 const states = [ 'AL', 'AK', 'AS', 'AZ', 'AR', 'CA', 'CO', 'CT', 'DE', 'DC', 'FM', 'FL', 'GA', 'GU', 'HI', 'ID', 'IL', 'IN', 'IA', 'KS', 'KY', 'LA', 'ME', 'MH', 'MD', 'MA', 'MI', 'MN', 'MS', 'MO', 'MT', 'NE', 'NV', 'NH', 'NJ', 'NM', 'NY', 'NC', 'ND', 'MP', 'OH', 'OK', 'OR', 'PW', 'PA', 'PR', 'RI', 'SC', 'SD', 'TN', 'TX', 'UT', 'VT', 'VI', 'VA', 'WA', 'WV', 'WI', 'WY' ];
 const distances = [1, 2, 3, 4, 5, 10, 15, 20, 25, 30]
@@ -64,23 +65,23 @@ const WizardFormSecondPage = props => {
       <Field
         name="lastName" type="text" component={renderField} label="Last Name"
       />
-      <Field name="street1" type="address" component={renderField} label="Location"
+      <Field name="address.street1" type="address" component={renderField} label="Location"
       />
-      <Field name="city" type="text" component={renderField} label="City"
+      <Field name="address.city" type="text" component={renderField} label="City"
       />
       <div className="stateDiv">
         <label>State</label>
-        <Field name="state" component={renderStateSelector} />
+        <Field name="address.state" component={renderStateSelector} />
       </div>
       <div className="zipCode">
-        <Field name="zip" component={renderZip}/>
+        <Field name="address.zip" component={renderZip}/>
       </div>
       <div>
         <label>Distance from Location</label>
         <Field name="distance" component={renderDistanceSelector} />
       </div>
 
-      <Field name="phone1" type="phone" component={renderField} label="Phone" />
+      <Field name="contactInfo.phone1" type="phone" component={renderField} label="Phone" />
 
       <div>
         <label>Preferred Contact</label>
@@ -98,8 +99,8 @@ const WizardFormSecondPage = props => {
           <Field name="preferred" component={renderError} />
         </div>
         <div>
-        <label>Credit Score</label>
-        <Field name="creditrating" component={renderCreditSelector} />
+        <label>Estimated Credit Score</label>
+        <Field  parse={Number}  name="creditrating" component={renderCreditSelector} />
         </div>
       </div>
       <div>
