@@ -12,8 +12,9 @@ import SignUpPage from './containers/SignUpPage.jsx';
 import UserForm from "./pages/UserForm/UserForm.js";
 import Home from "./pages/Home/Home.js";
 import ManagerForm from "./pages/ManagerForm/ManagerForm.js";
-import RenterDashboard from "./containers/RenterDashboard.jsx";
-import ManagerDashboard from "./containers/ManagerDashboard.jsx";
+import Loading from "./containers/LoadingPage.jsx";
+// import RenterDashboard from "./containers/RenterDashboard.jsx";
+// import ManagerDashboard from "./containers/ManagerDashboard.jsx";
 import Auth from './modules/Auth';
 import logo from "./roost.png"
 
@@ -140,7 +141,7 @@ class App extends Component {
               </div>
 
             <PropsRoute exact path="/" component={LoginPage} toggleAuthenticateStatus={() => this.toggleAuthenticateStatus()} />
-            <PrivateRoute path='/dashboard' component={RenterDashboard}/>
+            <PrivateRoute path='/loadingpage' component={Loading}/>
             <LoggedOutRoute path='/login' component={LoginPage}
             toggleAuthenticateStatus={() => this.toggleAuthenticateStatus()} />
             <LoggedOutRoute path='/signup' component={SignUpPage}/>
