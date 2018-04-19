@@ -1,7 +1,21 @@
-// import React, { Component } from 'react';
-// import API from "../../utils/API";
-// import Apartment from "../../components/ApartmentList/Apartment.js";
-// import UnitList from "../../components/UnitList/UnitList.js";
+import React, { Component } from 'react';
+import API from "../../utils/API";
+
+class ManagerDashboard extends React.Component{
+  constructor(props) {
+    super(props);
+
+  }
+}
+render() {
+  return (
+    <div>
+      <h1>
+        Manager Page: Under Construction
+      </h1>
+    </div>
+  )
+}
 //
 // // using renter as default test object, value will be replaced with current logged in user, or the "renter" who just submitted the form.
 // import renter from './renter.json'
