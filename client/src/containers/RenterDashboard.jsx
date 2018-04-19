@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
-import Auth from '../modules/Auth';
-import { Card, CardTitle, CardText } from 'material-ui/Card';
 import API from "../utils/API";
-import Dashboard from '../components/RenterDashboard/RenterDashboard.js';
+// import Dashboard from '../components/RenterDashboard/RenterDashboard.js';
 import Apartment from '../components/ApartmentList/Apartment.js';
 import UnitList from '../components/UnitList/UnitList.js';
 // using renter as default test object, value will be replaced with current logged in user, or the "renter" who just submitted the form.
@@ -21,8 +18,6 @@ class RenterDashboard extends React.Component {
     this.state = {
       apartments: [],
       renter,
-      secretData: '',
-      user: {}
     };
   }
 
@@ -37,27 +32,7 @@ class RenterDashboard extends React.Component {
     return R * 2 * Math.asin(Math.sqrt(a));
   };
 
-  /**
-   * This method will be executed after initial rendering.
-   */
-  componentDidMount() {
-    const xhr = new XMLHttpRequest();
-    xhr.open('get', '/api/dashboard');
-    xhr.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
-    // set the authorization HTTP header
-    xhr.setRequestHeader('Authorization', `bearer ${Auth.getToken()}`);
-    console.log(Auth.getToken())
-    xhr.responseType = 'json';
-    xhr.addEventListener('load', () => {
-      if (xhr.status === 200) {
-        this.setState({
-          secretData: xhr.response.message,
-          user: xhr.response.user
-        });
-      }
-    });
-    xhr.send();
-  }
+
 
   showApartments = () => {
     const testAptLat = 30.397194;
@@ -84,8 +59,8 @@ class RenterDashboard extends React.Component {
    */
   render() {
     return (
-      <div>
-      <Dashboard secretData={this.state.secretData} user={this.state.user} />
+
+<div>
       <div>
         {this.state.apartments.map(function(apartment, i) {
           console.log(i)
@@ -117,12 +92,14 @@ class RenterDashboard extends React.Component {
                   }, this )}
 
                 </div>
-                <div>
 
+                <h1>
+                  Apartment List:
+                </h1>
                 <button type='submit' onClick={this.showApartments}>Show Apartments!</button>
 
                 </div>
-              </div>
+
               )
             }
           }
