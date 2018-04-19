@@ -59,14 +59,13 @@ class RenterDashboard extends React.Component {
    */
   render() {
     return (
-
-<div>
+      <div className="dashboardContainer">
       <div>
         {this.state.apartments.map(function(apartment, i) {
           console.log(i)
           console.log(apartment)
           return (
-            <div key={apartment._id}>
+            <div className="resultsContainer" key={apartment._id}>
                         <Apartment
                           name={apartment.name}
                           address={apartment.address.street1}
@@ -74,10 +73,9 @@ class RenterDashboard extends React.Component {
                           state={apartment.address.state}
                           contact={apartment.contactInfo.phone1}
                         />
-                        <h1>Current Available Units:</h1>
                         {apartment.units.map(function(info, j) {
                           return(
-                            <div key={j}>
+                            <div className="unitListContainer" key={j}>
                               <UnitList
                                 beds={info.beds}
                                 baths={info.baths}
@@ -96,7 +94,7 @@ class RenterDashboard extends React.Component {
                 <h1>
                   Apartment List:
                 </h1>
-                <button type='submit' onClick={this.showApartments}>Show Apartments!</button>
+                <button className="dashboardButton" type='submit' onClick={this.showApartments}>Show Apartments!</button>
 
                 </div>
 

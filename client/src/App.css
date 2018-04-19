@@ -10,7 +10,38 @@
         font-size: 15px;
         padding:10px;
 }
+.dashboardButton{
+    margin: auto;
+    margin-top: 500px;
+    display: block;
+}
+.dashboardContainer{
+    border: solid;
+    border-width: thin;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 10vh auto;
+    width: 70%;
+    display: block;
+}
+.resultsContainer{
+    -webkit-transition-duration: 0.1s; /* Safari */
+        transition-duration: 0.1s;
+    display: flex;
+    margin-bottom: 10px;
+    border-width: thin;
+    padding: 10px;
+    border-radius: 8px;
+    background:rgba(255,255,255,0.5);
 
+}
+.resultsContainer:hover{
+    background:rgba(146, 79, 79, 0.5);
+
+}
+.unitListContainer{
+    margin: auto;
+}
 ul {
     display: flex;
     padding: 0;

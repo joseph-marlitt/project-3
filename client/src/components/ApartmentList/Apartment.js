@@ -5,10 +5,10 @@ export const Apartment = props => {
   return (
     <div className="apartment">
       <div className='apartmentcont'>
-        <h1>Apartment Info:{props.key}</h1>
-        <ul >
-          <li>Apartment Name: {props.name}</li>
-          <li>Address: {props.address} City: {props.city} State: {props.state}</li>
+        <h3>{props.name}</h3>
+        <ul className="apartmentDetails">
+          <li>Address: {props.address}</li>
+          <li>City: { props.city }, { props.state }</li>
           <li>Phone: {props.contact}</li>
         </ul>
       </div>
