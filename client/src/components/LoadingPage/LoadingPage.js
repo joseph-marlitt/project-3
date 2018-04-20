@@ -7,11 +7,11 @@ import ManagerDashboard from "../../containers/ManagerDashboard.jsx";
 const LoadingPage = ({ secretData, user }) => {
   if (user.type === 'Renter') {
     return(
-      <RenterDashboard/>
+      <RenterDashboard userId={user._id}/>
     )
   } else {
     return(
-      <ManagerDashboard/>
+      <ManagerDashboard userId={user._id}/>
     )
   }
 }

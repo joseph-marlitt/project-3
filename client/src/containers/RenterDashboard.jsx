@@ -14,11 +14,17 @@ class RenterDashboard extends React.Component {
    */
   constructor(props) {
     super(props);
-
+    console.log(props)
     this.state = {
       apartments: [],
       renter,
+      userId: props.userId
     };
+  }
+
+  componentDidMount() {
+    console.log(this.state.userId)
+    this.showApartments()
   }
 
   calcDist = (lat1, lat2, lon1, lon2) => {
@@ -60,12 +66,14 @@ class RenterDashboard extends React.Component {
   render() {
     return (
       <div className="dashboardContainer">
+        <h2>Renter Dashboard</h2>
       <div>
         {this.state.apartments.map(function(apartment, i) {
           console.log(i)
           console.log(apartment)
           return (
             <div className="resultsContainer" key={apartment._id}>
+
                         <Apartment
                           name={apartment.name}
                           address={apartment.address.street1}
@@ -90,11 +98,6 @@ class RenterDashboard extends React.Component {
                   }, this )}
 
                 </div>
-
-                <h1>
-                  Apartment List:
-                </h1>
-                <button className="dashboardButton" type='submit' onClick={this.showApartments}>Show Apartments!</button>
 
                 </div>
 
