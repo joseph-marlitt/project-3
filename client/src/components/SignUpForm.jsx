@@ -4,16 +4,6 @@ import { Link } from 'react-router-dom';
 import { Card, CardText } from 'material-ui/Card';
 import RaisedButton from 'material-ui/RaisedButton';
 import TextField from 'material-ui/TextField';
-import {RadioButton, RadioButtonGroup} from 'material-ui/RadioButton';
-
-const styles = {
-  block: {
-    maxWidth: 250,
-  },
-  radioButton: {
-    marginBottom: 16,
-  },
-};
 
 const SignUpForm = ({
   onSubmit,

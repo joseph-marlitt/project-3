@@ -1,18 +1,23 @@
 const Renter = require("../models/Renter");
+const User = require("../models/User");
 
 module.exports = {
-  findAll: function(req, res) {
-    Renter
-      .find(req.query)
-      .sort({ date: -1 })
+  findOne: function(req, res) {
+    console.log(req.params.id)
+    User
+      .findOne({ _id: req.params.id })
+      .populate("forms")
       .then(dbModel => res.json(dbModel))
-      .catch(err => res.status(422).json(err));
+      .catch(err => console.log(err));
   },
   create: function(req, res) {
     console.log(req.body)
     Renter
     .create(req.body)
+    .then(function(dbModel) {
+      return User.findOneAndUpdate({ _id: req.body.userId }, {$push: { forms: dbModel._id } }, {new: true});
+    })
     .then(dbModel => res.json(dbModel))
-    .catch(err => res.status(500).json(err));
+    .catch(err => console.log(err));
   }
 };

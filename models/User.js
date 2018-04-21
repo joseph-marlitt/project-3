@@ -9,7 +9,8 @@ const userSchema = new Schema({
   },
   password: String,
   name: String,
-  type: String
+  type: String,
+  forms: [{type: Schema.Types.ObjectId, ref: "Renter"}]
 });
 
 /**

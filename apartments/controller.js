@@ -4,7 +4,6 @@ const Unit = require("../models/Unit");
 module.exports = {
   // find to include populate for beds, populate with have path of beds and match function to add conditionals to what beds populate
   findAll: function(req, res) {
-    console.log(req)
     Apartment
       .find( { minimumCR: { $lte: req.query.credit}, pets: req.query.pets })
       .populate({
@@ -32,7 +31,6 @@ module.exports = {
   },
   // 2 separate requests come in, one for apartment data, and another for unit data for that apartment - both are parsed and saved to Apartments/Units DB's
   create: function(req, res) {
-    console.log(req)
     const apartment = new Apartment(req.body.apartmentData);
     apartment.save(err => {
       if (err) return res.status(500).send(err);
