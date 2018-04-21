@@ -1,6 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-import { Card, CardTitle, CardText } from 'material-ui/Card';
 import RenterDashboard from "../../containers/RenterDashboard.jsx";
 import ManagerDashboard from "../../containers/ManagerDashboard.jsx";
 

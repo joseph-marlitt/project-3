@@ -4,7 +4,7 @@ import Auth from '../modules/Auth';
 export default {
   // Gets all apartments matching conditions
   getApartments: function(conditions) {
-    console.log(conditions)
+    // console.log(conditions)
     return axios.get("/api/apartments/", {
       headers: {
    Authorization: 'Bearer ' + Auth.getToken() //the token is a variable which holds the token
@@ -20,11 +20,19 @@ export default {
   },
   // Gets the aparment with the given id
   getApartment: function(id) {
-    return axios.get("/api/apartments/" + id);
+    return axios.get("/api/apartments/" + id, {
+      headers: {
+        Authorization: 'Bearer ' + Auth.getToken()
+      }
+    });
   },
   // Deletes the apartment with the given id
   deleteApartment: function(id) {
-    return axios.delete("/api/apartments/" + id);
+    return axios.delete("/api/apartments/" + id, {
+      headers: {
+        Authorization: 'Bearer ' + Auth.getToken()
+      }
+    });
   },
   // Saves a apartment to the database
   saveApartment: function(apartmentInfo) {
@@ -34,17 +42,22 @@ export default {
   }
   });
   },
-  // Gets all apartments
-  getRenters: function() {
-    return axios.get("/api/renters");
-  },
   // Gets the aparment with the given id
   getRenter: function(id) {
-    return axios.get("/api/renters/" + id);
+    console.log(id)
+    return axios.get("/api/renters/" + id, {
+      headers: {
+        Authorization: 'Bearer ' + Auth.getToken()
+      }
+    });
   },
   // Deletes the apartment with the given id
   deleteRenter: function(id) {
-    return axios.delete("/api/renters/" + id);
+    return axios.delete("/api/renters/" + id, {
+      headers: {
+        Authorization: 'Bearer ' + Auth.getToken()
+      }
+    });
   },
   // Saves a apartment to the database
   saveRenter: function(renterInfo) {

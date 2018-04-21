@@ -1,6 +1,5 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Auth from '../modules/Auth';
-import { Card, CardTitle, CardText } from 'material-ui/Card';
 import LoadingPage from '../components/LoadingPage/LoadingPage.js';
 
 

@@ -1,10 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react';
 import API from "../utils/API";
 // import Dashboard from '../components/RenterDashboard/RenterDashboard.js';
 import Apartment from '../components/ApartmentList/Apartment.js';
 import UnitList from '../components/UnitList/UnitList.js';
+import UserForm from "../pages/UserForm/UserForm.js";
 // using renter as default test object, value will be replaced with current logged in user, or the "renter" who just submitted the form.
-import renter from './renter.json'
+// import renter from './renter.json'
 // manager dashboard to be added
 
 
@@ -14,17 +15,18 @@ class RenterDashboard extends React.Component {
    */
   constructor(props) {
     super(props);
-    console.log(props)
+    // console.log(props)
     this.state = {
       apartments: [],
-      renter,
+      renterForm: {},
       userId: props.userId
     };
   }
 
   componentDidMount() {
-    console.log(this.state.userId)
-    this.showApartments()
+    // console.log(this.state.userId)
+    this.getRenterForm()
+    // this.showApartments()
   }
 
   calcDist = (lat1, lat2, lon1, lon2) => {
@@ -38,21 +40,32 @@ class RenterDashboard extends React.Component {
     return R * 2 * Math.asin(Math.sqrt(a));
   };
 
+  getRenterForm = () => {
+    console.log('test')
+    const userId = this.state.userId
+    API.getRenter(userId)
+    .then(res =>
+      this.setState({
+        renterForm: res.data
+      }))
+      .catch(err => console.log(err));
+  };
 
 
   showApartments = () => {
+    console.log(this.state.renterForm)
     const testAptLat = 30.397194;
     const testAptLon = -97.702681;
-    const testRentLat = this.state.renter[0].address.lat;
-    const testRentLon = this.state.renter[0].address.lon;
+    const testRentLat = this.state.renterForm[0].address.lat;
+    const testRentLon = this.state.renterForm[0].address.lon;
     const conditions = {
-      pets: this.state.renter[0].pets,
-      beds: this.state.renter[0].minBeds,
-      baths: this.state.renter[0].minBaths,
-      price: this.state.renter[0].maxRent,
-      credit: this.state.renter[0].creditrating
+      pets: this.state.renterForm[0].pets,
+      beds: this.state.renterForm[0].minBeds,
+      baths: this.state.renterForm[0].minBaths,
+      price: this.state.renterForm[0].maxRent,
+      credit: this.state.renterForm[0].creditrating
     };
-      console.log(this.state.renter[0].firstName)
+      console.log(this.state.renterForm[0].firstName)
       console.log(this.calcDist(testAptLat, testRentLat, testAptLon, testRentLon))
       API.getApartments(conditions)
         .then(res =>
@@ -65,12 +78,14 @@ class RenterDashboard extends React.Component {
    */
   render() {
     return (
+      <div>
+      <UserForm userId={this.state.userId}/>
       <div className="dashboardContainer">
         <h2>Renter Dashboard</h2>
       <div>
         {this.state.apartments.map(function(apartment, i) {
-          console.log(i)
-          console.log(apartment)
+          // console.log(i)
+          // console.log(apartment)
           return (
             <div className="resultsContainer" key={apartment._id}>
 
@@ -98,7 +113,7 @@ class RenterDashboard extends React.Component {
                   }, this )}
 
                 </div>
-
+              </div>
                 </div>
 
               )

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Switch, Link, Redirect, withRouter } from "react-router-dom";
+import { BrowserRouter as Router, Route, Link, Redirect } from "react-router-dom";
 import injectTapEventPlugin from 'react-tap-event-plugin';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
@@ -9,9 +9,9 @@ import Wrapper from "./components/Wrapper";
 import LoginPage from './containers/LoginPage.jsx';
 import LogoutFunction from './containers/LogoutFunction.jsx';
 import SignUpPage from './containers/SignUpPage.jsx';
-import UserForm from "./pages/UserForm/UserForm.js";
-import Home from "./pages/Home/Home.js";
-import ManagerForm from "./pages/ManagerForm/ManagerForm.js";
+// import UserForm from "./pages/UserForm/UserForm.js";
+// import Home from "./pages/Home/Home.js";
+// import ManagerForm from "./pages/ManagerForm/ManagerForm.js";
 import Loading from "./containers/LoadingPage.jsx";
 // import RenterDashboard from "./containers/RenterDashboard.jsx";
 // import ManagerDashboard from "./containers/ManagerDashboard.jsx";
@@ -123,15 +123,13 @@ class App extends Component {
                     <ul className="listNav">
                     <li><Link className="navButton" to="/login">Log in</Link></li>
                     <li><Link className="navButton" to="/signup">Sign up</Link></li>
-                    <li><Link className="navButton" to='/userform'>New Form</Link></li>
                     <li><Link className="navButton" to='/about'>About Us</Link></li>
                     <li><Link className="navButton" to='/learn'>Learn More</Link></li>
                     </ul>
                     <div className="select-style" >
                       <select className="selectNav">
-                        <option><Link className="navButton" to="/login">Log in</Link></option>
+                        <option><li><Link className="navButton" to="/login">Log in</Link></li></option>
                         <option><Link className="navButton" to="/signup">Sign up</Link></option>
-                        <option><Link className="navButton" to='/userform'>New Form</Link></option>
                         <option><Link className="navButton" to='/about'>About Us</Link></option>
                         <option><Link className="navButton" to='/learn'>Learn More</Link></option>
                       </select>
@@ -147,8 +145,8 @@ class App extends Component {
             <LoggedOutRoute path='/signup' component={SignUpPage}/>
             <Route path='/logout' component={() =>        <LogoutFunction logOut={this.logOut()}/>
             }/>
-            <Route exact path="/userform" component={UserForm} />
-            <Route exact path="/managerform" component={ManagerForm} />
+
+
           </div>
         </Router>
         </Wrapper>

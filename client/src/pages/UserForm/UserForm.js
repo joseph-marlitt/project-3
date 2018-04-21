@@ -4,15 +4,23 @@ import WizardForm from "../../components/UserForm/WizardForm"
 import { Provider } from "react-redux";
 import store from "../../components/UserForm/store";
 import API from "../../utils/API";
-import testrenter from './testrenter.json';
+// import testrenter from './testrenter.json';
 const googleMapsClient = require('@google/maps').createClient({
   key: 'AIzaSyBLqqQUio_x0z2rWW6YuuDN2Vx-LaAJYks'
 });
 
 class UserForm extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      userId: props.userId
+    };
+  }
 
 // values will be true renter object
   handleFormSubmit = values => {
+    // add currently logged in userId to current form
+    values.userId = this.state.userId;
     const address = values.address.street1 + " " + values.address.city + " " + values.address.state
     if (values["pets"] === "Yes") {
       values["pets"] = true;

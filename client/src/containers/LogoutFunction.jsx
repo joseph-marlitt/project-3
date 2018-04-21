@@ -2,7 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Auth from '../modules/Auth';
 import { Redirect } from 'react-router-dom';
-import Api from '../utils/API';
 
 class LogoutFunction extends React.Component {
 
@@ -11,11 +10,11 @@ class LogoutFunction extends React.Component {
     Auth.deauthenticateUser();
     // change the current URL to / after logout
     // location.reload()
-    
+
   }
 
   render() {
-    this.props.logOut;
+    // this.props.logOut;
     return (
       <Redirect to="/" />
     )
