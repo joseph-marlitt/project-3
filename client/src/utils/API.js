@@ -42,7 +42,7 @@ export default {
   }
   });
   },
-  // Gets the aparment with the given id
+  // Gets the renterform with the given id
   getRenter: function(id) {
     console.log(id)
     return axios.get("/api/renters/" + id, {
@@ -51,7 +51,7 @@ export default {
       }
     });
   },
-  // Deletes the apartment with the given id
+  // Deletes the renterform with the given id
   deleteRenter: function(id) {
     return axios.delete("/api/renters/" + id, {
       headers: {
@@ -59,7 +59,7 @@ export default {
       }
     });
   },
-  // Saves a apartment to the database
+  // Saves a renterform to the database
   saveRenter: function(renterInfo) {
     console.log(renterInfo)
     return axios.post("/api/renters", renterInfo, {

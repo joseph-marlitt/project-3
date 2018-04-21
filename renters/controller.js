@@ -3,9 +3,9 @@ const User = require("../models/User");
 
 module.exports = {
   findOne: function(req, res) {
-    console.log(req.body)
-    Renter
-      .findOne({ _id: req.body })
+    console.log(req.params.id)
+    User
+      .findOne({ _id: req.params.id })
       .populate("forms")
       .then(dbModel => res.json(dbModel))
       .catch(err => console.log(err));

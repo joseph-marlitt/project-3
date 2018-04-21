@@ -24,10 +24,10 @@ class RenterDashboard extends React.Component {
   }
 
   componentDidMount() {
-    // console.log(this.state.userId)
     this.getRenterForm()
-    // this.showApartments()
   }
+
+
 
   calcDist = (lat1, lat2, lon1, lon2) => {
     var R = 6371; // Radius of the earth in km
@@ -46,26 +46,30 @@ class RenterDashboard extends React.Component {
     API.getRenter(userId)
     .then(res =>
       this.setState({
-        renterForm: res.data
+        renterForm: res.data.forms[0]
       }))
-      .catch(err => console.log(err));
+      .catch(err => console.log(err))
   };
+
+  doNothing = () => {
+    console.log("nothing")
+  }
 
 
   showApartments = () => {
     console.log(this.state.renterForm)
     const testAptLat = 30.397194;
     const testAptLon = -97.702681;
-    const testRentLat = this.state.renterForm[0].address.lat;
-    const testRentLon = this.state.renterForm[0].address.lon;
+    const testRentLat = this.state.renterForm.lat;
+    const testRentLon = this.state.renterForm.lon;
     const conditions = {
-      pets: this.state.renterForm[0].pets,
-      beds: this.state.renterForm[0].minBeds,
-      baths: this.state.renterForm[0].minBaths,
-      price: this.state.renterForm[0].maxRent,
-      credit: this.state.renterForm[0].creditrating
+      pets: this.state.renterForm.pets,
+      beds: this.state.renterForm.minBeds,
+      baths: this.state.renterForm.minBaths,
+      price: this.state.renterForm.maxRent,
+      credit: this.state.renterForm.creditrating
     };
-      console.log(this.state.renterForm[0].firstName)
+      console.log(this.state.renterForm.firstName)
       console.log(this.calcDist(testAptLat, testRentLat, testAptLon, testRentLon))
       API.getApartments(conditions)
         .then(res =>
@@ -82,6 +86,7 @@ class RenterDashboard extends React.Component {
       <UserForm userId={this.state.userId}/>
       <div className="dashboardContainer">
         <h2>Renter Dashboard</h2>
+        <button onClick={() => {this.showApartments()}}>Show Results</button>
       <div>
         {this.state.apartments.map(function(apartment, i) {
           // console.log(i)
@@ -114,6 +119,7 @@ class RenterDashboard extends React.Component {
 
                 </div>
               </div>
+
                 </div>
 
               )

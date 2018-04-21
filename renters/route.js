@@ -2,7 +2,9 @@ const router = require('express').Router();
 const controller = require('./controller');
 
 router.route('/')
-  .get(controller.findOne)
   .post(controller.create);
+
+router.route('/:id')
+  .get(controller.findOne)
 
 module.exports = router;
